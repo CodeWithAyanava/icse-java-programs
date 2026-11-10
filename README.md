@@ -4,10 +4,10 @@
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![JDK 21](https://img.shields.io/badge/JDK-21-0A66C2?style=for-the-badge)
-![Programs](https://img.shields.io/badge/Programs-181-2EA44F?style=for-the-badge)
+![Programs](https://img.shields.io/badge/Programs-211-2EA44F?style=for-the-badge)
 ![ICSE Class 10](https://img.shields.io/badge/ICSE-Class%2010-8E44AD?style=for-the-badge)
 
-**A complete revision kit for ICSE Class 10 Computer Applications (Java)** — every chapter of the syllabus with board-level theory, harder self-test questions and **181** fully tested programs.
+**A complete revision kit for ICSE Class 10 Computer Applications (Java)** — every chapter of the syllabus with board-level theory, harder self-test questions and **211** fully tested programs.
 
 </div>
 
@@ -54,10 +54,11 @@ java Q_82
 | 07 | 🔁 [Iterative Constructs in Java](#chapter-07) | [📘 Read](07-Iterative-Constructs/Theory.md) | **54** | Q78 – Q131 |
 | 08 | 🔲 [Nested for Loops](#chapter-08) | [📘 Read](08-Nested-for-Loops/Theory.md) | **44** | Q132 – Q175 |
 | 09 | 🏛️ [Class as the Basis of all Computation](#chapter-09) | [📘 Read](09-Class-as-the-Basis-of-Computation/Theory.md) | **6** | Q176 – Q181 |
-| | **Total** | | **181** | |
+| 10 | 🧩 [User-Defined Methods](#chapter-10) | [📘 Read](10-User-Defined-Methods/Theory.md) | **30** | Q182 – Q211 |
+| | **Total** | | **211** | |
 
 > [!NOTE]
-> 🚧 Work in progress — 9 of 15 chapters published so far.
+> 🚧 Work in progress — 10 of 15 chapters published so far.
 
 ---
 
@@ -340,6 +341,47 @@ java Q_82
 | **Q179** | [Class Point: Distance from the Origin](09-Class-as-the-Basis-of-Computation/Q_179.java) |  |
 | **Q180** | [Class Temperature with Conversion Methods](09-Class-as-the-Basis-of-Computation/Q_180.java) |  |
 | **Q181** | [Class Book as a Composite Data Type: References and Objects](09-Class-as-the-Basis-of-Computation/Q_181.java) |  |
+
+<div align="right"><a href="#-chapter-overview">⬆ back to overview</a></div>
+
+<a id="chapter-10"></a>
+
+### 🧩 Chapter 10 · User-Defined Methods
+
+📘 **[Theory, MCQs and short questions](10-User-Defined-Methods/Theory.md)** · 💻 30 programs
+
+| No. | Program | |
+|:---:|---|:---:|
+| **Q182** | [Overloading volume(): Sphere, Cylinder and Cuboid](10-User-Defined-Methods/Q_182.java) |  |
+| **Q183** | [Overloading area(): Circle, Rectangle and Triangle](10-User-Defined-Methods/Q_183.java) |  |
+| **Q184** | [Overloading series(): Three Different Series](10-User-Defined-Methods/Q_184.java) |  |
+| **Q185** | [Overloading polygon(): Square, Rectangle and Triangle Patterns](10-User-Defined-Methods/Q_185.java) |  |
+| **Q186** | [Overloading display() for Patterns](10-User-Defined-Methods/Q_186.java) |  |
+| **Q187** | [Overloading sumSeries()](10-User-Defined-Methods/Q_187.java) |  |
+| **Q188** | [Overloading largest()](10-User-Defined-Methods/Q_188.java) |  |
+| **Q189** | [Overloading count(): Digits and Occurrences of a Digit](10-User-Defined-Methods/Q_189.java) |  |
+| **Q190** | [Overloading perimeter(): Square, Rectangle and Triangle](10-User-Defined-Methods/Q_190.java) |  |
+| **Q191** | [Prime Palindrome (PalPrime) Numbers in a Range](10-User-Defined-Methods/Q_191.java) |  |
+| **Q192** | [Twin Primes in a Range using isPrime()](10-User-Defined-Methods/Q_192.java) |  |
+| **Q193** | [Twisted Prime using isPrime() and reverse()](10-User-Defined-Methods/Q_193.java) |  |
+| **Q194** | [Armstrong Numbers in a Range using isArmstrong()](10-User-Defined-Methods/Q_194.java) |  |
+| **Q195** | [Perfect Number using a boolean Method](10-User-Defined-Methods/Q_195.java) |  |
+| **Q196** | [HCF, LCM and Co-prime Check using Methods](10-User-Defined-Methods/Q_196.java) |  |
+| **Q197** | [nCr using a factorial() Method](10-User-Defined-Methods/Q_197.java) |  |
+| **Q198** | [Disarium Number using countDigits()](10-User-Defined-Methods/Q_198.java) |  |
+| **Q199** | [Goldbach's Conjecture](10-User-Defined-Methods/Q_199.java) | 🌟 *Extra* |
+| **Q200** | [Pure and Impure Methods](10-User-Defined-Methods/Q_200.java) |  |
+| **Q201** | [Static and Non-Static Methods](10-User-Defined-Methods/Q_201.java) |  |
+| **Q202** | [Call by Value: Swapping inside a Method](10-User-Defined-Methods/Q_202.java) |  |
+| **Q203** | [Actual and Formal Parameters with Return Values](10-User-Defined-Methods/Q_203.java) |  |
+| **Q204** | [Menu-Driven Number Checks using Methods](10-User-Defined-Methods/Q_204.java) |  |
+| **Q205** | [Class Number with Data Member and Member Methods](10-User-Defined-Methods/Q_205.java) |  |
+| **Q206** | [Class Series with Non-Static Methods](10-User-Defined-Methods/Q_206.java) |  |
+| **Q207** | [Date Helper Methods: isLeap(), daysInMonth(), isValid()](10-User-Defined-Methods/Q_207.java) | 🌟 *Extra* |
+| **Q208** | [Day Number of the Year](10-User-Defined-Methods/Q_208.java) | 🌟 *Extra* |
+| **Q209** | [Day of the Week for any Date](10-User-Defined-Methods/Q_209.java) | 🌟 *Extra* |
+| **Q210** | [Calendar of a Month](10-User-Defined-Methods/Q_210.java) | 🌟 *Extra* |
+| **Q211** | [Age in Years, Months and Days](10-User-Defined-Methods/Q_211.java) | 🌟 *Extra* |
 
 <div align="right"><a href="#-chapter-overview">⬆ back to overview</a></div>
 
