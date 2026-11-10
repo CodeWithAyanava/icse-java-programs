@@ -4,10 +4,10 @@
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![JDK 21](https://img.shields.io/badge/JDK-21-0A66C2?style=for-the-badge)
-![Programs](https://img.shields.io/badge/Programs-175-2EA44F?style=for-the-badge)
+![Programs](https://img.shields.io/badge/Programs-181-2EA44F?style=for-the-badge)
 ![ICSE Class 10](https://img.shields.io/badge/ICSE-Class%2010-8E44AD?style=for-the-badge)
 
-**A complete revision kit for ICSE Class 10 Computer Applications (Java)** — every chapter of the syllabus with board-level theory, harder self-test questions and **175** fully tested programs.
+**A complete revision kit for ICSE Class 10 Computer Applications (Java)** — every chapter of the syllabus with board-level theory, harder self-test questions and **181** fully tested programs.
 
 </div>
 
@@ -53,10 +53,11 @@ java Q_82
 | 06 | 🔀 [Conditional Constructs in Java](#chapter-06) | [📘 Read](06-Conditional-Constructs/Theory.md) | **32** | Q46 – Q77 |
 | 07 | 🔁 [Iterative Constructs in Java](#chapter-07) | [📘 Read](07-Iterative-Constructs/Theory.md) | **54** | Q78 – Q131 |
 | 08 | 🔲 [Nested for Loops](#chapter-08) | [📘 Read](08-Nested-for-Loops/Theory.md) | **44** | Q132 – Q175 |
-| | **Total** | | **175** | |
+| 09 | 🏛️ [Class as the Basis of all Computation](#chapter-09) | [📘 Read](09-Class-as-the-Basis-of-Computation/Theory.md) | **6** | Q176 – Q181 |
+| | **Total** | | **181** | |
 
 > [!NOTE]
-> 🚧 Work in progress — 8 of 15 chapters published so far.
+> 🚧 Work in progress — 9 of 15 chapters published so far.
 
 ---
 
@@ -322,6 +323,23 @@ java Q_82
 | **Q173** | [Disarium Numbers between Two Limits](08-Nested-for-Loops/Q_173.java) |  |
 | **Q174** | [break and continue in Nested Loops](08-Nested-for-Loops/Q_174.java) |  |
 | **Q175** | [Pythagorean Triplets up to n](08-Nested-for-Loops/Q_175.java) | 🌟 *Extra* |
+
+<div align="right"><a href="#-chapter-overview">⬆ back to overview</a></div>
+
+<a id="chapter-09"></a>
+
+### 🏛️ Chapter 09 · Class as the Basis of all Computation
+
+📘 **[Theory, MCQs and short questions](09-Class-as-the-Basis-of-Computation/Theory.md)** · 💻 6 programs
+
+| No. | Program | |
+|:---:|---|:---:|
+| **Q176** | [Class Rectangle with input(), area() and display()](09-Class-as-the-Basis-of-Computation/Q_176.java) |  |
+| **Q177** | [Class Student: Average and Grade](09-Class-as-the-Basis-of-Computation/Q_177.java) |  |
+| **Q178** | [Class BankAccount: Two Objects with Deposit and Withdraw](09-Class-as-the-Basis-of-Computation/Q_178.java) |  |
+| **Q179** | [Class Point: Distance from the Origin](09-Class-as-the-Basis-of-Computation/Q_179.java) |  |
+| **Q180** | [Class Temperature with Conversion Methods](09-Class-as-the-Basis-of-Computation/Q_180.java) |  |
+| **Q181** | [Class Book as a Composite Data Type: References and Objects](09-Class-as-the-Basis-of-Computation/Q_181.java) |  |
 
 <div align="right"><a href="#-chapter-overview">⬆ back to overview</a></div>
 
