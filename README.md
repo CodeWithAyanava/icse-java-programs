@@ -4,10 +4,10 @@
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![JDK 21](https://img.shields.io/badge/JDK-21-0A66C2?style=for-the-badge)
-![Programs](https://img.shields.io/badge/Programs-254-2EA44F?style=for-the-badge)
+![Programs](https://img.shields.io/badge/Programs-301-2EA44F?style=for-the-badge)
 ![ICSE Class 10](https://img.shields.io/badge/ICSE-Class%2010-8E44AD?style=for-the-badge)
 
-**A complete revision kit for ICSE Class 10 Computer Applications (Java)** — every chapter of the syllabus with board-level theory, harder self-test questions and **254** fully tested programs.
+**A complete revision kit for ICSE Class 10 Computer Applications (Java)** — every chapter of the syllabus with board-level theory, harder self-test questions and **301** fully tested programs.
 
 </div>
 
@@ -58,10 +58,11 @@ java Q_82
 | 11 | 🏗️ [Constructors](#chapter-11) | [📘 Read](11-Constructors/Theory.md) | **26** | Q212 – Q237 |
 | 12 | 📚 [Library Classes](#chapter-12) | [📘 Read](12-Library-Classes/Theory.md) | **12** | Q238 – Q249 |
 | 13 | 🔒 [Encapsulation](#chapter-13) | [📘 Read](13-Encapsulation/Theory.md) | **5** | Q250 – Q254 |
-| | **Total** | | **254** | |
+| 14 | 🗃️ [Arrays](#chapter-14) | [📘 Read](14-Arrays/Theory.md) | **47** | Q255 – Q301 |
+| | **Total** | | **301** | |
 
 > [!NOTE]
-> 🚧 Work in progress — 13 of 15 chapters published so far.
+> 🚧 Work in progress — 14 of 15 chapters published so far.
 
 ---
 
@@ -461,6 +462,64 @@ java Q_82
 | **Q252** | [Kinds of Variables: Class, Instance, Local and Argument](13-Encapsulation/Q_252.java) |  |
 | **Q253** | [Counting Objects with a Static (Class) Variable](13-Encapsulation/Q_253.java) |  |
 | **Q254** | [BankAccount with a Private, Validated Balance](13-Encapsulation/Q_254.java) |  |
+
+<div align="right"><a href="#-chapter-overview">⬆ back to overview</a></div>
+
+<a id="chapter-14"></a>
+
+### 🗃️ Chapter 14 · Arrays
+
+📘 **[Theory, MCQs and short questions](14-Arrays/Theory.md)** · 💻 47 programs
+
+| No. | Program | |
+|:---:|---|:---:|
+| **Q255** | [Linear Search](14-Arrays/Q_255.java) |  |
+| **Q256** | [Binary Search](14-Arrays/Q_256.java) |  |
+| **Q257** | [Bubble Sort in Ascending Order](14-Arrays/Q_257.java) |  |
+| **Q258** | [Selection Sort in Ascending Order](14-Arrays/Q_258.java) |  |
+| **Q259** | [Bubble Sort in Descending Order](14-Arrays/Q_259.java) |  |
+| **Q260** | [Selection Sort in Descending Order](14-Arrays/Q_260.java) |  |
+| **Q261** | [Largest, Smallest, Sum and Average of Array Elements](14-Arrays/Q_261.java) |  |
+| **Q262** | [Sum and Count of Even and Odd Elements](14-Arrays/Q_262.java) |  |
+| **Q263** | [Count of Positive, Negative and Zero Elements](14-Arrays/Q_263.java) |  |
+| **Q264** | [Elements Greater than the Average](14-Arrays/Q_264.java) |  |
+| **Q265** | [Reverse an Array in Place](14-Arrays/Q_265.java) |  |
+| **Q266** | [Second Largest Element](14-Arrays/Q_266.java) |  |
+| **Q267** | [Frequency of Each Element](14-Arrays/Q_267.java) |  |
+| **Q268** | [Remove Duplicate Elements](14-Arrays/Q_268.java) |  |
+| **Q269** | [Merge Two Arrays](14-Arrays/Q_269.java) |  |
+| **Q270** | [Split an Array into Even and Odd Arrays](14-Arrays/Q_270.java) |  |
+| **Q271** | [Swap the First Half with the Second Half](14-Arrays/Q_271.java) |  |
+| **Q272** | [Rotate an Array Left and Right by One Position](14-Arrays/Q_272.java) |  |
+| **Q273** | [Insert an Element at a Given Position](14-Arrays/Q_273.java) |  |
+| **Q274** | [Delete an Element from a Given Position](14-Arrays/Q_274.java) |  |
+| **Q275** | [Prime Elements of an Array](14-Arrays/Q_275.java) |  |
+| **Q276** | [Topper from Parallel Arrays of Names and Marks](14-Arrays/Q_276.java) |  |
+| **Q277** | [Telephone Directory: Search a Name in Parallel Arrays](14-Arrays/Q_277.java) |  |
+| **Q278** | [Totals and Grades from Three Subject Arrays](14-Arrays/Q_278.java) |  |
+| **Q279** | [Sort Students by Marks Keeping Names Aligned](14-Arrays/Q_279.java) |  |
+| **Q280** | [Bubble Sort followed by Binary Search](14-Arrays/Q_280.java) |  |
+| **Q281** | [First n Primes and First n Fibonacci Numbers in Arrays](14-Arrays/Q_281.java) |  |
+| **Q282** | [Running Total (Cumulative Sum) Array](14-Arrays/Q_282.java) |  |
+| **Q283** | [Count of Perfect Squares in an Array](14-Arrays/Q_283.java) |  |
+| **Q284** | [Interchange the Largest and Smallest Elements](14-Arrays/Q_284.java) |  |
+| **Q285** | [Star Bar Chart of Ratings](14-Arrays/Q_285.java) | 🌟 *Extra* |
+| **Q286** | [Dice Roll Frequency Simulation](14-Arrays/Q_286.java) | 🌟 *Extra* |
+| **Q287** | [Input and Display a Matrix](14-Arrays/Q_287.java) |  |
+| **Q288** | [Row-wise and Column-wise Sums](14-Arrays/Q_288.java) |  |
+| **Q289** | [Sum of the Left and Right Diagonals](14-Arrays/Q_289.java) |  |
+| **Q290** | [Largest and Smallest Element of a Matrix with Positions](14-Arrays/Q_290.java) |  |
+| **Q291** | [Transpose of a Matrix](14-Arrays/Q_291.java) |  |
+| **Q292** | [Addition and Subtraction of Two Matrices](14-Arrays/Q_292.java) |  |
+| **Q293** | [Symmetric Matrix Check](14-Arrays/Q_293.java) |  |
+| **Q294** | [Boundary Elements and their Sum](14-Arrays/Q_294.java) |  |
+| **Q295** | [Upper and Lower Triangular Parts of a Matrix](14-Arrays/Q_295.java) |  |
+| **Q296** | [Even and Odd Elements of a Matrix](14-Arrays/Q_296.java) |  |
+| **Q297** | [Row with the Largest Sum](14-Arrays/Q_297.java) |  |
+| **Q298** | [Marks Matrix: Totals and Averages of Students](14-Arrays/Q_298.java) |  |
+| **Q299** | [Matrix Multiplication](14-Arrays/Q_299.java) | 🌟 *Extra* |
+| **Q300** | [Magic Square Check](14-Arrays/Q_300.java) | 🌟 *Extra* |
+| **Q301** | [Tic-Tac-Toe Winner Checker](14-Arrays/Q_301.java) | 🌟 *Extra* |
 
 <div align="right"><a href="#-chapter-overview">⬆ back to overview</a></div>
 
