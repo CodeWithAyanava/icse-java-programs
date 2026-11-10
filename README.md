@@ -4,10 +4,10 @@
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![JDK 21](https://img.shields.io/badge/JDK-21-0A66C2?style=for-the-badge)
-![Programs](https://img.shields.io/badge/Programs-237-2EA44F?style=for-the-badge)
+![Programs](https://img.shields.io/badge/Programs-249-2EA44F?style=for-the-badge)
 ![ICSE Class 10](https://img.shields.io/badge/ICSE-Class%2010-8E44AD?style=for-the-badge)
 
-**A complete revision kit for ICSE Class 10 Computer Applications (Java)** — every chapter of the syllabus with board-level theory, harder self-test questions and **237** fully tested programs.
+**A complete revision kit for ICSE Class 10 Computer Applications (Java)** — every chapter of the syllabus with board-level theory, harder self-test questions and **249** fully tested programs.
 
 </div>
 
@@ -56,10 +56,11 @@ java Q_82
 | 09 | 🏛️ [Class as the Basis of all Computation](#chapter-09) | [📘 Read](09-Class-as-the-Basis-of-Computation/Theory.md) | **6** | Q176 – Q181 |
 | 10 | 🧩 [User-Defined Methods](#chapter-10) | [📘 Read](10-User-Defined-Methods/Theory.md) | **30** | Q182 – Q211 |
 | 11 | 🏗️ [Constructors](#chapter-11) | [📘 Read](11-Constructors/Theory.md) | **26** | Q212 – Q237 |
-| | **Total** | | **237** | |
+| 12 | 📚 [Library Classes](#chapter-12) | [📘 Read](12-Library-Classes/Theory.md) | **12** | Q238 – Q249 |
+| | **Total** | | **249** | |
 
 > [!NOTE]
-> 🚧 Work in progress — 11 of 15 chapters published so far.
+> 🚧 Work in progress — 12 of 15 chapters published so far.
 
 ---
 
@@ -420,6 +421,29 @@ java Q_82
 | **Q235** | [Class BusConveyance](11-Constructors/Q_235.java) |  |
 | **Q236** | [Class CinemaTicket](11-Constructors/Q_236.java) |  |
 | **Q237** | [Class Quiz: A Small Quiz Game](11-Constructors/Q_237.java) | 🌟 *Extra* |
+
+<div align="right"><a href="#-chapter-overview">⬆ back to overview</a></div>
+
+<a id="chapter-12"></a>
+
+### 📚 Chapter 12 · Library Classes
+
+📘 **[Theory, MCQs and short questions](12-Library-Classes/Theory.md)** · 💻 12 programs
+
+| No. | Program | |
+|:---:|---|:---:|
+| **Q238** | [Type of a Character using Character Methods](12-Library-Classes/Q_238.java) |  |
+| **Q239** | [Count Uppercase, Lowercase, Digits, Spaces and Special Characters](12-Library-Classes/Q_239.java) |  |
+| **Q240** | [Change the Case of a Character](12-Library-Classes/Q_240.java) |  |
+| **Q241** | [Adding Numbers Entered as Strings](12-Library-Classes/Q_241.java) |  |
+| **Q242** | [Output of the Wrapper Class Methods](12-Library-Classes/Q_242.java) |  |
+| **Q243** | [Autoboxing and Unboxing](12-Library-Classes/Q_243.java) |  |
+| **Q244** | [Sum of the Digits Present in an Alphanumeric String](12-Library-Classes/Q_244.java) |  |
+| **Q245** | [Build a Number from the Digits in a String](12-Library-Classes/Q_245.java) |  |
+| **Q246** | [Remove Characters that are not Letters or Digits](12-Library-Classes/Q_246.java) |  |
+| **Q247** | [Validate a 10-Digit Mobile Number](12-Library-Classes/Q_247.java) |  |
+| **Q248** | [Percentage from Marks Entered as Strings](12-Library-Classes/Q_248.java) |  |
+| **Q249** | [Password Strength Checker](12-Library-Classes/Q_249.java) | 🌟 *Extra* |
 
 <div align="right"><a href="#-chapter-overview">⬆ back to overview</a></div>
 
