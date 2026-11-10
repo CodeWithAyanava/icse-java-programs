@@ -4,10 +4,10 @@
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![JDK 21](https://img.shields.io/badge/JDK-21-0A66C2?style=for-the-badge)
-![Programs](https://img.shields.io/badge/Programs-13-2EA44F?style=for-the-badge)
+![Programs](https://img.shields.io/badge/Programs-23-2EA44F?style=for-the-badge)
 ![ICSE Class 10](https://img.shields.io/badge/ICSE-Class%2010-8E44AD?style=for-the-badge)
 
-**A complete revision kit for ICSE Class 10 Computer Applications (Java)** — every chapter of the syllabus with board-level theory, harder self-test questions and **13** fully tested programs.
+**A complete revision kit for ICSE Class 10 Computer Applications (Java)** — every chapter of the syllabus with board-level theory, harder self-test questions and **23** fully tested programs.
 
 </div>
 
@@ -47,10 +47,11 @@ java Q_82
 |:---:|---|:---:|:---:|:---:|
 | 01 | ☕ [Introduction to OOP and Java](#chapter-01) | [📘 Read](01-Introduction-to-OOP-and-Java/Theory.md) | **5** | Q1 – Q5 |
 | 02 | 🔢 [Values and Data Types](#chapter-02) | [📘 Read](02-Values-and-Data-Types/Theory.md) | **8** | Q6 – Q13 |
-| | **Total** | | **13** | |
+| 03 | ➗ [Operators in Java](#chapter-03) | [📘 Read](03-Operators-in-Java/Theory.md) | **10** | Q14 – Q23 |
+| | **Total** | | **23** | |
 
 > [!NOTE]
-> 🚧 Work in progress — 2 of 15 chapters published so far.
+> 🚧 Work in progress — 3 of 15 chapters published so far.
 
 ---
 
@@ -88,6 +89,27 @@ java Q_82
 | **Q11** | [Swap Two Numbers without a Third Variable](02-Values-and-Data-Types/Q_11.java) |  |
 | **Q12** | [Next and Previous Character](02-Values-and-Data-Types/Q_12.java) |  |
 | **Q13** | [Uppercase to Lowercase using ASCII Arithmetic](02-Values-and-Data-Types/Q_13.java) |  |
+
+<div align="right"><a href="#-chapter-overview">⬆ back to overview</a></div>
+
+<a id="chapter-03"></a>
+
+### ➗ Chapter 03 · Operators in Java
+
+📘 **[Theory, MCQs and short questions](03-Operators-in-Java/Theory.md)** · 💻 10 programs
+
+| No. | Program | |
+|:---:|---|:---:|
+| **Q14** | [Area and Perimeter of a Rectangle](03-Operators-in-Java/Q_14.java) |  |
+| **Q15** | [Area and Circumference of a Circle](03-Operators-in-Java/Q_15.java) |  |
+| **Q16** | [Temperature Conversion: Celsius and Fahrenheit](03-Operators-in-Java/Q_16.java) |  |
+| **Q17** | [Simple Interest and Amount](03-Operators-in-Java/Q_17.java) |  |
+| **Q18** | [Convert Seconds into Hours, Minutes and Seconds](03-Operators-in-Java/Q_18.java) |  |
+| **Q19** | [Convert Days into Years, Months and Days](03-Operators-in-Java/Q_19.java) |  |
+| **Q20** | [Prefix and Postfix Increment and Decrement](03-Operators-in-Java/Q_20.java) |  |
+| **Q21** | [Larger of Two Numbers using the Ternary Operator](03-Operators-in-Java/Q_21.java) |  |
+| **Q22** | [Shorthand (Compound Assignment) Operators](03-Operators-in-Java/Q_22.java) |  |
+| **Q23** | [Total, Average and Percentage of Five Subjects](03-Operators-in-Java/Q_23.java) |  |
 
 <div align="right"><a href="#-chapter-overview">⬆ back to overview</a></div>
 
