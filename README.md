@@ -4,10 +4,10 @@
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![JDK 21](https://img.shields.io/badge/JDK-21-0A66C2?style=for-the-badge)
-![Programs](https://img.shields.io/badge/Programs-211-2EA44F?style=for-the-badge)
+![Programs](https://img.shields.io/badge/Programs-237-2EA44F?style=for-the-badge)
 ![ICSE Class 10](https://img.shields.io/badge/ICSE-Class%2010-8E44AD?style=for-the-badge)
 
-**A complete revision kit for ICSE Class 10 Computer Applications (Java)** — every chapter of the syllabus with board-level theory, harder self-test questions and **211** fully tested programs.
+**A complete revision kit for ICSE Class 10 Computer Applications (Java)** — every chapter of the syllabus with board-level theory, harder self-test questions and **237** fully tested programs.
 
 </div>
 
@@ -55,10 +55,11 @@ java Q_82
 | 08 | 🔲 [Nested for Loops](#chapter-08) | [📘 Read](08-Nested-for-Loops/Theory.md) | **44** | Q132 – Q175 |
 | 09 | 🏛️ [Class as the Basis of all Computation](#chapter-09) | [📘 Read](09-Class-as-the-Basis-of-Computation/Theory.md) | **6** | Q176 – Q181 |
 | 10 | 🧩 [User-Defined Methods](#chapter-10) | [📘 Read](10-User-Defined-Methods/Theory.md) | **30** | Q182 – Q211 |
-| | **Total** | | **211** | |
+| 11 | 🏗️ [Constructors](#chapter-11) | [📘 Read](11-Constructors/Theory.md) | **26** | Q212 – Q237 |
+| | **Total** | | **237** | |
 
 > [!NOTE]
-> 🚧 Work in progress — 10 of 15 chapters published so far.
+> 🚧 Work in progress — 11 of 15 chapters published so far.
 
 ---
 
@@ -382,6 +383,43 @@ java Q_82
 | **Q209** | [Day of the Week for any Date](10-User-Defined-Methods/Q_209.java) | 🌟 *Extra* |
 | **Q210** | [Calendar of a Month](10-User-Defined-Methods/Q_210.java) | 🌟 *Extra* |
 | **Q211** | [Age in Years, Months and Days](10-User-Defined-Methods/Q_211.java) | 🌟 *Extra* |
+
+<div align="right"><a href="#-chapter-overview">⬆ back to overview</a></div>
+
+<a id="chapter-11"></a>
+
+### 🏗️ Chapter 11 · Constructors
+
+📘 **[Theory, MCQs and short questions](11-Constructors/Theory.md)** · 💻 26 programs
+
+| No. | Program | |
+|:---:|---|:---:|
+| **Q212** | [Non-Parameterised (Default) Constructor](11-Constructors/Q_212.java) |  |
+| **Q213** | [Parameterised Constructor](11-Constructors/Q_213.java) |  |
+| **Q214** | [Constructor Overloading: Rectangle with Three Constructors](11-Constructors/Q_214.java) |  |
+| **Q215** | [The this Keyword in a Constructor](11-Constructors/Q_215.java) |  |
+| **Q216** | [Constructor Overloading: Class Time](11-Constructors/Q_216.java) |  |
+| **Q217** | [Class ElectricBill](11-Constructors/Q_217.java) |  |
+| **Q218** | [Class ShowRoom](11-Constructors/Q_218.java) |  |
+| **Q219** | [Class RailwayTicket](11-Constructors/Q_219.java) |  |
+| **Q220** | [Class BookFair](11-Constructors/Q_220.java) |  |
+| **Q221** | [Class ParkingLot](11-Constructors/Q_221.java) |  |
+| **Q222** | [Class movieMagic](11-Constructors/Q_222.java) |  |
+| **Q223** | [Class FruitJuice](11-Constructors/Q_223.java) |  |
+| **Q224** | [Class Mobike](11-Constructors/Q_224.java) |  |
+| **Q225** | [Class CabService](11-Constructors/Q_225.java) |  |
+| **Q226** | [Class Employee: Annual Income Tax](11-Constructors/Q_226.java) |  |
+| **Q227** | [Class Student: Stream Allocation](11-Constructors/Q_227.java) |  |
+| **Q228** | [Class Library: Fine for Late Return](11-Constructors/Q_228.java) |  |
+| **Q229** | [Class Hotel: Room Bill](11-Constructors/Q_229.java) |  |
+| **Q230** | [Class Telephone: Bill from Meter Readings](11-Constructors/Q_230.java) |  |
+| **Q231** | [Class Courier: Charges per 500 g](11-Constructors/Q_231.java) |  |
+| **Q232** | [Class CloudStorage](11-Constructors/Q_232.java) |  |
+| **Q233** | [Class Eshop: Discount on Online Purchase](11-Constructors/Q_233.java) |  |
+| **Q234** | [Class BankDeposit: Maturity with Compound Interest](11-Constructors/Q_234.java) |  |
+| **Q235** | [Class BusConveyance](11-Constructors/Q_235.java) |  |
+| **Q236** | [Class CinemaTicket](11-Constructors/Q_236.java) |  |
+| **Q237** | [Class Quiz: A Small Quiz Game](11-Constructors/Q_237.java) | 🌟 *Extra* |
 
 <div align="right"><a href="#-chapter-overview">⬆ back to overview</a></div>
 
