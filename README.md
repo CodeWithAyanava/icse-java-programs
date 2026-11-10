@@ -4,10 +4,10 @@
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![JDK 21](https://img.shields.io/badge/JDK-21-0A66C2?style=for-the-badge)
-![Programs](https://img.shields.io/badge/Programs-31-2EA44F?style=for-the-badge)
+![Programs](https://img.shields.io/badge/Programs-45-2EA44F?style=for-the-badge)
 ![ICSE Class 10](https://img.shields.io/badge/ICSE-Class%2010-8E44AD?style=for-the-badge)
 
-**A complete revision kit for ICSE Class 10 Computer Applications (Java)** — every chapter of the syllabus with board-level theory, harder self-test questions and **31** fully tested programs.
+**A complete revision kit for ICSE Class 10 Computer Applications (Java)** — every chapter of the syllabus with board-level theory, harder self-test questions and **45** fully tested programs.
 
 </div>
 
@@ -49,10 +49,11 @@ java Q_82
 | 02 | 🔢 [Values and Data Types](#chapter-02) | [📘 Read](02-Values-and-Data-Types/Theory.md) | **8** | Q6 – Q13 |
 | 03 | ➗ [Operators in Java](#chapter-03) | [📘 Read](03-Operators-in-Java/Theory.md) | **10** | Q14 – Q23 |
 | 04 | ⌨️ [Input in Java](#chapter-04) | [📘 Read](04-Input-in-Java/Theory.md) | **8** | Q24 – Q31 |
-| | **Total** | | **31** | |
+| 05 | 📐 [Mathematical Library Methods](#chapter-05) | [📘 Read](05-Mathematical-Library-Methods/Theory.md) | **14** | Q32 – Q45 |
+| | **Total** | | **45** | |
 
 > [!NOTE]
-> 🚧 Work in progress — 4 of 15 chapters published so far.
+> 🚧 Work in progress — 5 of 15 chapters published so far.
 
 ---
 
@@ -130,6 +131,31 @@ java Q_82
 | **Q29** | [Bill Amount after a 10% Discount](04-Input-in-Java/Q_29.java) |  |
 | **Q30** | [Distance Conversion: Kilometres to Metres, Centimetres and Miles](04-Input-in-Java/Q_30.java) |  |
 | **Q31** | [Gross and Net Salary of an Employee](04-Input-in-Java/Q_31.java) |  |
+
+<div align="right"><a href="#-chapter-overview">⬆ back to overview</a></div>
+
+<a id="chapter-05"></a>
+
+### 📐 Chapter 05 · Mathematical Library Methods
+
+📘 **[Theory, MCQs and short questions](05-Mathematical-Library-Methods/Theory.md)** · 💻 14 programs
+
+| No. | Program | |
+|:---:|---|:---:|
+| **Q32** | [Results of All Math Class Methods](05-Mathematical-Library-Methods/Q_32.java) |  |
+| **Q33** | [Hypotenuse of a Right-Angled Triangle](05-Mathematical-Library-Methods/Q_33.java) |  |
+| **Q34** | [Area of a Triangle using Heron's Formula](05-Mathematical-Library-Methods/Q_34.java) |  |
+| **Q35** | [Roots of a Quadratic Equation](05-Mathematical-Library-Methods/Q_35.java) |  |
+| **Q36** | [Distance between Two Points](05-Mathematical-Library-Methods/Q_36.java) |  |
+| **Q37** | [Compound Interest using Math.pow()](05-Mathematical-Library-Methods/Q_37.java) |  |
+| **Q38** | [Largest and Smallest of Three Numbers using Math.max() and Math.min()](05-Mathematical-Library-Methods/Q_38.java) |  |
+| **Q39** | [Round off a Number to Two Decimal Places](05-Mathematical-Library-Methods/Q_39.java) |  |
+| **Q40** | [Perfect Square Check using Math.sqrt()](05-Mathematical-Library-Methods/Q_40.java) |  |
+| **Q41** | [Rolling a Pair of Dice using Math.random()](05-Mathematical-Library-Methods/Q_41.java) |  |
+| **Q42** | [Evaluating Mathematical Formulas as Java Expressions](05-Mathematical-Library-Methods/Q_42.java) |  |
+| **Q43** | [Volume and Surface Area of a Sphere](05-Mathematical-Library-Methods/Q_43.java) |  |
+| **Q44** | [Integer Part, Fractional Part, Ceiling and Floor](05-Mathematical-Library-Methods/Q_44.java) |  |
+| **Q45** | [Four-Digit OTP Generator](05-Mathematical-Library-Methods/Q_45.java) | 🌟 *Extra* |
 
 <div align="right"><a href="#-chapter-overview">⬆ back to overview</a></div>
 
