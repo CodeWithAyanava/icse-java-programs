@@ -6,8 +6,8 @@
  * --------------------------------------------------------------------
  *   Question :
  *
- *   Design a class (written here as class Q_184) to overload a
- *   method series() as follows:
+ *   [ICSE 2019] Design a class (written here as class Q_184) to
+ *   overload a method series() as follows:
  *
  *       (i)   void series(int x, int n)
  *             to display the sum of the series

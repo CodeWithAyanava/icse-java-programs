@@ -6,8 +6,8 @@
  * --------------------------------------------------------------------
  *   Question :
  *
- *   Define a class BookFair (written here as class Q_220) with the
- *   following description:
+ *   [ICSE 2016] Define a class BookFair (written here as class
+ *   Q_220) with the following description:
  *
  *       Instance variables:
  *       String Bname  : to store the name of the book

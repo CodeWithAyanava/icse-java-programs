@@ -381,27 +381,27 @@ final int MAX = 50;          // (6) a final variable cannot be reassigned
 ### Part A — Multiple choice
 
 1. What is the output of `System.out.println('a' + 'b' + "c");`?
-   (a) abc (b) 195c (c) 195 (d) Error
+   <br>(a) abc (b) 195c (c) 195 (d) Error
 2. Which declaration compiles **without error**?
-   (a) `float f = 1.5;` (b) `char c = 65 + 1;` (c) `int i = 3.0;` (d) `byte b = 200;`
+   <br>(a) `float f = 1.5;` (b) `char c = 65 + 1;` (c) `int i = 3.0;` (d) `byte b = 200;`
 3. *Assertion (A):* `char ch = 'x'; ch = ch + 1;` gives a compile-time error.
-   *Reason (R):* The expression `ch + 1` is of type `int`, which cannot be stored in a `char` without a cast.
-   (a) Both true; R explains A (b) Both true; R does not explain A (c) A true, R false (d) A false, R true
+   <br>*Reason (R):* The expression `ch + 1` is of type `int`, which cannot be stored in a `char` without a cast.
+   <br>(a) Both true; R explains A (b) Both true; R does not explain A (c) A true, R false (d) A false, R true
 4. Which of the following is **not** a valid identifier? (a) `_$x` (b) `Final` (c) `double` (d) `MAX_VALUE`
 5. `int x = (int) -7.9;` stores:
-   (a) −8 (b) −7 (c) −7.9 (d) Error
+   <br>(a) −8 (b) −7 (c) −7.9 (d) Error
 6. How many tokens are there in `if (a >= 10) b++;`?
-   (a) 7 (b) 8 (c) 9 (d) 10
+   <br>(a) 7 (b) 8 (c) 9 (d) 10
 7. Which literal occupies the **most memory** when stored in its default type? (a) `'A'` (b) `100` (c) `100L` (d) `true`
 8. `"A".length() + 'A'` evaluates to: (a) 66 (b) "1A" (c) 2 (d) 65
 9. A local variable `int n;` is declared and immediately printed. The result is:
-   (a) 0 (b) garbage value (c) compile-time error (d) runtime error
+   <br>(a) 0 (b) garbage value (c) compile-time error (d) runtime error
 10. What is printed by `System.out.println((double) (5 / 2) + 5 / 2.0);`?
-    (a) 5.0 (b) 4.5 (c) 5.5 (d) 4.0
+    <br>(a) 5.0 (b) 4.5 (c) 5.5 (d) 4.0
 11. Which statement is **true**?
-    (a) Every Unicode character is an ASCII character (b) Every ASCII character is a Unicode character (c) ASCII is 16-bit (d) Unicode has 128 characters
+    <br>(a) Every Unicode character is an ASCII character (b) Every ASCII character is a Unicode character (c) ASCII is 16-bit (d) Unicode has 128 characters
 12. `System.out.println("Tab:\t|" + "\\n|");` prints:
-    (a) `Tab:<tab>|<newline>|` (b) `Tab:<tab>|\n|` (c) `Tab:\t|\n|` (d) Error
+    <br>(a) `Tab:<tab>|<newline>|` (b) `Tab:<tab>|\n|` (c) `Tab:\t|\n|` (d) Error
 
 ### Part B — Short answer questions
 

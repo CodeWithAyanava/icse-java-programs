@@ -288,12 +288,12 @@ class Item
 ### Part A — Multiple choice
 
 1. Which is a valid constructor of class `Car`?
-   (a) `void Car() { }` (b) `Car() { }` (c) `int Car() { return 0; }` (d) `static Car() { }`
+   <br>(a) `void Car() { }` (b) `Car() { }` (c) `int Car() { return 0; }` (d) `static Car() { }`
 2. A class has only `Car(String model)`. Which statement compiles?
-   (a) `Car c = new Car();` (b) `Car c = new Car("i20");` (c) both (d) neither
+   <br>(a) `Car c = new Car();` (b) `Car c = new Car("i20");` (c) both (d) neither
 3. *Assertion (A):* Every class in Java has at least one constructor.
-   *Reason (R):* If no constructor is defined, the compiler supplies a default constructor.
-   (a) Both true; R explains A (b) Both true; R doesn't explain A (c) A true, R false (d) A false, R true
+   <br>*Reason (R):* If no constructor is defined, the compiler supplies a default constructor.
+   <br>(a) Both true; R explains A (b) Both true; R doesn't explain A (c) A true, R false (d) A false, R true
 4. What is printed?
    ```java
    class T { int n; T() { n = 10; } T(int x) { n = x * 2; }
@@ -301,11 +301,11 @@ class Item
    ```
    (a) 20 (b) 30 (c) 1020 (d) 40
 5. How many times is a constructor called for `Box b1 = new Box(); Box b2 = b1; Box b3 = new Box();`?
-   (a) 1 (b) 2 (c) 3 (d) 0
+   <br>(a) 1 (b) 2 (c) 3 (d) 0
 6. The keyword used to refer to the current object is (a) `new` (b) `super` (c) `this` (d) `self`
 7. *Assertion (A):* Constructors can be overloaded.
-   *Reason (R):* Constructors have no return type.
-   (a) Both true; R explains A (b) Both true; R doesn't explain A (c) A true, R false (d) A false, R true
+   <br>*Reason (R):* Constructors have no return type.
+   <br>(a) Both true; R explains A (b) Both true; R doesn't explain A (c) A true, R false (d) A false, R true
 
 ### Part B — Short answer questions
 
@@ -358,12 +358,12 @@ class Item
 | **Q214** | [Constructor Overloading: Rectangle with Three Constructors](Q_214.java) |  |
 | **Q215** | [The this Keyword in a Constructor](Q_215.java) |  |
 | **Q216** | [Constructor Overloading: Class Time](Q_216.java) |  |
-| **Q217** | [Class ElectricBill](Q_217.java) |  |
-| **Q218** | [Class ShowRoom](Q_218.java) |  |
-| **Q219** | [Class RailwayTicket](Q_219.java) |  |
-| **Q220** | [Class BookFair](Q_220.java) |  |
-| **Q221** | [Class ParkingLot](Q_221.java) |  |
-| **Q222** | [Class movieMagic](Q_222.java) |  |
+| **Q217** | [Class ElectricBill](Q_217.java) | 📝 ICSE 2017 |
+| **Q218** | [Class ShowRoom](Q_218.java) | 📝 ICSE 2019 |
+| **Q219** | [Class RailwayTicket](Q_219.java) | 📝 ICSE 2018 |
+| **Q220** | [Class BookFair](Q_220.java) | 📝 ICSE 2016 |
+| **Q221** | [Class ParkingLot](Q_221.java) | 📝 ICSE 2015 |
+| **Q222** | [Class movieMagic](Q_222.java) | 📝 ICSE 2014 |
 | **Q223** | [Class FruitJuice](Q_223.java) |  |
 | **Q224** | [Class Mobike](Q_224.java) |  |
 | **Q225** | [Class CabService](Q_225.java) |  |

@@ -261,26 +261,26 @@ class Input
 ### Part A — Multiple choice
 
 1. Input typed: `25⏎Ravi Kumar⏎`. Code: `int a = sc.nextInt(); String s = sc.nextLine();` What is stored in `s`?
-   (a) `"Ravi Kumar"` (b) `"Ravi"` (c) `""` (empty string) (d) InputMismatchException
+   <br>(a) `"Ravi Kumar"` (b) `"Ravi"` (c) `""` (empty string) (d) InputMismatchException
 2. Input typed: `   hello world⏎`. Which call returns `"hello"`?
-   (a) `nextLine()` (b) `next()` (c) `nextLine().trim()` (d) `next().charAt(0)`
+   <br>(a) `nextLine()` (b) `next()` (c) `nextLine().trim()` (d) `next().charAt(0)`
 3. *Assertion (A):* `Math.sqrt()` can be used without any `import` statement.
-   *Reason (R):* The `Math` class belongs to the `java.lang` package, which is imported automatically.
-   (a) Both true; R explains A (b) Both true; R doesn't explain A (c) A true, R false (d) A false, R true
+   <br>*Reason (R):* The `Math` class belongs to the `java.lang` package, which is imported automatically.
+   <br>(a) Both true; R explains A (b) Both true; R doesn't explain A (c) A true, R false (d) A false, R true
 4. Which error is produced by `int n = sc.nextInt();` when the user types `4.5`?
-   (a) Syntax error (b) Logical error (c) InputMismatchException (runtime) (d) It stores 4
+   <br>(a) Syntax error (b) Logical error (c) InputMismatchException (runtime) (d) It stores 4
 5. A program prints the circumference when asked for area. The error is
-   (a) Syntax (b) Runtime (c) Logical (d) Compile-time
+   <br>(a) Syntax (b) Runtime (c) Logical (d) Compile-time
 6. Which of these compiles?
-   (a) `char c = sc.nextChar();` (b) `String s = sc.next().charAt(0);` (c) `char c = sc.next().charAt(0);` (d) `int c = sc.nextLine();`
+   <br>(a) `char c = sc.nextChar();` (b) `String s = sc.next().charAt(0);` (c) `char c = sc.next().charAt(0);` (d) `int c = sc.nextLine();`
 7. Input typed on one line: `10 20 30⏎`. Code: `int a = sc.nextInt(); int b = sc.nextInt(); int c = sc.nextInt();`
-   (a) Error — each value must be on a new line (b) a=10, b=20, c=30 (c) a=10, b and c wait for more input (d) a=102030
+   <br>(a) Error — each value must be on a new line (b) a=10, b=20, c=30 (c) a=10, b and c wait for more input (d) a=102030
 8. Which is **not** a runtime error? (a) `10 / 0` (b) missing semicolon (c) `arr[10]` for a 10-element array (d) `"abc".charAt(5)`
 9. What does `import java.util.*;` import?
-   (a) All classes of `java.util` and its sub-packages (b) All classes of `java.util` only (c) Only `Scanner` (d) Nothing — it is invalid
+   <br>(a) All classes of `java.util` and its sub-packages (b) All classes of `java.util` only (c) Only `Scanner` (d) Nothing — it is invalid
 10. *Assertion (A):* Logical errors are the hardest to detect.
-    *Reason (R):* Neither the compiler nor the JVM reports them.
-    (a) Both true; R explains A (b) Both true; R doesn't explain A (c) A true, R false (d) A false, R true
+    <br>*Reason (R):* Neither the compiler nor the JVM reports them.
+    <br>(a) Both true; R explains A (b) Both true; R doesn't explain A (c) A true, R false (d) A false, R true
 
 ### Part B — Short answer questions
 

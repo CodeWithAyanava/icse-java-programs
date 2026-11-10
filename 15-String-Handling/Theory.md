@@ -349,20 +349,20 @@ boolean b = s.indexOf('a');                 // (6)
 
 1. `"MISSISSIPPI".indexOf('S') + "MISSISSIPPI".lastIndexOf('S')` is (a) 8 (b) 9 (c) 7 (d) 10
 2. What is printed? `String s = "ICSE"; s.toLowerCase(); System.out.println(s.concat("!"));`
-   (a) icse! (b) ICSE! (c) ICSE (d) Error
+   <br>(a) icse! (b) ICSE! (c) ICSE (d) Error
 3. *Assertion (A):* `"Apple".compareTo("apple")` returns a negative value.
-   *Reason (R):* The Unicode value of 'A' is smaller than that of 'a'.
-   (a) Both true; R explains A (b) Both true; R doesn't explain A (c) A true, R false (d) A false, R true
+   <br>*Reason (R):* The Unicode value of 'A' is smaller than that of 'a'.
+   <br>(a) Both true; R explains A (b) Both true; R doesn't explain A (c) A true, R false (d) A false, R true
 4. `"Programming".substring(3, 7)` returns (a) "gram" (b) "gramm" (c) "ogra" (d) "ramm"
 5. Which returns a `char`? (a) `s.indexOf('a')` (b) `s.charAt(0)` (c) `s.substring(0, 1)` (d) `String.valueOf('a')`
 6. `"good".replace('o', "0")` causes (a) "g00d" (b) a compile-time error (c) "g0od" (d) a runtime error
 7. `String a = "Hi"; String b = "Hi"; String c = new String("Hi");` Which is **true**?
-   (a) `a == c` (b) `a.equals(c)` and `a != c` (c) `b != a` (d) `c.equals("hi")`
+   <br>(a) `a == c` (b) `a.equals(c)` and `a != c` (c) `b != a` (d) `c.equals("hi")`
 8. What is printed? `System.out.println("abc".compareTo("abd") + "xyz".length());`
-   (a) 2 (b) −1 (c) −13 (d) 4
+   <br>(a) 2 (b) −1 (c) −13 (d) 4
 9. `"  A  B  ".trim().length()` is (a) 2 (b) 4 (c) 6 (d) 8
 10. What is printed? `String s = "JAVA"; for (int i = 0; i < s.length(); i += 2) System.out.print(s.charAt(i) + 1);`
-    (a) KW (b) 7587 (c) J1V1 (d) 7586
+    <br>(a) KW (b) 7587 (c) J1V1 (d) 7586
 
 ### Part B — Short answer questions
 
@@ -438,7 +438,7 @@ boolean b = s.indexOf('a');                 // (6)
 | **Q321** | [Remove the Vowels from a Sentence](Q_321.java) |  |
 | **Q322** | [Word Pattern: B, BL, BLU, BLUE, BLUEJ](Q_322.java) |  |
 | **Q323** | [Word Pattern: JAVA, AVA, VA, A](Q_323.java) |  |
-| **Q324** | [Overloading joystring()](Q_324.java) |  |
+| **Q324** | [Overloading joystring()](Q_324.java) | 📝 ICSE 2015 |
 | **Q325** | [Overloading count(): Vowels and a Given Character](Q_325.java) |  |
 | **Q326** | [Count the Words Beginning with a Vowel](Q_326.java) |  |
 | **Q327** | [Names Starting or Ending with Given Letters](Q_327.java) |  |

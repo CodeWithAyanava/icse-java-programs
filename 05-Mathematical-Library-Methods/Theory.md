@@ -215,23 +215,23 @@ int e = (int) (Math.random() * 6) + 1;   // random() takes no arguments
 ### Part A — Multiple choice
 
 1. `System.out.println(Math.round(-0.5) + Math.ceil(-0.5));` prints
-   (a) `-1.0` (b) `0.0` (c) `-0.0` (d) `1.0`
+   <br>(a) `-1.0` (b) `0.0` (c) `-0.0` (d) `1.0`
 2. Which returns an `int` when its argument is `-9`? (a) `Math.sqrt` (b) `Math.abs` (c) `Math.cbrt` (d) `Math.ceil`
 3. `Math.max(Math.ceil(2.3), Math.floor(3.7))` evaluates to
-   (a) `3.0` (b) `3` (c) `4.0` (d) `2.0`
+   <br>(a) `3.0` (b) `3` (c) `4.0` (d) `2.0`
 4. *Assertion (A):* `int x = Math.round(5.5);` gives a compile-time error.
-   *Reason (R):* `Math.round()` with a `double` argument returns a `long`.
-   (a) Both true; R explains A (b) Both true; R doesn't explain A (c) A true, R false (d) A false, R true
+   <br>*Reason (R):* `Math.round()` with a `double` argument returns a `long`.
+   <br>(a) Both true; R explains A (b) Both true; R doesn't explain A (c) A true, R false (d) A false, R true
 5. Which expression gives a random integer from 5 to 15 (both inclusive)?
-   (a) `(int) (Math.random() * 15) + 5` (b) `5 + (int) (Math.random() * 11)` (c) `(int) Math.random() * 11 + 5` (d) `5 + (int) (Math.random() * 10)`
+   <br>(a) `(int) (Math.random() * 15) + 5` (b) `5 + (int) (Math.random() * 11)` (c) `(int) Math.random() * 11 + 5` (d) `5 + (int) (Math.random() * 10)`
 6. `Math.pow(2, -2)` is (a) `-4.0` (b) `0.25` (c) `4.0` (d) error
 7. The output of `System.out.println(Math.sqrt(-25) + 5);` is (a) `0.0` (b) `-5.0` (c) `NaN` (d) runtime error
 8. For which value of `x` are `Math.ceil(x)` and `Math.floor(x)` **equal**?
-   (a) 2.0001 (b) −3.0 (c) 0.5 (d) −0.5
+   <br>(a) 2.0001 (b) −3.0 (c) 0.5 (d) −0.5
 9. What is printed? `double d = 2.5; System.out.println(Math.round(d) + Math.round(-d));`
-   (a) 0 (b) 1 (c) −1 (d) 5
+   <br>(a) 0 (b) 1 (c) −1 (d) 5
 10. Which statement is **false**?
-    (a) `Math.cbrt(-64)` returns `-4.0` (b) `Math.abs(Math.floor(-1.1))` is `2.0` (c) `Math.min(-0.0, 0.0)` is `0.0` (d) `Math.pow(9, 0.5)` is `3.0`
+    <br>(a) `Math.cbrt(-64)` returns `-4.0` (b) `Math.abs(Math.floor(-1.1))` is `2.0` (c) `Math.min(-0.0, 0.0)` is `0.0` (d) `Math.pow(9, 0.5)` is `3.0`
 
 ### Part B — Short answer questions
 

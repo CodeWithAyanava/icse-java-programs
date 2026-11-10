@@ -254,14 +254,14 @@ class Test
 ### Part A — Multiple choice
 
 1. Which access specifier makes a member visible in subclasses of another package but **not** in unrelated classes there?
-   (a) private (b) default (c) protected (d) public
+   <br>(a) private (b) default (c) protected (d) public
 2. Which is **not** allowed?
-   (a) `private int a;` as a data member (b) `public void f()` (c) `public int x = 5;` inside a method (d) `static int count;` as a data member
+   <br>(a) `private int a;` as a data member (b) `public void f()` (c) `public int x = 5;` inside a method (d) `static int count;` as a data member
 3. *Assertion (A):* Data hiding prevents invalid values from being stored in an object.
-   *Reason (R):* Private data can be changed only through methods, which can validate the values.
-   (a) Both true; R explains A (b) Both true; R doesn't explain A (c) A true, R false (d) A false, R true
+   <br>*Reason (R):* Private data can be changed only through methods, which can validate the values.
+   <br>(a) Both true; R explains A (b) Both true; R doesn't explain A (c) A true, R false (d) A false, R true
 4. Three objects of a class are created. How many copies exist of a `static int n` and of an instance `int m`?
-   (a) 1 and 1 (b) 3 and 3 (c) 1 and 3 (d) 3 and 1
+   <br>(a) 1 and 1 (b) 3 and 3 (c) 1 and 3 (d) 3 and 1
 5. ```java
    class A { int x = 10; void f(int x) { x = x + 5; System.out.print(x + " " + this.x); } }
    ```

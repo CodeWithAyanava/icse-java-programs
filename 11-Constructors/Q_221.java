@@ -6,8 +6,8 @@
  * --------------------------------------------------------------------
  *   Question :
  *
- *   Define a class ParkingLot (written here as class Q_221) with the
- *   following description:
+ *   [ICSE 2015] Define a class ParkingLot (written here as class
+ *   Q_221) with the following description:
  *
  *       Instance variables:
  *       int vno       : to store the vehicle number

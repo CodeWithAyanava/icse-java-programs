@@ -6,8 +6,8 @@
  * --------------------------------------------------------------------
  *   Question :
  *
- *   Define a class ElectricBill (written here as class Q_217) with
- *   the following specifications:
+ *   [ICSE 2017] Define a class ElectricBill (written here as class
+ *   Q_217) with the following specifications:
  *
  *       Instance variables:
  *       String n      : to store the name of the customer

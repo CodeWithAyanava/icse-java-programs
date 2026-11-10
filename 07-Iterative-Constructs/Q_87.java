@@ -6,11 +6,12 @@
  * --------------------------------------------------------------------
  *   Question :
  *
- *   Write a program to accept a two-digit number and check whether
- *   it is a Special two-digit number or not. A Special two-digit
- *   number is one in which the sum of the sum of its digits and the
- *   product of its digits is equal to the number itself. If the
- *   number is not a two-digit number, display "Invalid input".
+ *   [ICSE 2014] Write a program to accept a two-digit number and
+ *   check whether it is a Special two-digit number or not. A Special
+ *   two-digit number is one in which the sum of the sum of its
+ *   digits and the product of its digits is equal to the number
+ *   itself. If the number is not a two-digit number, display
+ *   "Invalid input".
  *
  *   Example: 59 -> (5 + 9) + (5 x 9) = 14 + 45 = 59
  * ====================================================================

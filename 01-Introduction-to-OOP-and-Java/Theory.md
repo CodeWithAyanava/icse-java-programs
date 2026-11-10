@@ -305,31 +305,31 @@ public class Hello                 // class header — file must be saved as Hel
 ### Part A — Multiple choice (choose the most appropriate option)
 
 1. A `.class` file produced on Windows is copied to a Linux computer that has a JVM. What happens?
-   (a) It must be recompiled with `javac` on Linux (b) It runs without recompilation (c) It runs only if the source file is also copied (d) It cannot run because machine code differs
+   <br>(a) It must be recompiled with `javac` on Linux (b) It runs without recompilation (c) It runs only if the source file is also copied (d) It cannot run because machine code differs
 2. Which statement is **false**?
-   (a) Byte code is machine independent (b) The JVM is machine independent (c) `javac` produces byte code (d) The JIT compiler is part of the JVM
+   <br>(a) Byte code is machine independent (b) The JVM is machine independent (c) `javac` produces byte code (d) The JIT compiler is part of the JVM
 3. *Assertion (A):* Java is called both a compiled and an interpreted language.
-   *Reason (R):* The JVM converts source code directly into machine code.
-   (a) Both A and R are true and R explains A (b) Both true but R does not explain A (c) A is true, R is false (d) A is false, R is true
+   <br>*Reason (R):* The JVM converts source code directly into machine code.
+   <br>(a) Both A and R are true and R explains A (b) Both true but R does not explain A (c) A is true, R is false (d) A is false, R is true
 4. A class `Account` keeps `balance` as `private` and allows it to change only through `deposit()` and `withdraw()`. The best-matching principle is:
-   (a) Inheritance (b) Polymorphism (c) Encapsulation (d) Abstraction
+   <br>(a) Inheritance (b) Polymorphism (c) Encapsulation (d) Abstraction
 5. A user operates an ATM by pressing buttons without knowing how the machine contacts the bank server. This best illustrates:
-   (a) Encapsulation (b) Abstraction (c) Inheritance (d) Polymorphism
+   <br>(a) Encapsulation (b) Abstraction (c) Inheritance (d) Polymorphism
 6. Which of these is **not** needed to *run* a compiled Java application?
-   (a) JVM (b) Byte code (c) `javac` (d) Library classes
+   <br>(a) JVM (b) Byte code (c) `javac` (d) Library classes
 7. Why is a class called an *object factory*?
-   (a) It stores objects permanently (b) Many objects with similar attributes and behaviour can be produced from it (c) It manufactures methods (d) It allocates memory for itself
+   <br>(a) It stores objects permanently (b) Many objects with similar attributes and behaviour can be produced from it (c) It manufactures methods (d) It allocates memory for itself
 8. `Car c;` is written but no `new` is used. Which is correct?
-   (a) An object of Car is created (b) Only a reference variable is declared; no object exists yet (c) A compile-time error occurs (d) Memory for all data members is allocated
+   <br>(a) An object of Car is created (b) Only a reference variable is declared; no object exists yet (c) A compile-time error occurs (d) Memory for all data members is allocated
 9. Which pair is correctly matched?
-   (a) Inheritance – `new` (b) Polymorphism – method overloading (c) Encapsulation – `extends` (d) Abstraction – `main()`
+   <br>(a) Inheritance – `new` (b) Polymorphism – method overloading (c) Encapsulation – `extends` (d) Abstraction – `main()`
 10. *Assertion (A):* An applet does not need a `main()` method.
-    *Reason (R):* An applet is executed by a browser or applet viewer which controls its life cycle.
-    (a) Both true and R explains A (b) Both true, R does not explain A (c) A true, R false (d) A false, R true
+    <br>*Reason (R):* An applet is executed by a browser or applet viewer which controls its life cycle.
+    <br>(a) Both true and R explains A (b) Both true, R does not explain A (c) A true, R false (d) A false, R true
 11. Which of the following is the **correct order**?
-    (a) Byte code → source code → machine code (b) Source code → machine code → byte code (c) Source code → byte code → machine code (d) Machine code → byte code → source code
+    <br>(a) Byte code → source code → machine code (b) Source code → machine code → byte code (c) Source code → byte code → machine code (d) Machine code → byte code → source code
 12. What happens if you save `public class Marks` in a file named `marks.java` on a case-sensitive system and compile it?
-    (a) Compiles normally (b) Compile-time error — the public class name and file name must match exactly (c) Runtime error (d) The class is renamed automatically
+    <br>(a) Compiles normally (b) Compile-time error — the public class name and file name must match exactly (c) Runtime error (d) The class is renamed automatically
 
 ### Part B — Short answer questions
 

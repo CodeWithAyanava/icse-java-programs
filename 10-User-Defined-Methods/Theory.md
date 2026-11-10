@@ -387,12 +387,12 @@ class Calc
 ### Part A — Multiple choice
 
 1. Which pair of methods can **legally** exist together in one class?
-   (a) `int f(int a)` and `int f(int b)` (b) `void f(int a, double b)` and `void f(double a, int b)` (c) `int f()` and `double f()` (d) `public void f(int a)` and `private void f(int a)`
+   <br>(a) `int f(int a)` and `int f(int b)` (b) `void f(int a, double b)` and `void f(double a, int b)` (c) `int f()` and `double f()` (d) `public void f(int a)` and `private void f(int a)`
 2. Given `void m(int x)` and `void m(double x)`, the call `m('A')` invokes
-   (a) `m(int)` (b) `m(double)` (c) compile-time ambiguity error (d) runtime error
+   <br>(a) `m(int)` (b) `m(double)` (c) compile-time ambiguity error (d) runtime error
 3. *Assertion (A):* A method that only returns `n * n` for its parameter `n` is a pure method.
-   *Reason (R):* It does not change the state of any object.
-   (a) Both true; R explains A (b) Both true; R doesn't explain A (c) A true, R false (d) A false, R true
+   <br>*Reason (R):* It does not change the state of any object.
+   <br>(a) Both true; R explains A (b) Both true; R doesn't explain A (c) A true, R false (d) A false, R true
 4. What is printed?
    ```java
    static int f(int n) { n = n * 2; return n + 1; }
@@ -401,14 +401,14 @@ class Calc
    ```
    (a) 4 19 (b) 19 19 (c) 4 9 (d) 9 19
 5. The signature of `public static double power(double b, int e)` is
-   (a) `public static double power` (b) `power(double, int)` (c) `double power(double, int)` (d) `power(b, e)`
+   <br>(a) `public static double power` (b) `power(double, int)` (c) `double power(double, int)` (d) `power(b, e)`
 6. Which statement is **true**?
-   (a) Formal parameters can be literals (b) A `void` method can contain `return;` (c) A method can return two values using `return a, b;` (d) The return type is part of the signature
+   <br>(a) Formal parameters can be literals (b) A `void` method can contain `return;` (c) A method can return two values using `return a, b;` (d) The return type is part of the signature
 7. *Assertion (A):* Calling `display()` directly inside `main()` is an error if `display()` is non-static.
-   *Reason (R):* Static methods cannot access instance members without an object.
-   (a) Both true; R explains A (b) Both true; R doesn't explain A (c) A true, R false (d) A false, R true
+   <br>*Reason (R):* Static methods cannot access instance members without an object.
+   <br>(a) Both true; R explains A (b) Both true; R doesn't explain A (c) A true, R false (d) A false, R true
 8. Which overloaded method is chosen for `f(10L)` if only `f(int)` and `f(float)` exist?
-   (a) `f(int)` (b) `f(float)` (c) Error (d) Runtime decision
+   <br>(a) `f(int)` (b) `f(float)` (c) Error (d) Runtime decision
 
 ### Part B — Short answer questions
 
@@ -461,7 +461,7 @@ class Calc
 |:---:|---|:---:|
 | **Q182** | [Overloading volume(): Sphere, Cylinder and Cuboid](Q_182.java) |  |
 | **Q183** | [Overloading area(): Circle, Rectangle and Triangle](Q_183.java) |  |
-| **Q184** | [Overloading series(): Three Different Series](Q_184.java) |  |
+| **Q184** | [Overloading series(): Three Different Series](Q_184.java) | 📝 ICSE 2019 |
 | **Q185** | [Overloading polygon(): Square, Rectangle and Triangle Patterns](Q_185.java) |  |
 | **Q186** | [Overloading display() for Patterns](Q_186.java) |  |
 | **Q187** | [Overloading sumSeries()](Q_187.java) |  |

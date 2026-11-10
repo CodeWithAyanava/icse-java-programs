@@ -557,7 +557,7 @@ while (i < 15);                  // do-while needs a semicolon
 ### Part A — Multiple choice
 
 1. How many times does `Hello` print? `for (int i = 10; i > 0; i -= 4) System.out.println("Hello");`
-   (a) 2 (b) 3 (c) 4 (d) 10
+   <br>(a) 2 (b) 3 (c) 4 (d) 10
 2. ```java
    int s = 0;
    for (int i = 1; i <= 5; i++)
@@ -649,12 +649,12 @@ while (i < 15);                  // do-while needs a semicolon
 | **Q79** | [Palindrome Number](Q_79.java) |  |
 | **Q80** | [Armstrong Number](Q_80.java) |  |
 | **Q81** | [Perfect Number](Q_81.java) |  |
-| **Q82** | [Spy Number](Q_82.java) |  |
+| **Q82** | [Spy Number](Q_82.java) | 📝 ICSE 2017 |
 | **Q83** | [Niven (Harshad) Number](Q_83.java) |  |
 | **Q84** | [Neon Number](Q_84.java) |  |
 | **Q85** | [Automorphic Number](Q_85.java) |  |
 | **Q86** | [Special Number (Krishnamurthy Number)](Q_86.java) |  |
-| **Q87** | [Special Two-Digit Number](Q_87.java) |  |
+| **Q87** | [Special Two-Digit Number](Q_87.java) | 📝 ICSE 2014 |
 | **Q88** | [Duck Number](Q_88.java) |  |
 | **Q89** | [Pronic Number](Q_89.java) |  |
 | **Q90** | [Disarium Number](Q_90.java) |  |

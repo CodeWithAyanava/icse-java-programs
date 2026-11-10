@@ -246,16 +246,16 @@ String s = Character.toLowerCase('A');        // (5)
 ### Part A — Multiple choice
 
 1. What is printed? `System.out.println(Integer.parseInt("10") + Integer.parseInt("10") + "10");`
-   (a) 101010 (b) 30 (c) 2010 (d) 1020
+   <br>(a) 101010 (b) 30 (c) 2010 (d) 1020
 2. Which call causes a `NumberFormatException`?
-   (a) `Double.parseDouble("7")` (b) `Integer.parseInt("-7")` (c) `Integer.parseInt("7.0")` (d) `Long.parseLong("70")`
+   <br>(a) `Double.parseDouble("7")` (b) `Integer.parseInt("-7")` (c) `Integer.parseInt("7.0")` (d) `Long.parseLong("70")`
 3. *Assertion (A):* `Character.isLetterOrDigit('_')` returns false.
-   *Reason (R):* The underscore is neither a letter nor a digit.
-   (a) Both true; R explains A (b) Both true; R doesn't explain A (c) A true, R false (d) A false, R true
+   <br>*Reason (R):* The underscore is neither a letter nor a digit.
+   <br>(a) Both true; R explains A (b) Both true; R doesn't explain A (c) A true, R false (d) A false, R true
 4. `char ch = 'm'; System.out.print(Character.toUpperCase(ch) + 1);` prints
-   (a) N (b) M1 (c) 78 (d) m1
+   <br>(a) N (b) M1 (c) 78 (d) m1
 5. Which statement shows **unboxing**?
-   (a) `Integer a = 5;` (b) `Integer a = 5; int b = a;` (c) `Double d = 2.0;` (d) `Character c = 'x';`
+   <br>(a) `Integer a = 5;` (b) `Integer a = 5; int b = a;` (c) `Double d = 2.0;` (d) `Character c = 'x';`
 6. Which returns `true`? (a) `Character.isUpperCase('7')` (b) `Character.isWhitespace('\n')` (c) `Character.isDigit('A')` (d) `Character.isLetter(' ')`
 7. The return type of `Character.toLowerCase('A')` is (a) String (b) int (c) char (d) boolean
 8. `String s = "3" + 4; int k = Integer.parseInt(s) + 6;` gives `k` = (a) 13 (b) 40 (c) 346 (d) 7

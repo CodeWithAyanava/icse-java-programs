@@ -20,6 +20,9 @@ This repository follows the **ICSE Class 10 Computer Applications (86)** syllabu
 - 📘 **`Theory.md`** — the complete theory in standard textbook language: definitions, comparison tables, flowcharts, predict-the-output questions with dry runs, error finding, library method tables and exam tips, ending with a set of **hard MCQs and short questions** (answers hidden in collapsible sections).
 - 💻 **`Q_n.java`** files — one program per file, numbered continuously across the whole repository, the most frequently asked ones first in each chapter.
 
+> [!TIP]
+> Prefer reading offline? Everything — theory, questions and all programs — is in one printable PDF: **[ICSE-Java-Programs.pdf](ICSE-Java-Programs.pdf)**
+
 ### Program conventions
 
 | | |
@@ -221,12 +224,12 @@ java Q_82
 | **Q79** | [Palindrome Number](07-Iterative-Constructs/Q_79.java) |  |
 | **Q80** | [Armstrong Number](07-Iterative-Constructs/Q_80.java) |  |
 | **Q81** | [Perfect Number](07-Iterative-Constructs/Q_81.java) |  |
-| **Q82** | [Spy Number](07-Iterative-Constructs/Q_82.java) |  |
+| **Q82** | [Spy Number](07-Iterative-Constructs/Q_82.java) | 📝 ICSE 2017 |
 | **Q83** | [Niven (Harshad) Number](07-Iterative-Constructs/Q_83.java) |  |
 | **Q84** | [Neon Number](07-Iterative-Constructs/Q_84.java) |  |
 | **Q85** | [Automorphic Number](07-Iterative-Constructs/Q_85.java) |  |
 | **Q86** | [Special Number (Krishnamurthy Number)](07-Iterative-Constructs/Q_86.java) |  |
-| **Q87** | [Special Two-Digit Number](07-Iterative-Constructs/Q_87.java) |  |
+| **Q87** | [Special Two-Digit Number](07-Iterative-Constructs/Q_87.java) | 📝 ICSE 2014 |
 | **Q88** | [Duck Number](07-Iterative-Constructs/Q_88.java) |  |
 | **Q89** | [Pronic Number](07-Iterative-Constructs/Q_89.java) |  |
 | **Q90** | [Disarium Number](07-Iterative-Constructs/Q_90.java) |  |
@@ -356,7 +359,7 @@ java Q_82
 |:---:|---|:---:|
 | **Q182** | [Overloading volume(): Sphere, Cylinder and Cuboid](10-User-Defined-Methods/Q_182.java) |  |
 | **Q183** | [Overloading area(): Circle, Rectangle and Triangle](10-User-Defined-Methods/Q_183.java) |  |
-| **Q184** | [Overloading series(): Three Different Series](10-User-Defined-Methods/Q_184.java) |  |
+| **Q184** | [Overloading series(): Three Different Series](10-User-Defined-Methods/Q_184.java) | 📝 ICSE 2019 |
 | **Q185** | [Overloading polygon(): Square, Rectangle and Triangle Patterns](10-User-Defined-Methods/Q_185.java) |  |
 | **Q186** | [Overloading display() for Patterns](10-User-Defined-Methods/Q_186.java) |  |
 | **Q187** | [Overloading sumSeries()](10-User-Defined-Methods/Q_187.java) |  |
@@ -400,12 +403,12 @@ java Q_82
 | **Q214** | [Constructor Overloading: Rectangle with Three Constructors](11-Constructors/Q_214.java) |  |
 | **Q215** | [The this Keyword in a Constructor](11-Constructors/Q_215.java) |  |
 | **Q216** | [Constructor Overloading: Class Time](11-Constructors/Q_216.java) |  |
-| **Q217** | [Class ElectricBill](11-Constructors/Q_217.java) |  |
-| **Q218** | [Class ShowRoom](11-Constructors/Q_218.java) |  |
-| **Q219** | [Class RailwayTicket](11-Constructors/Q_219.java) |  |
-| **Q220** | [Class BookFair](11-Constructors/Q_220.java) |  |
-| **Q221** | [Class ParkingLot](11-Constructors/Q_221.java) |  |
-| **Q222** | [Class movieMagic](11-Constructors/Q_222.java) |  |
+| **Q217** | [Class ElectricBill](11-Constructors/Q_217.java) | 📝 ICSE 2017 |
+| **Q218** | [Class ShowRoom](11-Constructors/Q_218.java) | 📝 ICSE 2019 |
+| **Q219** | [Class RailwayTicket](11-Constructors/Q_219.java) | 📝 ICSE 2018 |
+| **Q220** | [Class BookFair](11-Constructors/Q_220.java) | 📝 ICSE 2016 |
+| **Q221** | [Class ParkingLot](11-Constructors/Q_221.java) | 📝 ICSE 2015 |
+| **Q222** | [Class movieMagic](11-Constructors/Q_222.java) | 📝 ICSE 2014 |
 | **Q223** | [Class FruitJuice](11-Constructors/Q_223.java) |  |
 | **Q224** | [Class Mobike](11-Constructors/Q_224.java) |  |
 | **Q225** | [Class CabService](11-Constructors/Q_225.java) |  |
@@ -551,7 +554,7 @@ java Q_82
 | **Q321** | [Remove the Vowels from a Sentence](15-String-Handling/Q_321.java) |  |
 | **Q322** | [Word Pattern: B, BL, BLU, BLUE, BLUEJ](15-String-Handling/Q_322.java) |  |
 | **Q323** | [Word Pattern: JAVA, AVA, VA, A](15-String-Handling/Q_323.java) |  |
-| **Q324** | [Overloading joystring()](15-String-Handling/Q_324.java) |  |
+| **Q324** | [Overloading joystring()](15-String-Handling/Q_324.java) | 📝 ICSE 2015 |
 | **Q325** | [Overloading count(): Vowels and a Given Character](15-String-Handling/Q_325.java) |  |
 | **Q326** | [Count the Words Beginning with a Vowel](15-String-Handling/Q_326.java) |  |
 | **Q327** | [Names Starting or Ending with Given Letters](15-String-Handling/Q_327.java) |  |

@@ -292,16 +292,16 @@ System.out.println(b.volume());      // a non-static method must be called throu
 ### Part A — Multiple choice
 
 1. `Student s1 = new Student(), s2 = new Student(); s2 = s1;` How many `Student` objects exist and how many can still be reached?
-   (a) 2 created, 2 reachable (b) 2 created, 1 reachable (c) 1 created (d) 3 created
+   <br>(a) 2 created, 2 reachable (b) 2 created, 1 reachable (c) 1 created (d) 3 created
 2. Which statement about a class is **false**?
-   (a) It is a user-defined data type (b) It occupies memory for its data members as soon as it is defined (c) It is a blueprint for objects (d) It can be used to declare variables
+   <br>(a) It is a user-defined data type (b) It occupies memory for its data members as soon as it is defined (c) It is a blueprint for objects (d) It can be used to declare variables
 3. *Assertion (A):* Two objects of the same class can have different states.
-   *Reason (R):* Each object gets its own copy of the instance variables.
-   (a) Both true; R explains A (b) Both true; R doesn't explain A (c) A true, R false (d) A false, R true
+   <br>*Reason (R):* Each object gets its own copy of the instance variables.
+   <br>(a) Both true; R explains A (b) Both true; R doesn't explain A (c) A true, R false (d) A false, R true
 4. `Point p = new Point(); Point q = new Point(); p.x = 5; q.x = 5; System.out.println(p == q);` prints
-   (a) true (b) false (c) 5 (d) Error
+   <br>(a) true (b) false (c) 5 (d) Error
 5. What happens? `Point p = null; p.x = 3;`
-   (a) Compile-time error (b) `NullPointerException` at run time (c) p.x becomes 3 (d) A new object is created
+   <br>(a) Compile-time error (b) `NullPointerException` at run time (c) p.x becomes 3 (d) A new object is created
 6. Which is a composite data type? (a) `char` (b) `boolean` (c) `int[]` (d) `long`
 7. The behaviour of an object is defined by its (a) data members (b) constructor only (c) member methods (d) class name
 

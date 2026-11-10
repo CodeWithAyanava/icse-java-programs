@@ -6,8 +6,8 @@
  * --------------------------------------------------------------------
  *   Question :
  *
- *   Define a class named movieMagic (written here as class Q_222)
- *   with the following description:
+ *   [ICSE 2014] Define a class named movieMagic (written here as
+ *   class Q_222) with the following description:
  *
  *       Instance variables:
  *       int year       : to store the year of release of a movie

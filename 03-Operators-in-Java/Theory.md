@@ -373,26 +373,26 @@ The shorthand stores `a = a + (a++ - --b * 2)` — the **old value of `a` (10)**
 ### Part A — Multiple choice
 
 1. `int a = 3; a = a++ + a++ * --a;` What is `a`?
-   (a) 19 (b) 28 (c) 16 (d) 15
+   <br>(a) 19 (b) 28 (c) 16 (d) 15
 2. Which expression gives `true` for **every** odd integer `n`, including negative odd numbers?
-   (a) `n % 2 == 1` (b) `n % 2 != 0` (c) `n / 2 == 1` (d) `n % 2 > 0`
+   <br>(a) `n % 2 == 1` (b) `n % 2 != 0` (c) `n / 2 == 1` (d) `n % 2 > 0`
 3. `System.out.println(10 + 20 + "30" + 10 * 2);` prints
-   (a) 303020 (b) 1020302 (c) 3030 20 (d) 603020
+   <br>(a) 303020 (b) 1020302 (c) 3030 20 (d) 603020
 4. *Assertion (A):* `int x = 0; if (x != 0 && 10 / x > 1)` does not throw an exception.
-   *Reason (R):* `&&` evaluates both operands before deciding the result.
-   (a) Both true; R explains A (b) Both true; R does not explain A (c) A true, R false (d) A false, R true
+   <br>*Reason (R):* `&&` evaluates both operands before deciding the result.
+   <br>(a) Both true; R explains A (b) Both true; R does not explain A (c) A true, R false (d) A false, R true
 5. What is the value of `-15 % 4 + 15 % -4`?
-   (a) 0 (b) −6 (c) 6 (d) −2
+   <br>(a) 0 (b) −6 (c) 6 (d) −2
 6. `int p = 2; p *= p++ + 3;` gives `p` =
-   (a) 10 (b) 12 (c) 7 (d) 15
+   <br>(a) 10 (b) 12 (c) 7 (d) 15
 7. Which statement is a **compile-time error**? (a) `int a = 5; a++;` (b) `int b = (int) 7.9;` (c) `int c = 5++;` (d) `double d = 5 / 2;`
 8. `int a = 6, b = 4; System.out.println(a > b ? a % b == 2 ? "X" : "Y" : "Z");` prints
-   (a) X (b) Y (c) Z (d) Error
+   <br>(a) X (b) Y (c) Z (d) Error
 9. The associativity of `=` is right to left. Hence `int a, b, c; a = b = c = 4;`
-   (a) assigns 4 only to `c` (b) assigns 4 to all three (c) is an error (d) assigns 4 to `a` only
+   <br>(a) assigns 4 only to `c` (b) assigns 4 to all three (c) is an error (d) assigns 4 to `a` only
 10. `int i = 1; i = i++ + i++ + i++;` gives `i` = (a) 3 (b) 6 (c) 4 (d) 9
 11. What is printed? `int n = 7; System.out.println(n++ > 7 || n-- == 8); System.out.println(n);`
-    (a) true 7 (b) true 8 (c) false 7 (d) true / 7 on separate lines
+    <br>(a) true 7 (b) true 8 (c) false 7 (d) true / 7 on separate lines
 12. Which operator has the **lowest** precedence? (a) `||` (b) `?:` (c) `+=` (d) `!`
 
 ### Part B — Short answer questions

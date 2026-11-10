@@ -340,7 +340,7 @@ for (int i = 1; i <= 2; i++)            // stray semicolon removed (and i was ou
 ### Part A — Multiple choice
 
 1. How many times is `x++` executed? `for (i = 0; i < 5; i++) for (j = i; j < 5; j++) x++;`
-   (a) 25 (b) 15 (c) 10 (d) 5
+   <br>(a) 25 (b) 15 (c) 10 (d) 5
 2. Which code prints
    ```
    1
@@ -349,14 +349,14 @@ for (int i = 1; i <= 2; i++)            // stray semicolon removed (and i was ou
    ```
    (a) `for (i=1;i<=3;i++){for(j=1;j<=3;j++) print(j+" ");println();}` (b) `for (i=1;i<=3;i++){for(j=1;j<=i;j++) print(j+" ");println();}` (c) `for (i=1;i<=3;i++){for(j=1;j<=i;j++) print(i+" ");println();}` (d) `for (i=3;i>=1;i--){for(j=1;j<=i;j++) print(j+" ");println();}`
 3. *Assertion (A):* A `break` in the inner loop of a nested loop terminates both loops.
-   *Reason (R):* `break` transfers control out of the innermost loop that contains it.
-   (a) Both true; R explains A (b) Both true; R doesn't explain A (c) A false, R true (d) Both false
+   <br>*Reason (R):* `break` transfers control out of the innermost loop that contains it.
+   <br>(a) Both true; R explains A (b) Both true; R doesn't explain A (c) A false, R true (d) Both false
 4. What is printed? `for (int i = 1; i <= 2; i++) for (int j = 1; j <= 2; j++) System.out.print(i + j);`
-   (a) 2334 (b) 1212 (c) 1122 (d) 2343
+   <br>(a) 2334 (b) 1212 (c) 1122 (d) 2343
 5. `System.out.print((char) (65 + 2) + "" + (char) 97);` prints (a) 67a (b) Ca (c) C97 (d) 6797
 6. A hollow 5 × 5 square of `*` is printed. How many stars appear? (a) 25 (b) 20 (c) 16 (d) 9
 7. In the code for $S = 1! + 2! + \dots + n!$, `f = 1` was written **before** the outer loop instead of inside it. For n = 3 the output becomes
-   (a) 9 (b) 15 (c) 33 (d) 6
+   <br>(a) 9 (b) 15 (c) 33 (d) 6
 8. What is printed?
    ```java
    for (int i = 3; i >= 1; i--)

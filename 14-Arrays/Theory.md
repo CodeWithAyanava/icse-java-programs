@@ -489,22 +489,22 @@ String s[] = new String[3]; System.out.println(s[0].length());   // (5)
 ### Part A — Multiple choice
 
 1. `int a[] = new int[10];` How many bytes, and what is the index of the last element?
-   (a) 40, 10 (b) 40, 9 (c) 10, 9 (d) 20, 9
+   <br>(a) 40, 10 (b) 40, 9 (c) 10, 9 (d) 20, 9
 2. Which needs the data to be sorted? (a) Linear search (b) Binary search (c) Bubble sort (d) Selection sort
 3. `int x[] = {3, 6, 9}; int y[] = x; y[1] = 0; System.out.println(x[1] + x.length);` prints
-   (a) `63` (b) `3` (c) `9` (d) `03`
+   <br>(a) `63` (b) `3` (c) `9` (d) `03`
 4. *Assertion (A):* Selection sort performs at most n − 1 swaps for n elements.
-   *Reason (R):* In each pass, selection sort swaps only once, after finding the minimum.
-   (a) Both true; R explains A (b) Both true; R doesn't explain A (c) A true, R false (d) A false, R true
+   <br>*Reason (R):* In each pass, selection sort swaps only once, after finding the minimum.
+   <br>(a) Both true; R explains A (b) Both true; R doesn't explain A (c) A true, R false (d) A false, R true
 5. In binary search on `{2, 4, 6, 8, 10, 12, 14}` for key 14, the values of `mid` are
-   (a) 3, 5, 6 (b) 3, 4, 5, 6 (c) 4, 6 (d) 3, 6
+   <br>(a) 3, 5, 6 (b) 3, 4, 5, 6 (c) 4, 6 (d) 3, 6
 6. After the **first pass** of selection sort (ascending) on `{7, 3, 9, 1, 5}`, the array is
-   (a) 1 3 9 7 5 (b) 3 7 1 5 9 (c) 1 7 3 9 5 (d) 3 7 9 1 5
+   <br>(a) 1 3 9 7 5 (b) 3 7 1 5 9 (c) 1 7 3 9 5 (d) 3 7 9 1 5
 7. For `int m[][] = new int[4][6];`, `m.length` and `m[2].length` are
-   (a) 6, 4 (b) 4, 6 (c) 24, 6 (d) 4, 4
+   <br>(a) 6, 4 (b) 4, 6 (c) 24, 6 (d) 4, 4
 8. *Assertion (A):* `int a[] = {1, 2, 3}; a[3] = 4;` causes a compile-time error.
-   *Reason (R):* The highest valid index of `a` is 2.
-   (a) Both true; R explains A (b) Both true; R doesn't explain A (c) A false, R true (d) Both false
+   <br>*Reason (R):* The highest valid index of `a` is 2.
+   <br>(a) Both true; R explains A (b) Both true; R doesn't explain A (c) A false, R true (d) Both false
 9. Which element lies on the **right** diagonal of a 5 × 5 matrix? (a) `a[1][1]` (b) `a[1][3]` (c) `a[3][3]` (d) `a[2][1]`
 10. The maximum number of comparisons in a linear search of 100 elements is (a) 7 (b) 50 (c) 100 (d) 99
 

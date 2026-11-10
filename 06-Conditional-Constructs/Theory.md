@@ -520,8 +520,8 @@ switch (a)
    (a) 5 (b) 7 (c) 17 (d) 16
 2. Which can **never** be the type of a switch expression? (a) `char` (b) `String` (c) `boolean` (d) `short`
 3. *Assertion (A):* In a `switch`, the `default` label must be the last label.
-   *Reason (R):* Control goes to `default` only when no case matches.
-   (a) Both true; R explains A (b) Both true; R doesn't explain A (c) A false, R true (d) Both false
+   <br>*Reason (R):* Control goes to `default` only when no case matches.
+   <br>(a) Both true; R explains A (b) Both true; R doesn't explain A (c) A false, R true (d) Both false
 4. What is printed?
    ```java
    int n = 3;

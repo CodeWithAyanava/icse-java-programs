@@ -6,8 +6,8 @@
  * --------------------------------------------------------------------
  *   Question :
  *
- *   Define a class ShowRoom (written here as class Q_218) with the
- *   following description:
+ *   [ICSE 2019] Define a class ShowRoom (written here as class
+ *   Q_218) with the following description:
  *
  *       Instance variables:
  *       String name   : to store the name of the customer

@@ -6,8 +6,8 @@
  * --------------------------------------------------------------------
  *   Question :
  *
- *   Design a class (written here as class Q_324) to overload a
- *   method joystring() as follows:
+ *   [ICSE 2015] Design a class (written here as class Q_324) to
+ *   overload a method joystring() as follows:
  *
  *       (i)   void joystring(String s, char ch1, char ch2)
  *             to replace every occurrence of ch1 with ch2 in s and print
