@@ -4,10 +4,10 @@
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![JDK 21](https://img.shields.io/badge/JDK-21-0A66C2?style=for-the-badge)
-![Programs](https://img.shields.io/badge/Programs-23-2EA44F?style=for-the-badge)
+![Programs](https://img.shields.io/badge/Programs-31-2EA44F?style=for-the-badge)
 ![ICSE Class 10](https://img.shields.io/badge/ICSE-Class%2010-8E44AD?style=for-the-badge)
 
-**A complete revision kit for ICSE Class 10 Computer Applications (Java)** — every chapter of the syllabus with board-level theory, harder self-test questions and **23** fully tested programs.
+**A complete revision kit for ICSE Class 10 Computer Applications (Java)** — every chapter of the syllabus with board-level theory, harder self-test questions and **31** fully tested programs.
 
 </div>
 
@@ -48,10 +48,11 @@ java Q_82
 | 01 | ☕ [Introduction to OOP and Java](#chapter-01) | [📘 Read](01-Introduction-to-OOP-and-Java/Theory.md) | **5** | Q1 – Q5 |
 | 02 | 🔢 [Values and Data Types](#chapter-02) | [📘 Read](02-Values-and-Data-Types/Theory.md) | **8** | Q6 – Q13 |
 | 03 | ➗ [Operators in Java](#chapter-03) | [📘 Read](03-Operators-in-Java/Theory.md) | **10** | Q14 – Q23 |
-| | **Total** | | **23** | |
+| 04 | ⌨️ [Input in Java](#chapter-04) | [📘 Read](04-Input-in-Java/Theory.md) | **8** | Q24 – Q31 |
+| | **Total** | | **31** | |
 
 > [!NOTE]
-> 🚧 Work in progress — 3 of 15 chapters published so far.
+> 🚧 Work in progress — 4 of 15 chapters published so far.
 
 ---
 
@@ -110,6 +111,25 @@ java Q_82
 | **Q21** | [Larger of Two Numbers using the Ternary Operator](03-Operators-in-Java/Q_21.java) |  |
 | **Q22** | [Shorthand (Compound Assignment) Operators](03-Operators-in-Java/Q_22.java) |  |
 | **Q23** | [Total, Average and Percentage of Five Subjects](03-Operators-in-Java/Q_23.java) |  |
+
+<div align="right"><a href="#-chapter-overview">⬆ back to overview</a></div>
+
+<a id="chapter-04"></a>
+
+### ⌨️ Chapter 04 · Input in Java
+
+📘 **[Theory, MCQs and short questions](04-Input-in-Java/Theory.md)** · 💻 8 programs
+
+| No. | Program | |
+|:---:|---|:---:|
+| **Q24** | [Input using Every Scanner Method](04-Input-in-Java/Q_24.java) |  |
+| **Q25** | [Volume and Surface Area of a Cuboid](04-Input-in-Java/Q_25.java) |  |
+| **Q26** | [Final Velocity: Input through Parameters](04-Input-in-Java/Q_26.java) |  |
+| **Q27** | [Distance Travelled: Input by Initialisation](04-Input-in-Java/Q_27.java) |  |
+| **Q28** | [Reading a Full Name with nextLine() after nextInt()](04-Input-in-Java/Q_28.java) |  |
+| **Q29** | [Bill Amount after a 10% Discount](04-Input-in-Java/Q_29.java) |  |
+| **Q30** | [Distance Conversion: Kilometres to Metres, Centimetres and Miles](04-Input-in-Java/Q_30.java) |  |
+| **Q31** | [Gross and Net Salary of an Employee](04-Input-in-Java/Q_31.java) |  |
 
 <div align="right"><a href="#-chapter-overview">⬆ back to overview</a></div>
 
