@@ -3,11 +3,12 @@
  *   Program  : Q_221
  *   Chapter  : 11 - Constructors
  *   Title    : Class ParkingLot
+ *   Class    : ParkingLot   (compile: javac Q_221.java   run: java ParkingLot)
  * --------------------------------------------------------------------
  *   Question :
  *
- *   [ICSE 2015] Define a class ParkingLot (written here as class
- *   Q_221) with the following description:
+ *   [ICSE 2015] Define a class ParkingLot with the following
+ *   description:
  *
  *       Instance variables:
  *       int vno       : to store the vehicle number
@@ -29,12 +30,12 @@
 
 import java.util.Scanner;
 
-public class Q_221
+class ParkingLot
 {
     int vno, hours;
     double bill;
 
-    Q_221()
+    ParkingLot()
     {
         vno = 0;
         hours = 0;
@@ -66,7 +67,7 @@ public class Q_221
 
     public static void main(String[] args)
     {
-        Q_221 ob = new Q_221();
+        ParkingLot ob = new ParkingLot();
         ob.input();
         ob.calculate();
         ob.display();
@@ -76,12 +77,12 @@ public class Q_221
 /*
  * Variable Description Table
  *
- * +----------------------+-----------+-----------------------------+
- * | Name of the Variable | Data Type | Purpose / Description       |
- * +----------------------+-----------+-----------------------------+
- * | vno                  | int       | to store the vehicle number |
- * | hours                | int       | to store the hours parked   |
- * | bill                 | double    | to store the bill amount    |
- * | ob                   | Q_221     | to refer to the object      |
- * +----------------------+-----------+-----------------------------+
+ * +----------------------+------------+-----------------------------+
+ * | Name of the Variable | Data Type  | Purpose / Description       |
+ * +----------------------+------------+-----------------------------+
+ * | vno                  | int        | to store the vehicle number |
+ * | hours                | int        | to store the hours parked   |
+ * | bill                 | double     | to store the bill amount    |
+ * | ob                   | ParkingLot | to refer to the object      |
+ * +----------------------+------------+-----------------------------+
  */

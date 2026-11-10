@@ -3,12 +3,12 @@
  *   Program  : Q_216
  *   Chapter  : 11 - Constructors
  *   Title    : Constructor Overloading: Class Time
+ *   Class    : Time   (compile: javac Q_216.java   run: java Time)
  * --------------------------------------------------------------------
  *   Question :
  *
- *   Define a class Time (written here as class Q_216) with data
- *   members int hh, mm, ss and the following overloaded
- *   constructors:
+ *   Define a class Time with data members int hh, mm, ss and the
+ *   following overloaded constructors:
  *
  *       Time()                      : sets the time to 00:00:00
  *       Time(int h)                 : sets hours to h, minutes and
@@ -24,32 +24,32 @@
  * ====================================================================
  */
 
-public class Q_216
+class Time
 {
     int hh, mm, ss;
 
-    Q_216()
+    Time()
     {
         hh = 0;
         mm = 0;
         ss = 0;
     }
 
-    Q_216(int h)
+    Time(int h)
     {
         hh = (h >= 0 && h <= 23) ? h : 0;
         mm = 0;
         ss = 0;
     }
 
-    Q_216(int h, int m)
+    Time(int h, int m)
     {
         hh = (h >= 0 && h <= 23) ? h : 0;
         mm = (m >= 0 && m <= 59) ? m : 0;
         ss = 0;
     }
 
-    Q_216(int h, int m, int s)
+    Time(int h, int m, int s)
     {
         hh = (h >= 0 && h <= 23) ? h : 0;
         mm = (m >= 0 && m <= 59) ? m : 0;
@@ -70,11 +70,11 @@ public class Q_216
 
     public static void main(String[] args)
     {
-        Q_216 t1 = new Q_216();
-        Q_216 t2 = new Q_216(9);
-        Q_216 t3 = new Q_216(14, 5);
-        Q_216 t4 = new Q_216(23, 59, 7);
-        Q_216 t5 = new Q_216(25, 70, 30);
+        Time t1 = new Time();
+        Time t2 = new Time(9);
+        Time t3 = new Time(14, 5);
+        Time t4 = new Time(23, 59, 7);
+        Time t5 = new Time(25, 70, 30);
         t1.display();
         t2.display();
         t3.display();
@@ -96,10 +96,10 @@ public class Q_216
  * | m                    | int       | to receive the minutes             |
  * | s                    | int       | to receive the seconds             |
  * | t                    | String    | to build the formatted time        |
- * | t1                   | Q_216     | to refer to the first time object  |
- * | t2                   | Q_216     | to refer to the second time object |
- * | t3                   | Q_216     | to refer to the third time object  |
- * | t4                   | Q_216     | to refer to the fourth time object |
- * | t5                   | Q_216     | to refer to the fifth time object  |
+ * | t1                   | Time      | to refer to the first time object  |
+ * | t2                   | Time      | to refer to the second time object |
+ * | t3                   | Time      | to refer to the third time object  |
+ * | t4                   | Time      | to refer to the fourth time object |
+ * | t5                   | Time      | to refer to the fifth time object  |
  * +----------------------+-----------+------------------------------------+
  */

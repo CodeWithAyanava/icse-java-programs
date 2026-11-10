@@ -3,11 +3,11 @@
  *   Program  : Q_228
  *   Chapter  : 11 - Constructors
  *   Title    : Class Library: Fine for Late Return
+ *   Class    : Library   (compile: javac Q_228.java   run: java Library)
  * --------------------------------------------------------------------
  *   Question :
  *
- *   Define a class Library (written here as class Q_228) with the
- *   following description:
+ *   Define a class Library with the following description:
  *
  *       Instance variables:
  *       String title, author; int daysLate; double fine
@@ -30,13 +30,13 @@
 
 import java.util.Scanner;
 
-public class Q_228
+class Library
 {
     String title, author;
     int daysLate;
     double fine;
 
-    Q_228(String t, String a, int d)
+    Library(String t, String a, int d)
     {
         title = t;
         author = a;
@@ -71,7 +71,7 @@ public class Q_228
         String a = sc.nextLine();
         System.out.print("Enter days late: ");
         int d = sc.nextInt();
-        Q_228 ob = new Q_228(t, a, d);
+        Library ob = new Library(t, a, d);
         ob.computeFine();
         ob.display();
     }
@@ -90,6 +90,6 @@ public class Q_228
  * | t                    | String    | to store/receive the title      |
  * | a                    | String    | to store/receive the author     |
  * | d                    | int       | to store/receive the days late  |
- * | ob                   | Q_228     | to refer to the object          |
+ * | ob                   | Library   | to refer to the object          |
  * +----------------------+-----------+---------------------------------+
  */

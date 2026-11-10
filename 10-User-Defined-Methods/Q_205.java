@@ -3,11 +3,11 @@
  *   Program  : Q_205
  *   Chapter  : 10 - User-Defined Methods
  *   Title    : Class Number with Data Member and Member Methods
+ *   Class    : Number   (compile: javac Q_205.java   run: java Number)
  * --------------------------------------------------------------------
  *   Question :
  *
- *   Define a class Number (written here as class Q_205) with the
- *   following description:
+ *   Define a class Number with the following description:
  *
  *       Data member : long n
  *       void input()        : to accept the number
@@ -25,7 +25,7 @@
 
 import java.util.Scanner;
 
-public class Q_205
+class Number
 {
     long n;
 
@@ -77,7 +77,7 @@ public class Q_205
 
     public static void main(String[] args)
     {
-        Q_205 ob = new Q_205();
+        Number ob = new Number();
         ob.input();
         ob.display();
     }
@@ -93,6 +93,6 @@ public class Q_205
  * | s                    | int       | to store the sum of digits   |
  * | t                    | long      | to store a working copy of n |
  * | rev                  | long      | to store the reverse         |
- * | ob                   | Q_205     | to refer to the object       |
+ * | ob                   | Number    | to refer to the object       |
  * +----------------------+-----------+------------------------------+
  */

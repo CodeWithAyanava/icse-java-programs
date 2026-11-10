@@ -3,11 +3,11 @@
  *   Program  : Q_235
  *   Chapter  : 11 - Constructors
  *   Title    : Class BusConveyance
+ *   Class    : BusConveyance   (compile: javac Q_235.java   run: java BusConveyance)
  * --------------------------------------------------------------------
  *   Question :
  *
- *   Define a class BusConveyance (written here as class Q_235) with
- *   the following description:
+ *   Define a class BusConveyance with the following description:
  *
  *       Instance variables:
  *       String name; int age; double distance, fare
@@ -30,13 +30,13 @@
 
 import java.util.Scanner;
 
-public class Q_235
+class BusConveyance
 {
     String name;
     int age;
     double distance, fare;
 
-    Q_235()
+    BusConveyance()
     {
         name = "";
         age = 0;
@@ -78,7 +78,7 @@ public class Q_235
 
     public static void main(String[] args)
     {
-        Q_235 ob = new Q_235();
+        BusConveyance ob = new BusConveyance();
         ob.input();
         ob.calculate();
         ob.display();
@@ -88,13 +88,13 @@ public class Q_235
 /*
  * Variable Description Table
  *
- * +----------------------+-----------+-------------------------------+
- * | Name of the Variable | Data Type | Purpose / Description         |
- * +----------------------+-----------+-------------------------------+
- * | name                 | String    | to store the passenger's name |
- * | age                  | int       | to store the age              |
- * | distance             | double    | to store the distance         |
- * | fare                 | double    | to store the fare             |
- * | ob                   | Q_235     | to refer to the object        |
- * +----------------------+-----------+-------------------------------+
+ * +----------------------+---------------+-------------------------------+
+ * | Name of the Variable | Data Type     | Purpose / Description         |
+ * +----------------------+---------------+-------------------------------+
+ * | name                 | String        | to store the passenger's name |
+ * | age                  | int           | to store the age              |
+ * | distance             | double        | to store the distance         |
+ * | fare                 | double        | to store the fare             |
+ * | ob                   | BusConveyance | to refer to the object        |
+ * +----------------------+---------------+-------------------------------+
  */

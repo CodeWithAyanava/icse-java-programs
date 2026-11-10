@@ -3,11 +3,11 @@
  *   Program  : Q_177
  *   Chapter  : 09 - Class as the Basis of all Computation
  *   Title    : Class Student: Average and Grade
+ *   Class    : Student   (compile: javac Q_177.java   run: java Student)
  * --------------------------------------------------------------------
  *   Question :
  *
- *   Define a class Student (written here as class Q_177) with the
- *   following description:
+ *   Define a class Student with the following description:
  *
  *       Data members : String name; int m1, m2, m3; double avg; char grade
  *       void accept()  : to accept the name and marks in three subjects
@@ -24,7 +24,7 @@
 
 import java.util.Scanner;
 
-public class Q_177
+class Student
 {
     String name;
     int m1, m2, m3;
@@ -65,7 +65,7 @@ public class Q_177
 
     public static void main(String[] args)
     {
-        Q_177 s = new Q_177();
+        Student s = new Student();
         s.accept();
         s.compute();
         s.display();
@@ -84,6 +84,6 @@ public class Q_177
  * | m3                   | int       | to store marks in subject 3    |
  * | avg                  | double    | to store the average marks     |
  * | grade                | char      | to store the grade             |
- * | s                    | Q_177     | to refer to the student object |
+ * | s                    | Student   | to refer to the student object |
  * +----------------------+-----------+--------------------------------+
  */

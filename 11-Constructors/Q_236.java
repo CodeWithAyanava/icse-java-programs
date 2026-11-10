@@ -3,11 +3,11 @@
  *   Program  : Q_236
  *   Chapter  : 11 - Constructors
  *   Title    : Class CinemaTicket
+ *   Class    : CinemaTicket   (compile: javac Q_236.java   run: java CinemaTicket)
  * --------------------------------------------------------------------
  *   Question :
  *
- *   Define a class CinemaTicket (written here as class Q_236) with
- *   the following description:
+ *   Define a class CinemaTicket with the following description:
  *
  *       Instance variables:
  *       String name; char seat; int tickets; double amount
@@ -33,14 +33,14 @@
 
 import java.util.Scanner;
 
-public class Q_236
+class CinemaTicket
 {
     String name;
     char seat;
     int tickets;
     double amount;
 
-    Q_236()
+    CinemaTicket()
     {
         name = "";
         seat = ' ';
@@ -99,7 +99,7 @@ public class Q_236
 
     public static void main(String[] args)
     {
-        Q_236 ob = new Q_236();
+        CinemaTicket ob = new CinemaTicket();
         ob.accept();
         ob.compute();
         ob.display();
@@ -109,15 +109,15 @@ public class Q_236
 /*
  * Variable Description Table
  *
- * +----------------------+-----------+--------------------------------+
- * | Name of the Variable | Data Type | Purpose / Description          |
- * +----------------------+-----------+--------------------------------+
- * | name                 | String    | to store the customer's name   |
- * | seat                 | char      | to store the seat class        |
- * | tickets              | int       | to store the number of tickets |
- * | amount               | double    | to store the amount payable    |
- * | rate                 | int       | to store the rate per ticket   |
- * | cost                 | double    | to store the ticket cost       |
- * | ob                   | Q_236     | to refer to the object         |
- * +----------------------+-----------+--------------------------------+
+ * +----------------------+--------------+--------------------------------+
+ * | Name of the Variable | Data Type    | Purpose / Description          |
+ * +----------------------+--------------+--------------------------------+
+ * | name                 | String       | to store the customer's name   |
+ * | seat                 | char         | to store the seat class        |
+ * | tickets              | int          | to store the number of tickets |
+ * | amount               | double       | to store the amount payable    |
+ * | rate                 | int          | to store the rate per ticket   |
+ * | cost                 | double       | to store the ticket cost       |
+ * | ob                   | CinemaTicket | to refer to the object         |
+ * +----------------------+--------------+--------------------------------+
  */

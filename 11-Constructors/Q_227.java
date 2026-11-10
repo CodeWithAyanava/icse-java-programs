@@ -3,11 +3,11 @@
  *   Program  : Q_227
  *   Chapter  : 11 - Constructors
  *   Title    : Class Student: Stream Allocation
+ *   Class    : Student   (compile: javac Q_227.java   run: java Student)
  * --------------------------------------------------------------------
  *   Question :
  *
- *   Define a class Student (written here as class Q_227) with the
- *   following description:
+ *   Define a class Student with the following description:
  *
  *       Instance variables:
  *       String name; int age; int m1, m2, m3; int maximum; double average
@@ -34,13 +34,13 @@
 
 import java.util.Scanner;
 
-public class Q_227
+class Student
 {
     String name;
     int age, m1, m2, m3, maximum;
     double average;
 
-    Q_227()
+    Student()
     {
         name = "";
         age = 0;
@@ -94,7 +94,7 @@ public class Q_227
 
     public static void main(String[] args)
     {
-        Q_227 ob = new Q_227();
+        Student ob = new Student();
         ob.acceptDetails();
         ob.compute();
         ob.display();
@@ -115,6 +115,6 @@ public class Q_227
  * | maximum              | int       | to store the highest marks   |
  * | average              | double    | to store the average marks   |
  * | stream               | String    | to store the stream allotted |
- * | ob                   | Q_227     | to refer to the object       |
+ * | ob                   | Student   | to refer to the object       |
  * +----------------------+-----------+------------------------------+
  */

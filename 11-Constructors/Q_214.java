@@ -3,12 +3,12 @@
  *   Program  : Q_214
  *   Chapter  : 11 - Constructors
  *   Title    : Constructor Overloading: Rectangle with Three Constructors
+ *   Class    : Rectangle   (compile: javac Q_214.java   run: java Rectangle)
  * --------------------------------------------------------------------
  *   Question :
  *
- *   Define a class Rectangle (written here as class Q_214) with data
- *   members double length and breadth, and the following overloaded
- *   constructors:
+ *   Define a class Rectangle with data members double length and
+ *   breadth, and the following overloaded constructors:
  *
  *       Rectangle()                   : sets length and breadth to 1
  *       Rectangle(double s)           : creates a square of side s
@@ -20,23 +20,23 @@
  * ====================================================================
  */
 
-public class Q_214
+class Rectangle
 {
     double length, breadth;
 
-    Q_214()
+    Rectangle()
     {
         length = 1;
         breadth = 1;
     }
 
-    Q_214(double s)
+    Rectangle(double s)
     {
         length = s;
         breadth = s;
     }
 
-    Q_214(double l, double b)
+    Rectangle(double l, double b)
     {
         length = l;
         breadth = b;
@@ -54,9 +54,9 @@ public class Q_214
 
     public static void main(String[] args)
     {
-        Q_214 r1 = new Q_214();
-        Q_214 r2 = new Q_214(4.5);
-        Q_214 r3 = new Q_214(8, 2.5);
+        Rectangle r1 = new Rectangle();
+        Rectangle r2 = new Rectangle(4.5);
+        Rectangle r3 = new Rectangle(8, 2.5);
         r1.show();
         r2.show();
         r3.show();
@@ -74,8 +74,8 @@ public class Q_214
  * | s                    | double    | to receive the side of a square   |
  * | l                    | double    | to receive the length             |
  * | b                    | double    | to receive the breadth            |
- * | r1                   | Q_214     | to refer to the default rectangle |
- * | r2                   | Q_214     | to refer to the square            |
- * | r3                   | Q_214     | to refer to the third rectangle   |
+ * | r1                   | Rectangle | to refer to the default rectangle |
+ * | r2                   | Rectangle | to refer to the square            |
+ * | r3                   | Rectangle | to refer to the third rectangle   |
  * +----------------------+-----------+-----------------------------------+
  */

@@ -3,12 +3,12 @@
  *   Program  : Q_5
  *   Chapter  : 01 - Introduction to OOP and Java
  *   Title    : Class Car: Two Objects, Same Behaviour, Different States
+ *   Class    : Car   (compile: javac Q_5.java   run: java Car)
  * --------------------------------------------------------------------
  *   Question :
  *
- *   Define a class Car (written here as class Q_5) to show that
- *   objects of the same class share behaviour but have their own
- *   state.
+ *   Define a class Car to show that objects of the same class share
+ *   behaviour but have their own state.
  *
  *       Data members : String brand, int speed
  *       void setBrand(String b) : to assign the brand and set speed to 0
@@ -24,7 +24,7 @@
  * ====================================================================
  */
 
-public class Q_5
+class Car
 {
     String brand;
     int speed;
@@ -54,8 +54,8 @@ public class Q_5
 
     public static void main(String[] args)
     {
-        Q_5 car1 = new Q_5();
-        Q_5 car2 = new Q_5();
+        Car car1 = new Car();
+        Car car2 = new Car();
         car1.setBrand("Tata Nexon");
         car2.setBrand("Maruti Swift");
 
@@ -82,7 +82,7 @@ public class Q_5
  * | b                    | String    | to receive the brand name         |
  * | inc                  | int       | to receive the increase in speed  |
  * | dec                  | int       | to receive the decrease in speed  |
- * | car1                 | Q_5       | to refer to the first car object  |
- * | car2                 | Q_5       | to refer to the second car object |
+ * | car1                 | Car       | to refer to the first car object  |
+ * | car2                 | Car       | to refer to the second car object |
  * +----------------------+-----------+-----------------------------------+
  */

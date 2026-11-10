@@ -3,11 +3,11 @@
  *   Program  : Q_251
  *   Chapter  : 13 - Encapsulation
  *   Title    : Access Specifiers: private, default, protected and public
+ *   Class    : Account   (compile: javac Q_251.java   run: java Account)
  * --------------------------------------------------------------------
  *   Question :
  *
- *   Define a class Account (written here as class Q_251) having one
- *   member of each access level:
+ *   Define a class Account having one member of each access level:
  *
  *       private double balance        - visible only inside this class
  *       String branch (default)       - visible inside the same package
@@ -24,7 +24,7 @@
  * ====================================================================
  */
 
-public class Q_251
+class Account
 {
     private double balance;
     String branch;
@@ -44,7 +44,7 @@ public class Q_251
 
     public static void main(String[] args)
     {
-        Q_251 a = new Q_251();
+        Account a = new Account();
         a.holder = "Ishaan Roy";
         a.branch = "Salt Lake";
         a.ifsc = "ABCD0001234";
@@ -76,6 +76,6 @@ public class Q_251
  * | ifsc                 | String    | to store the ifsc code (protected)   |
  * | holder               | String    | to store the holder's name (public)  |
  * | amt                  | double    | to receive the amount deposited      |
- * | a                    | Q_251     | to refer to the account object       |
+ * | a                    | Account   | to refer to the account object       |
  * +----------------------+-----------+--------------------------------------+
  */

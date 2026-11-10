@@ -3,11 +3,12 @@
  *   Program  : Q_217
  *   Chapter  : 11 - Constructors
  *   Title    : Class ElectricBill
+ *   Class    : ElectricBill   (compile: javac Q_217.java   run: java ElectricBill)
  * --------------------------------------------------------------------
  *   Question :
  *
- *   [ICSE 2017] Define a class ElectricBill (written here as class
- *   Q_217) with the following specifications:
+ *   [ICSE 2017] Define a class ElectricBill with the following
+ *   specifications:
  *
  *       Instance variables:
  *       String n      : to store the name of the customer
@@ -36,13 +37,13 @@
 
 import java.util.Scanner;
 
-public class Q_217
+class ElectricBill
 {
     String n;
     int units;
     double bill;
 
-    Q_217()
+    ElectricBill()
     {
         n = "";
         units = 0;
@@ -82,7 +83,7 @@ public class Q_217
 
     public static void main(String[] args)
     {
-        Q_217 ob = new Q_217();
+        ElectricBill ob = new ElectricBill();
         ob.accept();
         ob.calculate();
         ob.print();
@@ -92,12 +93,12 @@ public class Q_217
 /*
  * Variable Description Table
  *
- * +----------------------+-----------+------------------------------+
- * | Name of the Variable | Data Type | Purpose / Description        |
- * +----------------------+-----------+------------------------------+
- * | n                    | String    | to store the customer's name |
- * | units                | int       | to store the units consumed  |
- * | bill                 | double    | to store the bill amount     |
- * | ob                   | Q_217     | to refer to the object       |
- * +----------------------+-----------+------------------------------+
+ * +----------------------+--------------+------------------------------+
+ * | Name of the Variable | Data Type    | Purpose / Description        |
+ * +----------------------+--------------+------------------------------+
+ * | n                    | String       | to store the customer's name |
+ * | units                | int          | to store the units consumed  |
+ * | bill                 | double       | to store the bill amount     |
+ * | ob                   | ElectricBill | to refer to the object       |
+ * +----------------------+--------------+------------------------------+
  */

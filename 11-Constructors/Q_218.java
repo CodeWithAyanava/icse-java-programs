@@ -3,11 +3,12 @@
  *   Program  : Q_218
  *   Chapter  : 11 - Constructors
  *   Title    : Class ShowRoom
+ *   Class    : ShowRoom   (compile: javac Q_218.java   run: java ShowRoom)
  * --------------------------------------------------------------------
  *   Question :
  *
- *   [ICSE 2019] Define a class ShowRoom (written here as class
- *   Q_218) with the following description:
+ *   [ICSE 2019] Define a class ShowRoom with the following
+ *   description:
  *
  *       Instance variables:
  *       String name   : to store the name of the customer
@@ -38,13 +39,13 @@
 
 import java.util.Scanner;
 
-public class Q_218
+class ShowRoom
 {
     String name;
     long mobno;
     double cost, dis, amount;
 
-    Q_218()
+    ShowRoom()
     {
         name = "";
         mobno = 0;
@@ -88,7 +89,7 @@ public class Q_218
 
     public static void main(String[] args)
     {
-        Q_218 ob = new Q_218();
+        ShowRoom ob = new ShowRoom();
         ob.input();
         ob.calculate();
         ob.display();
@@ -107,6 +108,6 @@ public class Q_218
  * | dis                  | double    | to store the discount            |
  * | amount               | double    | to store the amount to be paid   |
  * | rate                 | int       | to store the discount percentage |
- * | ob                   | Q_218     | to refer to the object           |
+ * | ob                   | ShowRoom  | to refer to the object           |
  * +----------------------+-----------+----------------------------------+
  */

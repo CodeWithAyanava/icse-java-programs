@@ -3,12 +3,12 @@
  *   Program  : Q_254
  *   Chapter  : 13 - Encapsulation
  *   Title    : BankAccount with a Private, Validated Balance
+ *   Class    : BankAccount   (compile: javac Q_254.java   run: java BankAccount)
  * --------------------------------------------------------------------
  *   Question :
  *
- *   Define a class BankAccount (written here as class Q_254) in
- *   which the balance cannot be changed directly from outside the
- *   class:
+ *   Define a class BankAccount in which the balance cannot be
+ *   changed directly from outside the class:
  *
  *       private long accNo; private String holder; private double balance
  *       BankAccount(long a, String h)  : constructor, balance starts at 0
@@ -28,13 +28,13 @@
  * ====================================================================
  */
 
-public class Q_254
+class BankAccount
 {
     private long accNo;
     private String holder;
     private double balance;
 
-    Q_254(long a, String h)
+    BankAccount(long a, String h)
     {
         accNo = a;
         holder = h;
@@ -69,7 +69,7 @@ public class Q_254
 
     public static void main(String[] args)
     {
-        Q_254 acc = new Q_254(20261001L, "Megha Kar");
+        BankAccount acc = new BankAccount(20261001L, "Megha Kar");
         System.out.println("Deposit 5000     : " + (acc.deposit(5000) ? "Success" : "Rejected"));
         System.out.println("Withdraw 1200    : " + (acc.withdraw(1200) ? "Success" : "Rejected"));
         System.out.println("Withdraw 10000   : " + (acc.withdraw(10000) ? "Success" : "Rejected"));
@@ -83,15 +83,15 @@ public class Q_254
 /*
  * Variable Description Table
  *
- * +----------------------+-----------+--------------------------------+
- * | Name of the Variable | Data Type | Purpose / Description          |
- * +----------------------+-----------+--------------------------------+
- * | accNo                | long      | to store the account number    |
- * | holder               | String    | to store the holder's name     |
- * | balance              | double    | to store the balance           |
- * | a                    | long      | to receive the account number  |
- * | h                    | String    | to receive the holder's name   |
- * | amt                  | double    | to receive the amount          |
- * | acc                  | Q_254     | to refer to the account object |
- * +----------------------+-----------+--------------------------------+
+ * +----------------------+-------------+--------------------------------+
+ * | Name of the Variable | Data Type   | Purpose / Description          |
+ * +----------------------+-------------+--------------------------------+
+ * | accNo                | long        | to store the account number    |
+ * | holder               | String      | to store the holder's name     |
+ * | balance              | double      | to store the balance           |
+ * | a                    | long        | to receive the account number  |
+ * | h                    | String      | to receive the holder's name   |
+ * | amt                  | double      | to receive the amount          |
+ * | acc                  | BankAccount | to refer to the account object |
+ * +----------------------+-------------+--------------------------------+
  */

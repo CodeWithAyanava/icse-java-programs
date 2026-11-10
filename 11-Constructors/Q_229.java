@@ -3,11 +3,11 @@
  *   Program  : Q_229
  *   Chapter  : 11 - Constructors
  *   Title    : Class Hotel: Room Bill
+ *   Class    : Hotel   (compile: javac Q_229.java   run: java Hotel)
  * --------------------------------------------------------------------
  *   Question :
  *
- *   Define a class Hotel (written here as class Q_229) with the
- *   following description:
+ *   Define a class Hotel with the following description:
  *
  *       Instance variables:
  *       String guest; char roomType; int days; double bill
@@ -31,14 +31,14 @@
 
 import java.util.Scanner;
 
-public class Q_229
+class Hotel
 {
     String guest;
     char roomType;
     int days;
     double bill;
 
-    Q_229()
+    Hotel()
     {
         guest = "";
         roomType = ' ';
@@ -98,7 +98,7 @@ public class Q_229
 
     public static void main(String[] args)
     {
-        Q_229 ob = new Q_229();
+        Hotel ob = new Hotel();
         ob.input();
         ob.compute();
         ob.display();
@@ -116,6 +116,6 @@ public class Q_229
  * | days                 | int       | to store the days of stay |
  * | bill                 | double    | to store the bill         |
  * | rate                 | int       | to store the daily tariff |
- * | ob                   | Q_229     | to refer to the object    |
+ * | ob                   | Hotel     | to refer to the object    |
  * +----------------------+-----------+---------------------------+
  */

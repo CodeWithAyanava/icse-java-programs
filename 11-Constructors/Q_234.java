@@ -3,11 +3,11 @@
  *   Program  : Q_234
  *   Chapter  : 11 - Constructors
  *   Title    : Class BankDeposit: Maturity with Compound Interest
+ *   Class    : BankDeposit   (compile: javac Q_234.java   run: java BankDeposit)
  * --------------------------------------------------------------------
  *   Question :
  *
- *   Define a class BankDeposit (written here as class Q_234) with
- *   the following description:
+ *   Define a class BankDeposit with the following description:
  *
  *       Instance variables:
  *       String name; double principal; int years; double rate, maturity
@@ -31,14 +31,14 @@
 
 import java.util.Scanner;
 
-public class Q_234
+class BankDeposit
 {
     String name;
     double principal;
     int years;
     double rate, maturity;
 
-    Q_234(String n, double p, int y)
+    BankDeposit(String n, double p, int y)
     {
         name = n;
         principal = p;
@@ -86,7 +86,7 @@ public class Q_234
         }
         else
         {
-            Q_234 ob = new Q_234(n, p, y);
+            BankDeposit ob = new BankDeposit(n, p, y);
             ob.setRate();
             ob.compute();
             ob.display();
@@ -97,17 +97,17 @@ public class Q_234
 /*
  * Variable Description Table
  *
- * +----------------------+-----------+--------------------------------+
- * | Name of the Variable | Data Type | Purpose / Description          |
- * +----------------------+-----------+--------------------------------+
- * | name                 | String    | to store the depositor's name  |
- * | principal            | double    | to store the principal         |
- * | years                | int       | to store the period in years   |
- * | rate                 | double    | to store the rate of interest  |
- * | maturity             | double    | to store the maturity amount   |
- * | n                    | String    | to store/receive the name      |
- * | p                    | double    | to store/receive the principal |
- * | y                    | int       | to store/receive the years     |
- * | ob                   | Q_234     | to refer to the object         |
- * +----------------------+-----------+--------------------------------+
+ * +----------------------+-------------+--------------------------------+
+ * | Name of the Variable | Data Type   | Purpose / Description          |
+ * +----------------------+-------------+--------------------------------+
+ * | name                 | String      | to store the depositor's name  |
+ * | principal            | double      | to store the principal         |
+ * | years                | int         | to store the period in years   |
+ * | rate                 | double      | to store the rate of interest  |
+ * | maturity             | double      | to store the maturity amount   |
+ * | n                    | String      | to store/receive the name      |
+ * | p                    | double      | to store/receive the principal |
+ * | y                    | int         | to store/receive the years     |
+ * | ob                   | BankDeposit | to refer to the object         |
+ * +----------------------+-------------+--------------------------------+
  */

@@ -3,29 +3,29 @@
  *   Program  : Q_253
  *   Chapter  : 13 - Encapsulation
  *   Title    : Counting Objects with a Static (Class) Variable
+ *   Class    : Visitor   (compile: javac Q_253.java   run: java Visitor)
  * --------------------------------------------------------------------
  *   Question :
  *
- *   Define a class Visitor (written here as class Q_253) with a
- *   private static int total that counts how many Visitor objects
- *   have been created, a private String name, a parameterised
- *   constructor Visitor(String n) that stores the name and increases
- *   total by 1, an instance method void greet() and a static method
- *   int getTotal(). In main(), accept the names of n visitors (n
- *   entered by the user) and create an object for each, greeting
- *   each visitor; finally display the total number of visitors using
- *   getTotal().
+ *   Define a class Visitor with a private static int total that
+ *   counts how many Visitor objects have been created, a private
+ *   String name, a parameterised constructor Visitor(String n) that
+ *   stores the name and increases total by 1, an instance method
+ *   void greet() and a static method int getTotal(). In main(),
+ *   accept the names of n visitors (n entered by the user) and
+ *   create an object for each, greeting each visitor; finally
+ *   display the total number of visitors using getTotal().
  * ====================================================================
  */
 
 import java.util.Scanner;
 
-public class Q_253
+class Visitor
 {
     private static int total = 0;
     private String name;
 
-    Q_253(String n)
+    Visitor(String n)
     {
         name = n;
         total++;
@@ -50,7 +50,7 @@ public class Q_253
         for (int i = 1; i <= n; i++)
         {
             System.out.print("Enter name: ");
-            Q_253 v = new Q_253(sc.nextLine());
+            Visitor v = new Visitor(sc.nextLine());
             v.greet();
         }
         System.out.println("Total visitors = " + getTotal());
@@ -67,6 +67,6 @@ public class Q_253
  * | name                 | String    | to store the visitor's name                       |
  * | n                    | int       | to receive the name / store the count of visitors |
  * | i                    | int       | to act as the loop counter                        |
- * | v                    | Q_253     | to refer to each visitor object                   |
+ * | v                    | Visitor   | to refer to each visitor object                   |
  * +----------------------+-----------+---------------------------------------------------+
  */

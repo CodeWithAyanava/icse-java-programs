@@ -3,11 +3,11 @@
  *   Program  : Q_232
  *   Chapter  : 11 - Constructors
  *   Title    : Class CloudStorage
+ *   Class    : CloudStorage   (compile: javac Q_232.java   run: java CloudStorage)
  * --------------------------------------------------------------------
  *   Question :
  *
- *   Define a class CloudStorage (written here as class Q_232) with
- *   the following description:
+ *   Define a class CloudStorage with the following description:
  *
  *       Instance variables:
  *       int acno       : to store the account number
@@ -31,12 +31,12 @@
 
 import java.util.Scanner;
 
-public class Q_232
+class CloudStorage
 {
     int acno, storage;
     double bill;
 
-    Q_232()
+    CloudStorage()
     {
         acno = 0;
         storage = 0;
@@ -75,7 +75,7 @@ public class Q_232
 
     public static void main(String[] args)
     {
-        Q_232 ob = new Q_232();
+        CloudStorage ob = new CloudStorage();
         ob.accept();
         ob.calculate();
         ob.display();
@@ -85,12 +85,12 @@ public class Q_232
 /*
  * Variable Description Table
  *
- * +----------------------+-----------+-----------------------------+
- * | Name of the Variable | Data Type | Purpose / Description       |
- * +----------------------+-----------+-----------------------------+
- * | acno                 | int       | to store the account number |
- * | storage              | int       | to store the storage used   |
- * | bill                 | double    | to store the bill           |
- * | ob                   | Q_232     | to refer to the object      |
- * +----------------------+-----------+-----------------------------+
+ * +----------------------+--------------+-----------------------------+
+ * | Name of the Variable | Data Type    | Purpose / Description       |
+ * +----------------------+--------------+-----------------------------+
+ * | acno                 | int          | to store the account number |
+ * | storage              | int          | to store the storage used   |
+ * | bill                 | double       | to store the bill           |
+ * | ob                   | CloudStorage | to refer to the object      |
+ * +----------------------+--------------+-----------------------------+
  */

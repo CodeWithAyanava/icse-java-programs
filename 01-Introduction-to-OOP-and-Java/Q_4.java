@@ -3,11 +3,11 @@
  *   Program  : Q_4
  *   Chapter  : 01 - Introduction to OOP and Java
  *   Title    : Class Box: Creating an Object and Finding its Volume
+ *   Class    : Box   (compile: javac Q_4.java   run: java Box)
  * --------------------------------------------------------------------
  *   Question :
  *
- *   Define a class Box (written here as class Q_4 to match the file
- *   name) with the following specifications:
+ *   Define a class Box with the following specifications:
  *
  *       Data members  : double length, breadth, height
  *       void assign(double l, double b, double h) : to assign the
@@ -21,7 +21,7 @@
  * ====================================================================
  */
 
-public class Q_4
+class Box
 {
     double length, breadth, height;
 
@@ -47,7 +47,7 @@ public class Q_4
 
     public static void main(String[] args)
     {
-        Q_4 box = new Q_4();
+        Box box = new Box();
         box.assign(12.5, 8.0, 4.0);
         box.display();
     }
@@ -65,6 +65,6 @@ public class Q_4
  * | l                    | double    | to receive the length           |
  * | b                    | double    | to receive the breadth          |
  * | h                    | double    | to receive the height           |
- * | box                  | Q_4       | to refer to the box object      |
+ * | box                  | Box       | to refer to the box object      |
  * +----------------------+-----------+---------------------------------+
  */

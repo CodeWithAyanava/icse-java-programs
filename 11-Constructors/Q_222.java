@@ -3,11 +3,12 @@
  *   Program  : Q_222
  *   Chapter  : 11 - Constructors
  *   Title    : Class movieMagic
+ *   Class    : movieMagic   (compile: javac Q_222.java   run: java movieMagic)
  * --------------------------------------------------------------------
  *   Question :
  *
- *   [ICSE 2014] Define a class named movieMagic (written here as
- *   class Q_222) with the following description:
+ *   [ICSE 2014] Define a class named movieMagic with the following
+ *   description:
  *
  *       Instance variables:
  *       int year       : to store the year of release of a movie
@@ -35,13 +36,13 @@
 
 import java.util.Scanner;
 
-public class Q_222
+class movieMagic
 {
     int year;
     String title;
     float rating;
 
-    Q_222()
+    movieMagic()
     {
         year = 0;
         title = "";
@@ -76,7 +77,7 @@ public class Q_222
 
     public static void main(String[] args)
     {
-        Q_222 ob = new Q_222();
+        movieMagic ob = new movieMagic();
         ob.accept();
         ob.display();
     }
@@ -85,12 +86,12 @@ public class Q_222
 /*
  * Variable Description Table
  *
- * +----------------------+-----------+------------------------------+
- * | Name of the Variable | Data Type | Purpose / Description        |
- * +----------------------+-----------+------------------------------+
- * | year                 | int       | to store the year of release |
- * | title                | String    | to store the title           |
- * | rating               | float     | to store the rating          |
- * | ob                   | Q_222     | to refer to the object       |
- * +----------------------+-----------+------------------------------+
+ * +----------------------+------------+------------------------------+
+ * | Name of the Variable | Data Type  | Purpose / Description        |
+ * +----------------------+------------+------------------------------+
+ * | year                 | int        | to store the year of release |
+ * | title                | String     | to store the title           |
+ * | rating               | float      | to store the rating          |
+ * | ob                   | movieMagic | to refer to the object       |
+ * +----------------------+------------+------------------------------+
  */

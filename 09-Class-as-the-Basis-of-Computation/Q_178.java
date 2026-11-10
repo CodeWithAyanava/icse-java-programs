@@ -3,11 +3,11 @@
  *   Program  : Q_178
  *   Chapter  : 09 - Class as the Basis of all Computation
  *   Title    : Class BankAccount: Two Objects with Deposit and Withdraw
+ *   Class    : BankAccount   (compile: javac Q_178.java   run: java BankAccount)
  * --------------------------------------------------------------------
  *   Question :
  *
- *   Define a class BankAccount (written here as class Q_178) with
- *   the following description:
+ *   Define a class BankAccount with the following description:
  *
  *       Data members : String holder; long accNo; double balance
  *       void open(String h, long a, double amt) : to store the details;
@@ -27,7 +27,7 @@
  * ====================================================================
  */
 
-public class Q_178
+class BankAccount
 {
     String holder;
     long accNo;
@@ -64,8 +64,8 @@ public class Q_178
 
     public static void main(String[] args)
     {
-        Q_178 acc1 = new Q_178();
-        Q_178 acc2 = new Q_178();
+        BankAccount acc1 = new BankAccount();
+        BankAccount acc2 = new BankAccount();
         acc1.open("Priya Sharma", 1001L, 5000);
         acc2.open("Arjun Mehta", 1002L, 1200);
 
@@ -81,16 +81,16 @@ public class Q_178
 /*
  * Variable Description Table
  *
- * +----------------------+-----------+------------------------------------+
- * | Name of the Variable | Data Type | Purpose / Description              |
- * +----------------------+-----------+------------------------------------+
- * | holder               | String    | to store the account holder's name |
- * | accNo                | long      | to store the account number        |
- * | balance              | double    | to store the balance               |
- * | h                    | String    | to receive the holder's name       |
- * | a                    | long      | to receive the account number      |
- * | amt                  | double    | to receive an amount               |
- * | acc1                 | Q_178     | to refer to the first account      |
- * | acc2                 | Q_178     | to refer to the second account     |
- * +----------------------+-----------+------------------------------------+
+ * +----------------------+-------------+------------------------------------+
+ * | Name of the Variable | Data Type   | Purpose / Description              |
+ * +----------------------+-------------+------------------------------------+
+ * | holder               | String      | to store the account holder's name |
+ * | accNo                | long        | to store the account number        |
+ * | balance              | double      | to store the balance               |
+ * | h                    | String      | to receive the holder's name       |
+ * | a                    | long        | to receive the account number      |
+ * | amt                  | double      | to receive an amount               |
+ * | acc1                 | BankAccount | to refer to the first account      |
+ * | acc2                 | BankAccount | to refer to the second account     |
+ * +----------------------+-------------+------------------------------------+
  */

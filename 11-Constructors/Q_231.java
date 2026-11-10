@@ -3,11 +3,11 @@
  *   Program  : Q_231
  *   Chapter  : 11 - Constructors
  *   Title    : Class Courier: Charges per 500 g
+ *   Class    : Courier   (compile: javac Q_231.java   run: java Courier)
  * --------------------------------------------------------------------
  *   Question :
  *
- *   Define a class Courier (written here as class Q_231) with the
- *   following description:
+ *   Define a class Courier with the following description:
  *
  *       Instance variables:
  *       String sender; double weight (in kg); char type; double charge
@@ -32,13 +32,13 @@
 
 import java.util.Scanner;
 
-public class Q_231
+class Courier
 {
     String sender;
     double weight, charge;
     char type;
 
-    Q_231()
+    Courier()
     {
         sender = "";
         weight = 0;
@@ -87,7 +87,7 @@ public class Q_231
 
     public static void main(String[] args)
     {
-        Q_231 ob = new Q_231();
+        Courier ob = new Courier();
         ob.accept();
         ob.compute();
         ob.display();
@@ -105,6 +105,6 @@ public class Q_231
  * | charge               | double    | to store the charge                |
  * | type                 | char      | to store the type of service       |
  * | parts                | int       | to store the number of 500 g parts |
- * | ob                   | Q_231     | to refer to the object             |
+ * | ob                   | Courier   | to refer to the object             |
  * +----------------------+-----------+------------------------------------+
  */

@@ -3,11 +3,11 @@
  *   Program  : Q_223
  *   Chapter  : 11 - Constructors
  *   Title    : Class FruitJuice
+ *   Class    : FruitJuice   (compile: javac Q_223.java   run: java FruitJuice)
  * --------------------------------------------------------------------
  *   Question :
  *
- *   Define a class called FruitJuice (written here as class Q_223)
- *   with the following description:
+ *   Define a class called FruitJuice with the following description:
  *
  *       Instance variables:
  *       int product_code     : stores the product code number
@@ -34,7 +34,7 @@
 
 import java.util.Scanner;
 
-public class Q_223
+class FruitJuice
 {
     int product_code;
     String flavour;
@@ -42,7 +42,7 @@ public class Q_223
     int pack_size;
     int product_price;
 
-    Q_223()
+    FruitJuice()
     {
         product_code = 0;
         flavour = "";
@@ -85,7 +85,7 @@ public class Q_223
 
     public static void main(String[] args)
     {
-        Q_223 ob = new Q_223();
+        FruitJuice ob = new FruitJuice();
         ob.input();
         ob.discount();
         ob.display();
@@ -95,14 +95,14 @@ public class Q_223
 /*
  * Variable Description Table
  *
- * +----------------------+-----------+--------------------------------+
- * | Name of the Variable | Data Type | Purpose / Description          |
- * +----------------------+-----------+--------------------------------+
- * | product_code         | int       | to store the product code      |
- * | flavour              | String    | to store the flavour           |
- * | pack_type            | String    | to store the type of packaging |
- * | pack_size            | int       | to store the package size      |
- * | product_price        | int       | to store the price             |
- * | ob                   | Q_223     | to refer to the object         |
- * +----------------------+-----------+--------------------------------+
+ * +----------------------+------------+--------------------------------+
+ * | Name of the Variable | Data Type  | Purpose / Description          |
+ * +----------------------+------------+--------------------------------+
+ * | product_code         | int        | to store the product code      |
+ * | flavour              | String     | to store the flavour           |
+ * | pack_type            | String     | to store the type of packaging |
+ * | pack_size            | int        | to store the package size      |
+ * | product_price        | int        | to store the price             |
+ * | ob                   | FruitJuice | to refer to the object         |
+ * +----------------------+------------+--------------------------------+
  */

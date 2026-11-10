@@ -3,14 +3,14 @@
  *   Program  : Q_213
  *   Chapter  : 11 - Constructors
  *   Title    : Parameterised Constructor
+ *   Class    : Staff   (compile: javac Q_213.java   run: java Staff)
  * --------------------------------------------------------------------
  *   Question :
  *
- *   Define a class Employee (written here as class Q_213) with the
- *   following description:
+ *   Define a class Staff with the following description:
  *
  *       Data members : String name; double basic, da, hra, gross
- *       Employee(String n, double b) : parameterised constructor to
+ *       Staff(String n, double b) : parameterised constructor to
  *                      initialise name and basic, and calculate
  *                      da = 25% of basic, hra = 12% of basic and
  *                      gross = basic + da + hra
@@ -23,12 +23,12 @@
 
 import java.util.Scanner;
 
-public class Q_213
+class Staff
 {
     String name;
     double basic, da, hra, gross;
 
-    Q_213(String n, double b)
+    Staff(String n, double b)
     {
         name = n;
         basic = b;
@@ -53,7 +53,7 @@ public class Q_213
         String nm = sc.nextLine();
         System.out.print("Enter basic salary: ");
         double bs = sc.nextDouble();
-        Q_213 e = new Q_213(nm, bs);
+        Staff e = new Staff(nm, bs);
         e.display();
     }
 }
@@ -73,6 +73,6 @@ public class Q_213
  * | b                    | double    | to receive the basic salary       |
  * | nm                   | String    | to store the name entered         |
  * | bs                   | double    | to store the basic entered        |
- * | e                    | Q_213     | to refer to the employee object   |
+ * | e                    | Staff     | to refer to the employee object   |
  * +----------------------+-----------+-----------------------------------+
  */

@@ -3,11 +3,11 @@
  *   Program  : Q_176
  *   Chapter  : 09 - Class as the Basis of all Computation
  *   Title    : Class Rectangle with input(), area() and display()
+ *   Class    : Rectangle   (compile: javac Q_176.java   run: java Rectangle)
  * --------------------------------------------------------------------
  *   Question :
  *
- *   Define a class Rectangle (written here as class Q_176) with the
- *   following description:
+ *   Define a class Rectangle with the following description:
  *
  *       Data members  : double length, breadth
  *       void input()   : to accept the length and breadth from the user
@@ -24,7 +24,7 @@
 
 import java.util.Scanner;
 
-public class Q_176
+class Rectangle
 {
     double length, breadth;
 
@@ -63,7 +63,7 @@ public class Q_176
 
     public static void main(String[] args)
     {
-        Q_176 r = new Q_176();
+        Rectangle r = new Rectangle();
         r.input();
         r.display();
     }
@@ -77,6 +77,6 @@ public class Q_176
  * +----------------------+-----------+----------------------------------+
  * | length               | double    | to store the length              |
  * | breadth              | double    | to store the breadth             |
- * | r                    | Q_176     | to refer to the rectangle object |
+ * | r                    | Rectangle | to refer to the rectangle object |
  * +----------------------+-----------+----------------------------------+
  */

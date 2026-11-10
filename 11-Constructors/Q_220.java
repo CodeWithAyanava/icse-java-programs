@@ -3,11 +3,12 @@
  *   Program  : Q_220
  *   Chapter  : 11 - Constructors
  *   Title    : Class BookFair
+ *   Class    : BookFair   (compile: javac Q_220.java   run: java BookFair)
  * --------------------------------------------------------------------
  *   Question :
  *
- *   [ICSE 2016] Define a class BookFair (written here as class
- *   Q_220) with the following description:
+ *   [ICSE 2016] Define a class BookFair with the following
+ *   description:
  *
  *       Instance variables:
  *       String Bname  : to store the name of the book
@@ -35,12 +36,12 @@
 
 import java.util.Scanner;
 
-public class Q_220
+class BookFair
 {
     String Bname;
     double price;
 
-    Q_220()
+    BookFair()
     {
         Bname = "";
         price = 0.0;
@@ -75,7 +76,7 @@ public class Q_220
 
     public static void main(String[] args)
     {
-        Q_220 ob = new Q_220();
+        BookFair ob = new BookFair();
         ob.Input();
         ob.calculate();
         ob.display();
@@ -91,6 +92,6 @@ public class Q_220
  * | Bname                | String    | to store the name of the book  |
  * | price                | double    | to store the price of the book |
  * | disc                 | double    | to store the discount          |
- * | ob                   | Q_220     | to refer to the object         |
+ * | ob                   | BookFair  | to refer to the object         |
  * +----------------------+-----------+--------------------------------+
  */

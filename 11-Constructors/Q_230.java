@@ -3,11 +3,11 @@
  *   Program  : Q_230
  *   Chapter  : 11 - Constructors
  *   Title    : Class Telephone: Bill from Meter Readings
+ *   Class    : Telephone   (compile: javac Q_230.java   run: java Telephone)
  * --------------------------------------------------------------------
  *   Question :
  *
- *   Define a class Telephone (written here as class Q_230) with the
- *   following description:
+ *   Define a class Telephone with the following description:
  *
  *       Instance variables:
  *       int prv, pre   : to store the previous and present meter readings
@@ -36,13 +36,13 @@
 
 import java.util.Scanner;
 
-public class Q_230
+class Telephone
 {
     int prv, pre, call;
     String name;
     double amt, total;
 
-    Q_230()
+    Telephone()
     {
         prv = 0;
         pre = 0;
@@ -94,7 +94,7 @@ public class Q_230
 
     public static void main(String[] args)
     {
-        Q_230 ob = new Q_230();
+        Telephone ob = new Telephone();
         ob.input();
         ob.cal();
         ob.display();
@@ -113,6 +113,6 @@ public class Q_230
  * | name                 | String    | to store the consumer's name  |
  * | amt                  | double    | to store the call charges     |
  * | total                | double    | to store the total amount     |
- * | ob                   | Q_230     | to refer to the object        |
+ * | ob                   | Telephone | to refer to the object        |
  * +----------------------+-----------+-------------------------------+
  */

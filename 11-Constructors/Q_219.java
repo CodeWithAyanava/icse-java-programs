@@ -3,11 +3,12 @@
  *   Program  : Q_219
  *   Chapter  : 11 - Constructors
  *   Title    : Class RailwayTicket
+ *   Class    : RailwayTicket   (compile: javac Q_219.java   run: java RailwayTicket)
  * --------------------------------------------------------------------
  *   Question :
  *
- *   [ICSE 2018] Design a class RailwayTicket (written here as class
- *   Q_219) with the following description:
+ *   [ICSE 2018] Design a class RailwayTicket with the following
+ *   description:
  *
  *       Instance variables:
  *       String name     : to store the name of the customer
@@ -39,13 +40,13 @@
 
 import java.util.Scanner;
 
-public class Q_219
+class RailwayTicket
 {
     String name, coach;
     long mobno;
     int amt, totalamt;
 
-    Q_219()
+    RailwayTicket()
     {
         name = "";
         coach = "";
@@ -89,7 +90,7 @@ public class Q_219
 
     public static void main(String[] args)
     {
-        Q_219 ob = new Q_219();
+        RailwayTicket ob = new RailwayTicket();
         ob.accept();
         ob.update();
         ob.display();
@@ -99,14 +100,14 @@ public class Q_219
 /*
  * Variable Description Table
  *
- * +----------------------+-----------+------------------------------+
- * | Name of the Variable | Data Type | Purpose / Description        |
- * +----------------------+-----------+------------------------------+
- * | name                 | String    | to store the customer's name |
- * | coach                | String    | to store the type of coach   |
- * | mobno                | long      | to store the mobile number   |
- * | amt                  | int       | to store the basic amount    |
- * | totalamt             | int       | to store the total amount    |
- * | ob                   | Q_219     | to refer to the object       |
- * +----------------------+-----------+------------------------------+
+ * +----------------------+---------------+------------------------------+
+ * | Name of the Variable | Data Type     | Purpose / Description        |
+ * +----------------------+---------------+------------------------------+
+ * | name                 | String        | to store the customer's name |
+ * | coach                | String        | to store the type of coach   |
+ * | mobno                | long          | to store the mobile number   |
+ * | amt                  | int           | to store the basic amount    |
+ * | totalamt             | int           | to store the total amount    |
+ * | ob                   | RailwayTicket | to refer to the object       |
+ * +----------------------+---------------+------------------------------+
  */

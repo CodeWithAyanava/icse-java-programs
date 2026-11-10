@@ -3,11 +3,11 @@
  *   Program  : Q_179
  *   Chapter  : 09 - Class as the Basis of all Computation
  *   Title    : Class Point: Distance from the Origin
+ *   Class    : Point   (compile: javac Q_179.java   run: java Point)
  * --------------------------------------------------------------------
  *   Question :
  *
- *   Define a class Point (written here as class Q_179) with the
- *   following description:
+ *   Define a class Point with the following description:
  *
  *       Data members : double x, y
  *       void setPoint(double a, double b) : to assign the coordinates
@@ -23,7 +23,7 @@
 
 import java.util.Scanner;
 
-public class Q_179
+class Point
 {
     double x, y;
 
@@ -46,8 +46,8 @@ public class Q_179
     public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
-        Q_179 p1 = new Q_179();
-        Q_179 p2 = new Q_179();
+        Point p1 = new Point();
+        Point p2 = new Point();
         System.out.print("Enter x and y of the first point: ");
         p1.setPoint(sc.nextDouble(), sc.nextDouble());
         System.out.print("Enter x and y of the second point: ");
@@ -82,8 +82,8 @@ public class Q_179
  * | y                    | double    | to store the y-coordinate    |
  * | a                    | double    | to receive the x-coordinate  |
  * | b                    | double    | to receive the y-coordinate  |
- * | p1                   | Q_179     | to refer to the first point  |
- * | p2                   | Q_179     | to refer to the second point |
+ * | p1                   | Point     | to refer to the first point  |
+ * | p2                   | Point     | to refer to the second point |
  * | d1                   | double    | to store the distance of p1  |
  * | d2                   | double    | to store the distance of p2  |
  * +----------------------+-----------+------------------------------+

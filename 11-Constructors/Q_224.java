@@ -3,11 +3,11 @@
  *   Program  : Q_224
  *   Chapter  : 11 - Constructors
  *   Title    : Class Mobike
+ *   Class    : Mobike   (compile: javac Q_224.java   run: java Mobike)
  * --------------------------------------------------------------------
  *   Question :
  *
- *   Define a class Mobike (written here as class Q_224) with the
- *   following description:
+ *   Define a class Mobike with the following description:
  *
  *       Instance variables:
  *       int bno      : to store the bike's number
@@ -35,14 +35,14 @@
 
 import java.util.Scanner;
 
-public class Q_224
+class Mobike
 {
     int bno;
     long phno;
     String name;
     int days, charge;
 
-    Q_224()
+    Mobike()
     {
         bno = 0;
         phno = 0;
@@ -85,7 +85,7 @@ public class Q_224
 
     public static void main(String[] args)
     {
-        Q_224 ob = new Q_224();
+        Mobike ob = new Mobike();
         ob.input();
         ob.compute();
         ob.display();
@@ -103,6 +103,6 @@ public class Q_224
  * | name                 | String    | to store the customer's name |
  * | days                 | int       | to store the number of days  |
  * | charge               | int       | to store the rental charge   |
- * | ob                   | Q_224     | to refer to the object       |
+ * | ob                   | Mobike    | to refer to the object       |
  * +----------------------+-----------+------------------------------+
  */

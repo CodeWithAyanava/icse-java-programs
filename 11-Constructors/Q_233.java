@@ -3,11 +3,11 @@
  *   Program  : Q_233
  *   Chapter  : 11 - Constructors
  *   Title    : Class Eshop: Discount on Online Purchase
+ *   Class    : Eshop   (compile: javac Q_233.java   run: java Eshop)
  * --------------------------------------------------------------------
  *   Question :
  *
- *   Define a class Eshop (written here as class Q_233) with the
- *   following description:
+ *   Define a class Eshop with the following description:
  *
  *       Instance variables:
  *       String name   : to store the name of the item purchased
@@ -34,13 +34,13 @@
 
 import java.util.Scanner;
 
-public class Q_233
+class Eshop
 {
     String name;
     double price;
     double net;
 
-    Q_233()
+    Eshop()
     {
         name = "";
         price = 0.0;
@@ -80,7 +80,7 @@ public class Q_233
 
     public static void main(String[] args)
     {
-        Q_233 ob = new Q_233();
+        Eshop ob = new Eshop();
         ob.accept();
         ob.calculate();
         ob.display();
@@ -97,6 +97,6 @@ public class Q_233
  * | price                | double    | to store the price         |
  * | net                  | double    | to store the net amount    |
  * | rate                 | double    | to store the discount rate |
- * | ob                   | Q_233     | to refer to the object     |
+ * | ob                   | Eshop     | to refer to the object     |
  * +----------------------+-----------+----------------------------+
  */

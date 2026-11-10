@@ -3,11 +3,11 @@
  *   Program  : Q_225
  *   Chapter  : 11 - Constructors
  *   Title    : Class CabService
+ *   Class    : CabService   (compile: javac Q_225.java   run: java CabService)
  * --------------------------------------------------------------------
  *   Question :
  *
- *   Define a class CabService (written here as class Q_225) with the
- *   following description:
+ *   Define a class CabService with the following description:
  *
  *       Instance variables:
  *       String car_type : to store the type of car ("AC" or "NON AC")
@@ -34,12 +34,12 @@
 
 import java.util.Scanner;
 
-public class Q_225
+class CabService
 {
     String car_type;
     double km, bill;
 
-    Q_225()
+    CabService()
     {
         car_type = "";
         km = 0.0;
@@ -81,7 +81,7 @@ public class Q_225
 
     public static void main(String[] args)
     {
-        Q_225 ob = new Q_225();
+        CabService ob = new CabService();
         ob.accept();
         ob.calculate();
         ob.display();
@@ -91,12 +91,12 @@ public class Q_225
 /*
  * Variable Description Table
  *
- * +----------------------+-----------+-----------------------------------+
- * | Name of the Variable | Data Type | Purpose / Description             |
- * +----------------------+-----------+-----------------------------------+
- * | car_type             | String    | to store the type of car          |
- * | km                   | double    | to store the kilometres travelled |
- * | bill                 | double    | to store the bill amount          |
- * | ob                   | Q_225     | to refer to the object            |
- * +----------------------+-----------+-----------------------------------+
+ * +----------------------+------------+-----------------------------------+
+ * | Name of the Variable | Data Type  | Purpose / Description             |
+ * +----------------------+------------+-----------------------------------+
+ * | car_type             | String     | to store the type of car          |
+ * | km                   | double     | to store the kilometres travelled |
+ * | bill                 | double     | to store the bill amount          |
+ * | ob                   | CabService | to refer to the object            |
+ * +----------------------+------------+-----------------------------------+
  */

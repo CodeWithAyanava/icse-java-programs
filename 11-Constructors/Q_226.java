@@ -3,11 +3,11 @@
  *   Program  : Q_226
  *   Chapter  : 11 - Constructors
  *   Title    : Class Employee: Annual Income Tax
+ *   Class    : Employee   (compile: javac Q_226.java   run: java Employee)
  * --------------------------------------------------------------------
  *   Question :
  *
- *   Define a class Employee (written here as class Q_226) with the
- *   following description:
+ *   Define a class Employee with the following description:
  *
  *       Instance variables:
  *       String pan     : to store the PAN number
@@ -36,12 +36,12 @@
 
 import java.util.Scanner;
 
-public class Q_226
+class Employee
 {
     String pan, name;
     double income, tax;
 
-    Q_226()
+    Employee()
     {
         pan = "";
         name = "";
@@ -83,7 +83,7 @@ public class Q_226
 
     public static void main(String[] args)
     {
-        Q_226 ob = new Q_226();
+        Employee ob = new Employee();
         ob.input();
         ob.calc();
         ob.display();
@@ -100,6 +100,6 @@ public class Q_226
  * | name                 | String    | to store the name          |
  * | income               | double    | to store the annual income |
  * | tax                  | double    | to store the tax           |
- * | ob                   | Q_226     | to refer to the object     |
+ * | ob                   | Employee  | to refer to the object     |
  * +----------------------+-----------+----------------------------+
  */

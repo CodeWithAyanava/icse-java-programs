@@ -28,6 +28,7 @@ This repository follows the **ICSE Class 10 Computer Applications (86)** syllabu
 | | |
 |---|---|
 | ☕ **Standard Java** | Plain Java with a `main` method (not BlueJ), no packages — every file runs on its own |
+| 🏷️ **Class names** | Each file is `Q_n.java`. When the question names the class (e.g. *Define a class ShowRoom*), that exact name is used — `class ShowRoom` inside `Q_218.java` — otherwise the class is `Q_n` |
 | ⌨️ **Input** | `Scanner` object always named `sc`; `import java.util.Scanner;` is the only import |
 | 📝 **Header** | Program number, chapter and the full exam-style question (patterns are drawn exactly) |
 | 📋 **Variable table** | Name of the Variable · Data Type · Purpose / Description, at the bottom of every file |
@@ -41,6 +42,17 @@ cd 07-Iterative-Constructs
 javac Q_82.java
 java Q_82
 ```
+
+For a class-based question, run the class named in the question (it is also shown in the file header):
+
+```bash
+cd 11-Constructors
+javac Q_218.java
+java ShowRoom
+```
+
+> [!TIP]
+> On JDK 11 and later, `java Q_218.java` also compiles and runs any file in one step.
 
 ---
 

@@ -3,11 +3,12 @@
  *   Program  : Q_237
  *   Chapter  : 11 - Constructors
  *   Title    : Class Quiz: A Small Quiz Game
+ *   Class    : Quiz   (compile: javac Q_237.java   run: java Quiz)
  * --------------------------------------------------------------------
  *   Question :
  *
- *   [Extra] Define a class Quiz (written here as class Q_237) to
- *   conduct a short multiple-choice quiz:
+ *   [Extra] Define a class Quiz to conduct a short multiple-choice
+ *   quiz:
  *
  *       Instance variables:
  *       String player; int score, asked
@@ -32,13 +33,13 @@
 
 import java.util.Scanner;
 
-public class Q_237
+class Quiz
 {
     static Scanner sc = new Scanner(System.in);
     String player;
     int score, asked;
 
-    Q_237(String p)
+    Quiz(String p)
     {
         player = p;
         score = 0;
@@ -79,7 +80,7 @@ public class Q_237
     {
         System.out.print("Enter your name: ");
         String nm = sc.nextLine();
-        Q_237 q = new Q_237(nm);
+        Quiz q = new Quiz(nm);
         q.ask("Which keyword creates an object?", "(a) class  (b) new  (c) this  (d) void", 'b');
         q.ask("What is the size of a char in Java?", "(a) 1 byte  (b) 4 bytes  (c) 2 bytes  (d) 8 bytes", 'c');
         q.ask("Which loop runs at least once?", "(a) for  (b) while  (c) nested for  (d) do-while", 'd');
@@ -104,6 +105,6 @@ public class Q_237
  * | reply                | char      | to store the player's answer  |
  * | per                  | double    | to store the percentage       |
  * | nm                   | String    | to store the name entered     |
- * | q                    | Q_237     | to refer to the quiz object   |
+ * | q                    | Quiz      | to refer to the quiz object   |
  * +----------------------+-----------+-------------------------------+
  */

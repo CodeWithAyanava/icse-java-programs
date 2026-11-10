@@ -3,11 +3,11 @@
  *   Program  : Q_250
  *   Chapter  : 13 - Encapsulation
  *   Title    : Private Data with Public Getter and Setter Methods
+ *   Class    : Student   (compile: javac Q_250.java   run: java Student)
  * --------------------------------------------------------------------
  *   Question :
  *
- *   Define a class Student (written here as class Q_250) to
- *   demonstrate encapsulation:
+ *   Define a class Student to demonstrate encapsulation:
  *
  *       private String name;  private int marks;
  *       public void setName(String n)  : to assign the name; a blank name
@@ -27,7 +27,7 @@
 
 import java.util.Scanner;
 
-public class Q_250
+class Student
 {
     private String name;
     private int marks;
@@ -61,7 +61,7 @@ public class Q_250
     public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
-        Q_250 s = new Q_250();
+        Student s = new Student();
         System.out.print("Enter name: ");
         s.setName(sc.nextLine());
         System.out.print("Enter marks: ");
@@ -83,6 +83,6 @@ public class Q_250
  * | marks                | int       | to store the marks (private)          |
  * | n                    | String    | to receive the name                   |
  * | m                    | int       | to receive the marks                  |
- * | s                    | Q_250     | to refer to the student object        |
+ * | s                    | Student   | to refer to the student object        |
  * +----------------------+-----------+---------------------------------------+
  */

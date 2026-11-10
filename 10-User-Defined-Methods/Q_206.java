@@ -3,11 +3,11 @@
  *   Program  : Q_206
  *   Chapter  : 10 - User-Defined Methods
  *   Title    : Class Series with Non-Static Methods
+ *   Class    : Series   (compile: javac Q_206.java   run: java Series)
  * --------------------------------------------------------------------
  *   Question :
  *
- *   Define a class Series (written here as class Q_206) with the
- *   following description:
+ *   Define a class Series with the following description:
  *
  *       Data member : int n (number of terms)
  *       void accept()     : to accept n
@@ -25,7 +25,7 @@
 
 import java.util.Scanner;
 
-public class Q_206
+class Series
 {
     int n;
 
@@ -69,7 +69,7 @@ public class Q_206
 
     public static void main(String[] args)
     {
-        Q_206 ob = new Q_206();
+        Series ob = new Series();
         ob.accept();
         if (ob.n < 1 || ob.n > 90)
         {
@@ -100,6 +100,6 @@ public class Q_206
  * | i                    | long      | to act as the counter in other methods |
  * | odd                  | long      | to store the current odd number        |
  * | s                    | long      | to store the sum of cubes              |
- * | ob                   | Q_206     | to refer to the object                 |
+ * | ob                   | Series    | to refer to the object                 |
  * +----------------------+-----------+----------------------------------------+
  */

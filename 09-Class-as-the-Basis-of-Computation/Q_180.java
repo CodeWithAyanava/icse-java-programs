@@ -3,11 +3,11 @@
  *   Program  : Q_180
  *   Chapter  : 09 - Class as the Basis of all Computation
  *   Title    : Class Temperature with Conversion Methods
+ *   Class    : Temperature   (compile: javac Q_180.java   run: java Temperature)
  * --------------------------------------------------------------------
  *   Question :
  *
- *   Define a class Temperature (written here as class Q_180) with
- *   the following description:
+ *   Define a class Temperature with the following description:
  *
  *       Data member : double celsius
  *       void setCelsius(double c)  : to assign the temperature
@@ -27,7 +27,7 @@
 
 import java.util.Scanner;
 
-public class Q_180
+class Temperature
 {
     double celsius;
 
@@ -65,7 +65,7 @@ public class Q_180
         }
         else
         {
-            Q_180 t = new Q_180();
+            Temperature t = new Temperature();
             t.setCelsius(c);
             t.show();
         }
@@ -75,11 +75,11 @@ public class Q_180
 /*
  * Variable Description Table
  *
- * +----------------------+-----------+-------------------------------------+
- * | Name of the Variable | Data Type | Purpose / Description               |
- * +----------------------+-----------+-------------------------------------+
- * | celsius              | double    | to store the temperature in celsius |
- * | c                    | double    | to store/receive the celsius value  |
- * | t                    | Q_180     | to refer to the temperature object  |
- * +----------------------+-----------+-------------------------------------+
+ * +----------------------+-------------+-------------------------------------+
+ * | Name of the Variable | Data Type   | Purpose / Description               |
+ * +----------------------+-------------+-------------------------------------+
+ * | celsius              | double      | to store the temperature in celsius |
+ * | c                    | double      | to store/receive the celsius value  |
+ * | t                    | Temperature | to refer to the temperature object  |
+ * +----------------------+-------------+-------------------------------------+
  */
