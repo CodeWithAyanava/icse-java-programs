@@ -4,10 +4,10 @@
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![JDK 21](https://img.shields.io/badge/JDK-21-0A66C2?style=for-the-badge)
-![Programs](https://img.shields.io/badge/Programs-5-2EA44F?style=for-the-badge)
+![Programs](https://img.shields.io/badge/Programs-13-2EA44F?style=for-the-badge)
 ![ICSE Class 10](https://img.shields.io/badge/ICSE-Class%2010-8E44AD?style=for-the-badge)
 
-**A complete revision kit for ICSE Class 10 Computer Applications (Java)** — every chapter of the syllabus with board-level theory, harder self-test questions and **5** fully tested programs.
+**A complete revision kit for ICSE Class 10 Computer Applications (Java)** — every chapter of the syllabus with board-level theory, harder self-test questions and **13** fully tested programs.
 
 </div>
 
@@ -46,10 +46,11 @@ java Q_82
 | # | Chapter | Theory | Programs | Range |
 |:---:|---|:---:|:---:|:---:|
 | 01 | ☕ [Introduction to OOP and Java](#chapter-01) | [📘 Read](01-Introduction-to-OOP-and-Java/Theory.md) | **5** | Q1 – Q5 |
-| | **Total** | | **5** | |
+| 02 | 🔢 [Values and Data Types](#chapter-02) | [📘 Read](02-Values-and-Data-Types/Theory.md) | **8** | Q6 – Q13 |
+| | **Total** | | **13** | |
 
 > [!NOTE]
-> 🚧 Work in progress — 1 of 15 chapters published so far.
+> 🚧 Work in progress — 2 of 15 chapters published so far.
 
 ---
 
@@ -68,6 +69,25 @@ java Q_82
 | **Q3** | [Quotation and File Path using Escape Sequences](01-Introduction-to-OOP-and-Java/Q_3.java) |  |
 | **Q4** | [Class Box: Creating an Object and Finding its Volume](01-Introduction-to-OOP-and-Java/Q_4.java) |  |
 | **Q5** | [Class Car: Two Objects, Same Behaviour, Different States](01-Introduction-to-OOP-and-Java/Q_5.java) |  |
+
+<div align="right"><a href="#-chapter-overview">⬆ back to overview</a></div>
+
+<a id="chapter-02"></a>
+
+### 🔢 Chapter 02 · Values and Data Types
+
+📘 **[Theory, MCQs and short questions](02-Values-and-Data-Types/Theory.md)** · 💻 8 programs
+
+| No. | Program | |
+|:---:|---|:---:|
+| **Q6** | [ASCII Code of an Entered Character](02-Values-and-Data-Types/Q_6.java) |  |
+| **Q7** | [Character for an Entered ASCII Code](02-Values-and-Data-Types/Q_7.java) |  |
+| **Q8** | [Implicit Type Conversion](02-Values-and-Data-Types/Q_8.java) |  |
+| **Q9** | [Explicit Type Casting](02-Values-and-Data-Types/Q_9.java) |  |
+| **Q10** | [Swap Two Numbers using a Third Variable](02-Values-and-Data-Types/Q_10.java) |  |
+| **Q11** | [Swap Two Numbers without a Third Variable](02-Values-and-Data-Types/Q_11.java) |  |
+| **Q12** | [Next and Previous Character](02-Values-and-Data-Types/Q_12.java) |  |
+| **Q13** | [Uppercase to Lowercase using ASCII Arithmetic](02-Values-and-Data-Types/Q_13.java) |  |
 
 <div align="right"><a href="#-chapter-overview">⬆ back to overview</a></div>
 
