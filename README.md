@@ -4,10 +4,10 @@
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![JDK 21](https://img.shields.io/badge/JDK-21-0A66C2?style=for-the-badge)
-![Programs](https://img.shields.io/badge/Programs-77-2EA44F?style=for-the-badge)
+![Programs](https://img.shields.io/badge/Programs-131-2EA44F?style=for-the-badge)
 ![ICSE Class 10](https://img.shields.io/badge/ICSE-Class%2010-8E44AD?style=for-the-badge)
 
-**A complete revision kit for ICSE Class 10 Computer Applications (Java)** — every chapter of the syllabus with board-level theory, harder self-test questions and **77** fully tested programs.
+**A complete revision kit for ICSE Class 10 Computer Applications (Java)** — every chapter of the syllabus with board-level theory, harder self-test questions and **131** fully tested programs.
 
 </div>
 
@@ -51,10 +51,11 @@ java Q_82
 | 04 | ⌨️ [Input in Java](#chapter-04) | [📘 Read](04-Input-in-Java/Theory.md) | **8** | Q24 – Q31 |
 | 05 | 📐 [Mathematical Library Methods](#chapter-05) | [📘 Read](05-Mathematical-Library-Methods/Theory.md) | **14** | Q32 – Q45 |
 | 06 | 🔀 [Conditional Constructs in Java](#chapter-06) | [📘 Read](06-Conditional-Constructs/Theory.md) | **32** | Q46 – Q77 |
-| | **Total** | | **77** | |
+| 07 | 🔁 [Iterative Constructs in Java](#chapter-07) | [📘 Read](07-Iterative-Constructs/Theory.md) | **54** | Q78 – Q131 |
+| | **Total** | | **131** | |
 
 > [!NOTE]
-> 🚧 Work in progress — 6 of 15 chapters published so far.
+> 🚧 Work in progress — 7 of 15 chapters published so far.
 
 ---
 
@@ -200,6 +201,71 @@ java Q_82
 | **Q75** | [Zodiac Sign from Date of Birth](06-Conditional-Constructs/Q_75.java) | 🌟 *Extra* |
 | **Q76** | [Valid Date Checker](06-Conditional-Constructs/Q_76.java) | 🌟 *Extra* |
 | **Q77** | [BMI Calculator with Category](06-Conditional-Constructs/Q_77.java) | 🌟 *Extra* |
+
+<div align="right"><a href="#-chapter-overview">⬆ back to overview</a></div>
+
+<a id="chapter-07"></a>
+
+### 🔁 Chapter 07 · Iterative Constructs in Java
+
+📘 **[Theory, MCQs and short questions](07-Iterative-Constructs/Theory.md)** · 💻 54 programs
+
+| No. | Program | |
+|:---:|---|:---:|
+| **Q78** | [Prime Number](07-Iterative-Constructs/Q_78.java) |  |
+| **Q79** | [Palindrome Number](07-Iterative-Constructs/Q_79.java) |  |
+| **Q80** | [Armstrong Number](07-Iterative-Constructs/Q_80.java) |  |
+| **Q81** | [Perfect Number](07-Iterative-Constructs/Q_81.java) |  |
+| **Q82** | [Spy Number](07-Iterative-Constructs/Q_82.java) |  |
+| **Q83** | [Niven (Harshad) Number](07-Iterative-Constructs/Q_83.java) |  |
+| **Q84** | [Neon Number](07-Iterative-Constructs/Q_84.java) |  |
+| **Q85** | [Automorphic Number](07-Iterative-Constructs/Q_85.java) |  |
+| **Q86** | [Special Number (Krishnamurthy Number)](07-Iterative-Constructs/Q_86.java) |  |
+| **Q87** | [Special Two-Digit Number](07-Iterative-Constructs/Q_87.java) |  |
+| **Q88** | [Duck Number](07-Iterative-Constructs/Q_88.java) |  |
+| **Q89** | [Pronic Number](07-Iterative-Constructs/Q_89.java) |  |
+| **Q90** | [Disarium Number](07-Iterative-Constructs/Q_90.java) |  |
+| **Q91** | [Kaprekar Number](07-Iterative-Constructs/Q_91.java) |  |
+| **Q92** | [Tech Number](07-Iterative-Constructs/Q_92.java) |  |
+| **Q93** | [Magic Number](07-Iterative-Constructs/Q_93.java) |  |
+| **Q94** | [Happy Number](07-Iterative-Constructs/Q_94.java) |  |
+| **Q95** | [Composite Number](07-Iterative-Constructs/Q_95.java) |  |
+| **Q96** | [Emirp Number](07-Iterative-Constructs/Q_96.java) |  |
+| **Q97** | [Sunny Number](07-Iterative-Constructs/Q_97.java) |  |
+| **Q98** | [Evil Number](07-Iterative-Constructs/Q_98.java) |  |
+| **Q99** | [Unique Number](07-Iterative-Constructs/Q_99.java) |  |
+| **Q100** | [Abundant, Deficient or Perfect Number](07-Iterative-Constructs/Q_100.java) |  |
+| **Q101** | [Fibonacci Series](07-Iterative-Constructs/Q_101.java) |  |
+| **Q102** | [HCF and LCM of Two Numbers](07-Iterative-Constructs/Q_102.java) |  |
+| **Q103** | [Factorial of a Number](07-Iterative-Constructs/Q_103.java) |  |
+| **Q104** | [Sum and Product of Digits](07-Iterative-Constructs/Q_104.java) |  |
+| **Q105** | [Reverse a Number and Count its Digits](07-Iterative-Constructs/Q_105.java) |  |
+| **Q106** | [Largest and Smallest Digit of a Number](07-Iterative-Constructs/Q_106.java) |  |
+| **Q107** | [Frequency of a Given Digit in a Number](07-Iterative-Constructs/Q_107.java) |  |
+| **Q108** | [Count of Even and Odd Digits](07-Iterative-Constructs/Q_108.java) |  |
+| **Q109** | [Factors of a Number and their Count](07-Iterative-Constructs/Q_109.java) |  |
+| **Q110** | [Prime Factors of a Number](07-Iterative-Constructs/Q_110.java) |  |
+| **Q111** | [Largest and Smallest of n Numbers](07-Iterative-Constructs/Q_111.java) |  |
+| **Q112** | [Sum of Numbers until 0 is Entered](07-Iterative-Constructs/Q_112.java) |  |
+| **Q113** | [Numbers from 1 to 50 not Divisible by 3 or 5 (continue)](07-Iterative-Constructs/Q_113.java) |  |
+| **Q114** | [Sum of First n Natural Numbers and their Squares](07-Iterative-Constructs/Q_114.java) |  |
+| **Q115** | [Sum of the Series 1 + 1/2 + 1/3 + ... + 1/n](07-Iterative-Constructs/Q_115.java) |  |
+| **Q116** | [Sum of the Series x/1 + x^2/2 + x^3/3 + ... + x^n/n](07-Iterative-Constructs/Q_116.java) |  |
+| **Q117** | [Sum of the Series 1 - 2 + 3 - 4 + ... n](07-Iterative-Constructs/Q_117.java) |  |
+| **Q118** | [Sum of the Series a/2 + a/5 + a/8 + ... n Terms](07-Iterative-Constructs/Q_118.java) |  |
+| **Q119** | [Series 1, 4, 9, 16, ... and 2, 5, 10, 17, 26, ...](07-Iterative-Constructs/Q_119.java) |  |
+| **Q120** | [Series 0, 7, 26, 63, ...](07-Iterative-Constructs/Q_120.java) |  |
+| **Q121** | [Series 1, 11, 111, 1111, ... and its Sum](07-Iterative-Constructs/Q_121.java) |  |
+| **Q122** | [Series 1, -3, 5, -7, 9, ... and its Sum](07-Iterative-Constructs/Q_122.java) |  |
+| **Q123** | [Looping Menu: Sum of Digits, Reverse, Count of Digits](07-Iterative-Constructs/Q_123.java) |  |
+| **Q124** | [Decimal to Binary Conversion](07-Iterative-Constructs/Q_124.java) | 🌟 *Extra* |
+| **Q125** | [Decimal to Octal Conversion](07-Iterative-Constructs/Q_125.java) | 🌟 *Extra* |
+| **Q126** | [Decimal to Hexadecimal Conversion](07-Iterative-Constructs/Q_126.java) | 🌟 *Extra* |
+| **Q127** | [Binary to Decimal Conversion](07-Iterative-Constructs/Q_127.java) | 🌟 *Extra* |
+| **Q128** | [Collatz (Hailstone) Sequence](07-Iterative-Constructs/Q_128.java) | 🌟 *Extra* |
+| **Q129** | [Number Guessing Game](07-Iterative-Constructs/Q_129.java) | 🌟 *Extra* |
+| **Q130** | [Reverse-and-Add until a Palindrome](07-Iterative-Constructs/Q_130.java) | 🌟 *Extra* |
+| **Q131** | [Smith Number](07-Iterative-Constructs/Q_131.java) | 🌟 *Extra* |
 
 <div align="right"><a href="#-chapter-overview">⬆ back to overview</a></div>
 
