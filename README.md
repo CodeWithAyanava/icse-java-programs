@@ -4,10 +4,10 @@
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![JDK 21](https://img.shields.io/badge/JDK-21-0A66C2?style=for-the-badge)
-![Programs](https://img.shields.io/badge/Programs-301-2EA44F?style=for-the-badge)
+![Programs](https://img.shields.io/badge/Programs-350-2EA44F?style=for-the-badge)
 ![ICSE Class 10](https://img.shields.io/badge/ICSE-Class%2010-8E44AD?style=for-the-badge)
 
-**A complete revision kit for ICSE Class 10 Computer Applications (Java)** — every chapter of the syllabus with board-level theory, harder self-test questions and **301** fully tested programs.
+**A complete revision kit for ICSE Class 10 Computer Applications (Java)** — every chapter of the syllabus with board-level theory, harder self-test questions and **350** fully tested programs.
 
 </div>
 
@@ -59,10 +59,8 @@ java Q_82
 | 12 | 📚 [Library Classes](#chapter-12) | [📘 Read](12-Library-Classes/Theory.md) | **12** | Q238 – Q249 |
 | 13 | 🔒 [Encapsulation](#chapter-13) | [📘 Read](13-Encapsulation/Theory.md) | **5** | Q250 – Q254 |
 | 14 | 🗃️ [Arrays](#chapter-14) | [📘 Read](14-Arrays/Theory.md) | **47** | Q255 – Q301 |
-| | **Total** | | **301** | |
-
-> [!NOTE]
-> 🚧 Work in progress — 14 of 15 chapters published so far.
+| 15 | 🔤 [String Handling](#chapter-15) | [📘 Read](15-String-Handling/Theory.md) | **49** | Q302 – Q350 |
+| | **Total** | | **350** | |
 
 ---
 
@@ -520,6 +518,66 @@ java Q_82
 | **Q299** | [Matrix Multiplication](14-Arrays/Q_299.java) | 🌟 *Extra* |
 | **Q300** | [Magic Square Check](14-Arrays/Q_300.java) | 🌟 *Extra* |
 | **Q301** | [Tic-Tac-Toe Winner Checker](14-Arrays/Q_301.java) | 🌟 *Extra* |
+
+<div align="right"><a href="#-chapter-overview">⬆ back to overview</a></div>
+
+<a id="chapter-15"></a>
+
+### 🔤 Chapter 15 · String Handling
+
+📘 **[Theory, MCQs and short questions](15-String-Handling/Theory.md)** · 💻 49 programs
+
+| No. | Program | |
+|:---:|---|:---:|
+| **Q302** | [Palindrome Word](15-String-Handling/Q_302.java) |  |
+| **Q303** | [Pig Latin](15-String-Handling/Q_303.java) |  |
+| **Q304** | [Uppercase Conversion and Double-Letter Sequences](15-String-Handling/Q_304.java) |  |
+| **Q305** | [Capitalise the First Letter of Each Word](15-String-Handling/Q_305.java) |  |
+| **Q306** | [Initials of a Name](15-String-Handling/Q_306.java) |  |
+| **Q307** | [Names in Alphabetical Order using Bubble Sort](15-String-Handling/Q_307.java) |  |
+| **Q308** | [Names in Alphabetical Order using Selection Sort](15-String-Handling/Q_308.java) |  |
+| **Q309** | [Linear Search for a Name](15-String-Handling/Q_309.java) |  |
+| **Q310** | [Count the Words in a Sentence](15-String-Handling/Q_310.java) |  |
+| **Q311** | [Longest Word in a Sentence](15-String-Handling/Q_311.java) |  |
+| **Q312** | [Reverse Each Word of a Sentence](15-String-Handling/Q_312.java) |  |
+| **Q313** | [Reverse the Order of Words](15-String-Handling/Q_313.java) |  |
+| **Q314** | [Toggle the Case of Each Letter](15-String-Handling/Q_314.java) |  |
+| **Q315** | [Frequency of Each Letter](15-String-Handling/Q_315.java) |  |
+| **Q316** | [Letters of a Word in Alphabetical Order](15-String-Handling/Q_316.java) |  |
+| **Q317** | [Special Word or Palindrome Word](15-String-Handling/Q_317.java) |  |
+| **Q318** | [Count the Palindrome Words in a Sentence](15-String-Handling/Q_318.java) |  |
+| **Q319** | [Frequency of a Given Word in a Sentence](15-String-Handling/Q_319.java) |  |
+| **Q320** | [Replace a Word with Another Word](15-String-Handling/Q_320.java) |  |
+| **Q321** | [Remove the Vowels from a Sentence](15-String-Handling/Q_321.java) |  |
+| **Q322** | [Word Pattern: B, BL, BLU, BLUE, BLUEJ](15-String-Handling/Q_322.java) |  |
+| **Q323** | [Word Pattern: JAVA, AVA, VA, A](15-String-Handling/Q_323.java) |  |
+| **Q324** | [Overloading joystring()](15-String-Handling/Q_324.java) |  |
+| **Q325** | [Overloading count(): Vowels and a Given Character](15-String-Handling/Q_325.java) |  |
+| **Q326** | [Count the Words Beginning with a Vowel](15-String-Handling/Q_326.java) |  |
+| **Q327** | [Names Starting or Ending with Given Letters](15-String-Handling/Q_327.java) |  |
+| **Q328** | [Output of the String Class Methods](15-String-Handling/Q_328.java) |  |
+| **Q329** | [Output of compareTo(), compareToIgnoreCase() and equals()](15-String-Handling/Q_329.java) |  |
+| **Q330** | [Count Pairs of Consecutive Letters](15-String-Handling/Q_330.java) |  |
+| **Q331** | [Word with the Maximum Number of Vowels](15-String-Handling/Q_331.java) |  |
+| **Q332** | [Swap the First and Last Letters of Each Word](15-String-Handling/Q_332.java) |  |
+| **Q333** | [Display Each Word with its Length](15-String-Handling/Q_333.java) |  |
+| **Q334** | [Username and Domain from an Email Address](15-String-Handling/Q_334.java) |  |
+| **Q335** | [Number in Words, Digit by Digit](15-String-Handling/Q_335.java) |  |
+| **Q336** | [Characters at Alternate Positions](15-String-Handling/Q_336.java) |  |
+| **Q337** | [Encode a Sentence by Shifting Letters by 2](15-String-Handling/Q_337.java) |  |
+| **Q338** | [Remove Extra Spaces from a Sentence](15-String-Handling/Q_338.java) |  |
+| **Q339** | [Words that Begin and End with a Vowel](15-String-Handling/Q_339.java) |  |
+| **Q340** | [Words of a Sentence in Alphabetical Order](15-String-Handling/Q_340.java) |  |
+| **Q341** | [First Non-Repeating Character](15-String-Handling/Q_341.java) |  |
+| **Q342** | [Anagram Check](15-String-Handling/Q_342.java) |  |
+| **Q343** | [Pangram Check](15-String-Handling/Q_343.java) | 🌟 *Extra* |
+| **Q344** | [Login Check using concat() and equalsIgnoreCase()](15-String-Handling/Q_344.java) |  |
+| **Q345** | [Words that Come First and Last Alphabetically](15-String-Handling/Q_345.java) |  |
+| **Q346** | [Number to Roman Numerals](15-String-Handling/Q_346.java) | 🌟 *Extra* |
+| **Q347** | [Caesar Cipher: Encrypt and Decrypt](15-String-Handling/Q_347.java) | 🌟 *Extra* |
+| **Q348** | [Word Scramble Game](15-String-Handling/Q_348.java) | 🌟 *Extra* |
+| **Q349** | [Run-Length Encoding](15-String-Handling/Q_349.java) | 🌟 *Extra* |
+| **Q350** | [24-Hour Time to 12-Hour Time](15-String-Handling/Q_350.java) | 🌟 *Extra* |
 
 <div align="right"><a href="#-chapter-overview">⬆ back to overview</a></div>
 
