@@ -4,10 +4,10 @@
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![JDK 21](https://img.shields.io/badge/JDK-21-0A66C2?style=for-the-badge)
-![Programs](https://img.shields.io/badge/Programs-45-2EA44F?style=for-the-badge)
+![Programs](https://img.shields.io/badge/Programs-77-2EA44F?style=for-the-badge)
 ![ICSE Class 10](https://img.shields.io/badge/ICSE-Class%2010-8E44AD?style=for-the-badge)
 
-**A complete revision kit for ICSE Class 10 Computer Applications (Java)** — every chapter of the syllabus with board-level theory, harder self-test questions and **45** fully tested programs.
+**A complete revision kit for ICSE Class 10 Computer Applications (Java)** — every chapter of the syllabus with board-level theory, harder self-test questions and **77** fully tested programs.
 
 </div>
 
@@ -50,10 +50,11 @@ java Q_82
 | 03 | ➗ [Operators in Java](#chapter-03) | [📘 Read](03-Operators-in-Java/Theory.md) | **10** | Q14 – Q23 |
 | 04 | ⌨️ [Input in Java](#chapter-04) | [📘 Read](04-Input-in-Java/Theory.md) | **8** | Q24 – Q31 |
 | 05 | 📐 [Mathematical Library Methods](#chapter-05) | [📘 Read](05-Mathematical-Library-Methods/Theory.md) | **14** | Q32 – Q45 |
-| | **Total** | | **45** | |
+| 06 | 🔀 [Conditional Constructs in Java](#chapter-06) | [📘 Read](06-Conditional-Constructs/Theory.md) | **32** | Q46 – Q77 |
+| | **Total** | | **77** | |
 
 > [!NOTE]
-> 🚧 Work in progress — 5 of 15 chapters published so far.
+> 🚧 Work in progress — 6 of 15 chapters published so far.
 
 ---
 
@@ -156,6 +157,49 @@ java Q_82
 | **Q43** | [Volume and Surface Area of a Sphere](05-Mathematical-Library-Methods/Q_43.java) |  |
 | **Q44** | [Integer Part, Fractional Part, Ceiling and Floor](05-Mathematical-Library-Methods/Q_44.java) |  |
 | **Q45** | [Four-Digit OTP Generator](05-Mathematical-Library-Methods/Q_45.java) | 🌟 *Extra* |
+
+<div align="right"><a href="#-chapter-overview">⬆ back to overview</a></div>
+
+<a id="chapter-06"></a>
+
+### 🔀 Chapter 06 · Conditional Constructs in Java
+
+📘 **[Theory, MCQs and short questions](06-Conditional-Constructs/Theory.md)** · 💻 32 programs
+
+| No. | Program | |
+|:---:|---|:---:|
+| **Q46** | [Electricity Bill (Slab System)](06-Conditional-Constructs/Q_46.java) |  |
+| **Q47** | [Income Tax by Age, Gender and Slab](06-Conditional-Constructs/Q_47.java) |  |
+| **Q48** | [Discount on Laptop or Desktop Purchase](06-Conditional-Constructs/Q_48.java) |  |
+| **Q49** | [Menu-Driven Program: Area of Circle, Square or Rectangle](06-Conditional-Constructs/Q_49.java) |  |
+| **Q50** | [Simple Calculator using switch](06-Conditional-Constructs/Q_50.java) |  |
+| **Q51** | [Menu-Driven Temperature Conversion](06-Conditional-Constructs/Q_51.java) |  |
+| **Q52** | [Day of the Week using switch](06-Conditional-Constructs/Q_52.java) |  |
+| **Q53** | [Name of the Month and Number of Days](06-Conditional-Constructs/Q_53.java) |  |
+| **Q54** | [Season of the Year using Fall-Through in switch](06-Conditional-Constructs/Q_54.java) |  |
+| **Q55** | [Vowel or Consonant using switch](06-Conditional-Constructs/Q_55.java) |  |
+| **Q56** | [Grade from Percentage](06-Conditional-Constructs/Q_56.java) |  |
+| **Q57** | [Courier Charges by Weight and Type](06-Conditional-Constructs/Q_57.java) |  |
+| **Q58** | [Telephone Bill with Monthly Rent](06-Conditional-Constructs/Q_58.java) |  |
+| **Q59** | [Commission on Sales](06-Conditional-Constructs/Q_59.java) |  |
+| **Q60** | [Fixed Deposit Interest by Period](06-Conditional-Constructs/Q_60.java) |  |
+| **Q61** | [Taxi Fare by Distance](06-Conditional-Constructs/Q_61.java) |  |
+| **Q62** | [Leap Year Check](06-Conditional-Constructs/Q_62.java) |  |
+| **Q63** | [Largest of Three Numbers using Nested if](06-Conditional-Constructs/Q_63.java) |  |
+| **Q64** | [Triangle Validity and Type by Sides](06-Conditional-Constructs/Q_64.java) |  |
+| **Q65** | [Odd or Even Number](06-Conditional-Constructs/Q_65.java) |  |
+| **Q66** | [Positive, Negative or Zero](06-Conditional-Constructs/Q_66.java) |  |
+| **Q67** | [Eligibility to Vote](06-Conditional-Constructs/Q_67.java) |  |
+| **Q68** | [Uppercase, Lowercase, Digit or Special Character](06-Conditional-Constructs/Q_68.java) |  |
+| **Q69** | [Buzz Number](06-Conditional-Constructs/Q_69.java) |  |
+| **Q70** | [Divisibility by 5 and 11](06-Conditional-Constructs/Q_70.java) |  |
+| **Q71** | [Profit or Loss and its Percentage](06-Conditional-Constructs/Q_71.java) |  |
+| **Q72** | [Quadrant of a Point](06-Conditional-Constructs/Q_72.java) |  |
+| **Q73** | [Menu with an Exit Option using System.exit(0)](06-Conditional-Constructs/Q_73.java) |  |
+| **Q74** | [Rock, Paper, Scissors against the Computer](06-Conditional-Constructs/Q_74.java) | 🌟 *Extra* |
+| **Q75** | [Zodiac Sign from Date of Birth](06-Conditional-Constructs/Q_75.java) | 🌟 *Extra* |
+| **Q76** | [Valid Date Checker](06-Conditional-Constructs/Q_76.java) | 🌟 *Extra* |
+| **Q77** | [BMI Calculator with Category](06-Conditional-Constructs/Q_77.java) | 🌟 *Extra* |
 
 <div align="right"><a href="#-chapter-overview">⬆ back to overview</a></div>
 
