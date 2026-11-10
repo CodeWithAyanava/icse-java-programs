@@ -4,10 +4,10 @@
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![JDK 21](https://img.shields.io/badge/JDK-21-0A66C2?style=for-the-badge)
-![Programs](https://img.shields.io/badge/Programs-131-2EA44F?style=for-the-badge)
+![Programs](https://img.shields.io/badge/Programs-175-2EA44F?style=for-the-badge)
 ![ICSE Class 10](https://img.shields.io/badge/ICSE-Class%2010-8E44AD?style=for-the-badge)
 
-**A complete revision kit for ICSE Class 10 Computer Applications (Java)** — every chapter of the syllabus with board-level theory, harder self-test questions and **131** fully tested programs.
+**A complete revision kit for ICSE Class 10 Computer Applications (Java)** — every chapter of the syllabus with board-level theory, harder self-test questions and **175** fully tested programs.
 
 </div>
 
@@ -52,10 +52,11 @@ java Q_82
 | 05 | 📐 [Mathematical Library Methods](#chapter-05) | [📘 Read](05-Mathematical-Library-Methods/Theory.md) | **14** | Q32 – Q45 |
 | 06 | 🔀 [Conditional Constructs in Java](#chapter-06) | [📘 Read](06-Conditional-Constructs/Theory.md) | **32** | Q46 – Q77 |
 | 07 | 🔁 [Iterative Constructs in Java](#chapter-07) | [📘 Read](07-Iterative-Constructs/Theory.md) | **54** | Q78 – Q131 |
-| | **Total** | | **131** | |
+| 08 | 🔲 [Nested for Loops](#chapter-08) | [📘 Read](08-Nested-for-Loops/Theory.md) | **44** | Q132 – Q175 |
+| | **Total** | | **175** | |
 
 > [!NOTE]
-> 🚧 Work in progress — 7 of 15 chapters published so far.
+> 🚧 Work in progress — 8 of 15 chapters published so far.
 
 ---
 
@@ -266,6 +267,61 @@ java Q_82
 | **Q129** | [Number Guessing Game](07-Iterative-Constructs/Q_129.java) | 🌟 *Extra* |
 | **Q130** | [Reverse-and-Add until a Palindrome](07-Iterative-Constructs/Q_130.java) | 🌟 *Extra* |
 | **Q131** | [Smith Number](07-Iterative-Constructs/Q_131.java) | 🌟 *Extra* |
+
+<div align="right"><a href="#-chapter-overview">⬆ back to overview</a></div>
+
+<a id="chapter-08"></a>
+
+### 🔲 Chapter 08 · Nested for Loops
+
+📘 **[Theory, MCQs and short questions](08-Nested-for-Loops/Theory.md)** · 💻 44 programs
+
+| No. | Program | |
+|:---:|---|:---:|
+| **Q132** | [Pattern: 1, 1 2, 1 2 3, ...](08-Nested-for-Loops/Q_132.java) |  |
+| **Q133** | [Pattern: 1, 2 2, 3 3 3, ...](08-Nested-for-Loops/Q_133.java) |  |
+| **Q134** | [Pattern: 1 2 3 4 5, 1 2 3 4, ...](08-Nested-for-Loops/Q_134.java) |  |
+| **Q135** | [Pattern: 5, 5 4, 5 4 3, ...](08-Nested-for-Loops/Q_135.java) |  |
+| **Q136** | [Pattern: 5 4 3 2 1, 4 3 2 1, ...](08-Nested-for-Loops/Q_136.java) |  |
+| **Q137** | [Pattern: 1, 2 1, 3 2 1, ...](08-Nested-for-Loops/Q_137.java) |  |
+| **Q138** | [Pattern: 5 5 5 5 5, 4 4 4 4, ...](08-Nested-for-Loops/Q_138.java) |  |
+| **Q139** | [Floyd's Triangle](08-Nested-for-Loops/Q_139.java) |  |
+| **Q140** | [Pattern: 1, 0 1, 1 0 1, ...](08-Nested-for-Loops/Q_140.java) |  |
+| **Q141** | [Pattern: 1, 2 4, 3 6 9, ...](08-Nested-for-Loops/Q_141.java) |  |
+| **Q142** | [Pattern: 1, 1 3, 1 3 5, ...](08-Nested-for-Loops/Q_142.java) |  |
+| **Q143** | [Pattern: Right-Angled Triangle of Stars](08-Nested-for-Loops/Q_143.java) |  |
+| **Q144** | [Pattern: Inverted Triangle of Stars](08-Nested-for-Loops/Q_144.java) |  |
+| **Q145** | [Pattern: Alternating # and * Triangle](08-Nested-for-Loops/Q_145.java) |  |
+| **Q146** | [Pattern: A, A B, A B C, ...](08-Nested-for-Loops/Q_146.java) |  |
+| **Q147** | [Pattern: A, B B, C C C, ...](08-Nested-for-Loops/Q_147.java) |  |
+| **Q148** | [Pattern: A B C D E, A B C D, ...](08-Nested-for-Loops/Q_148.java) |  |
+| **Q149** | [Pattern: E, D E, C D E, ...](08-Nested-for-Loops/Q_149.java) |  |
+| **Q150** | [Floyd's Triangle of Letters](08-Nested-for-Loops/Q_150.java) |  |
+| **Q151** | [Pattern: Rows of Numbers and Letters Alternately](08-Nested-for-Loops/Q_151.java) |  |
+| **Q152** | [Rectangular Pattern: 1 2 3 4 5 in Every Row](08-Nested-for-Loops/Q_152.java) |  |
+| **Q153** | [Rectangular Pattern: Row Number Repeated](08-Nested-for-Loops/Q_153.java) |  |
+| **Q154** | [Rectangular Pattern: 1 2 3 4 5, 2 3 4 5 6, ...](08-Nested-for-Loops/Q_154.java) |  |
+| **Q155** | [Hollow Rectangle of Stars](08-Nested-for-Loops/Q_155.java) |  |
+| **Q156** | [Rectangle with Alternate Rows of * and #](08-Nested-for-Loops/Q_156.java) |  |
+| **Q157** | [Pyramid of Stars](08-Nested-for-Loops/Q_157.java) | 🌟 *Extra* |
+| **Q158** | [Diamond of Stars](08-Nested-for-Loops/Q_158.java) | 🌟 *Extra* |
+| **Q159** | [Number Pyramid: 1, 1 2 1, 1 2 3 2 1, ...](08-Nested-for-Loops/Q_159.java) | 🌟 *Extra* |
+| **Q160** | [Pascal's Triangle](08-Nested-for-Loops/Q_160.java) | 🌟 *Extra* |
+| **Q161** | [Hourglass of Stars](08-Nested-for-Loops/Q_161.java) | 🌟 *Extra* |
+| **Q162** | [First n Multiples of Each Number from 1 to a Limit](08-Nested-for-Loops/Q_162.java) |  |
+| **Q163** | [Multiplication Tables from 1 to 10 in a Grid](08-Nested-for-Loops/Q_163.java) |  |
+| **Q164** | [Prime Numbers between Two Limits](08-Nested-for-Loops/Q_164.java) |  |
+| **Q165** | [Perfect Numbers from 1 to n](08-Nested-for-Loops/Q_165.java) |  |
+| **Q166** | [Armstrong Numbers in a Range](08-Nested-for-Loops/Q_166.java) |  |
+| **Q167** | [Palindrome Numbers in a Range](08-Nested-for-Loops/Q_167.java) |  |
+| **Q168** | [Twin Primes up to n](08-Nested-for-Loops/Q_168.java) |  |
+| **Q169** | [Sum of the Series 1! + 2! + 3! + ... + n!](08-Nested-for-Loops/Q_169.java) |  |
+| **Q170** | [Sum of the Series 1 + (1+2) + (1+2+3) + ...](08-Nested-for-Loops/Q_170.java) |  |
+| **Q171** | [Sum of the Series x/1! + x^2/2! + ... + x^n/n!](08-Nested-for-Loops/Q_171.java) |  |
+| **Q172** | [Sum of the Series 1 - x^2/2! + x^4/4! - ...](08-Nested-for-Loops/Q_172.java) |  |
+| **Q173** | [Disarium Numbers between Two Limits](08-Nested-for-Loops/Q_173.java) |  |
+| **Q174** | [break and continue in Nested Loops](08-Nested-for-Loops/Q_174.java) |  |
+| **Q175** | [Pythagorean Triplets up to n](08-Nested-for-Loops/Q_175.java) | 🌟 *Extra* |
 
 <div align="right"><a href="#-chapter-overview">⬆ back to overview</a></div>
 
