@@ -4,10 +4,10 @@
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![JDK 21](https://img.shields.io/badge/JDK-21-0A66C2?style=for-the-badge)
-![Programs](https://img.shields.io/badge/Programs-249-2EA44F?style=for-the-badge)
+![Programs](https://img.shields.io/badge/Programs-254-2EA44F?style=for-the-badge)
 ![ICSE Class 10](https://img.shields.io/badge/ICSE-Class%2010-8E44AD?style=for-the-badge)
 
-**A complete revision kit for ICSE Class 10 Computer Applications (Java)** — every chapter of the syllabus with board-level theory, harder self-test questions and **249** fully tested programs.
+**A complete revision kit for ICSE Class 10 Computer Applications (Java)** — every chapter of the syllabus with board-level theory, harder self-test questions and **254** fully tested programs.
 
 </div>
 
@@ -57,10 +57,11 @@ java Q_82
 | 10 | 🧩 [User-Defined Methods](#chapter-10) | [📘 Read](10-User-Defined-Methods/Theory.md) | **30** | Q182 – Q211 |
 | 11 | 🏗️ [Constructors](#chapter-11) | [📘 Read](11-Constructors/Theory.md) | **26** | Q212 – Q237 |
 | 12 | 📚 [Library Classes](#chapter-12) | [📘 Read](12-Library-Classes/Theory.md) | **12** | Q238 – Q249 |
-| | **Total** | | **249** | |
+| 13 | 🔒 [Encapsulation](#chapter-13) | [📘 Read](13-Encapsulation/Theory.md) | **5** | Q250 – Q254 |
+| | **Total** | | **254** | |
 
 > [!NOTE]
-> 🚧 Work in progress — 12 of 15 chapters published so far.
+> 🚧 Work in progress — 13 of 15 chapters published so far.
 
 ---
 
@@ -444,6 +445,22 @@ java Q_82
 | **Q247** | [Validate a 10-Digit Mobile Number](12-Library-Classes/Q_247.java) |  |
 | **Q248** | [Percentage from Marks Entered as Strings](12-Library-Classes/Q_248.java) |  |
 | **Q249** | [Password Strength Checker](12-Library-Classes/Q_249.java) | 🌟 *Extra* |
+
+<div align="right"><a href="#-chapter-overview">⬆ back to overview</a></div>
+
+<a id="chapter-13"></a>
+
+### 🔒 Chapter 13 · Encapsulation
+
+📘 **[Theory, MCQs and short questions](13-Encapsulation/Theory.md)** · 💻 5 programs
+
+| No. | Program | |
+|:---:|---|:---:|
+| **Q250** | [Private Data with Public Getter and Setter Methods](13-Encapsulation/Q_250.java) |  |
+| **Q251** | [Access Specifiers: private, default, protected and public](13-Encapsulation/Q_251.java) |  |
+| **Q252** | [Kinds of Variables: Class, Instance, Local and Argument](13-Encapsulation/Q_252.java) |  |
+| **Q253** | [Counting Objects with a Static (Class) Variable](13-Encapsulation/Q_253.java) |  |
+| **Q254** | [BankAccount with a Private, Validated Balance](13-Encapsulation/Q_254.java) |  |
 
 <div align="right"><a href="#-chapter-overview">⬆ back to overview</a></div>
 
