@@ -28,7 +28,7 @@ This repository follows the **ICSE Class 10 Computer Applications (86)** syllabu
 | | |
 |---|---|
 | ☕ **Standard Java** | Plain Java with a `main` method (not BlueJ), no packages — every file runs on its own |
-| 🏷️ **Class names** | Each file is `Q_n.java`. When the question names the class (e.g. *Define a class ShowRoom*), that exact name is used — `class ShowRoom` inside `Q_218.java` — otherwise the class is `Q_n` |
+| 🏷️ **Class names** | When the question names the class (e.g. *Define a class ShowRoom*), that exact name is used: `public class ShowRoom` in `ShowRoom.java`. Otherwise the file is `Q_n.java` with `public class Q_n` |
 | ⌨️ **Input** | `Scanner` object always named `sc`; `import java.util.Scanner;` is the only import |
 | 📝 **Header** | Program number, chapter and the full exam-style question (patterns are drawn exactly) |
 | 📋 **Variable table** | Name of the Variable · Data Type · Purpose / Description, at the bottom of every file |
@@ -43,16 +43,16 @@ javac Q_82.java
 java Q_82
 ```
 
-For a class-based question, run the class named in the question (it is also shown in the file header):
+A class-based program is saved under its class name:
 
 ```bash
 cd 11-Constructors
-javac Q_218.java
+javac ShowRoom.java
 java ShowRoom
 ```
 
 > [!TIP]
-> On JDK 11 and later, `java Q_218.java` also compiles and runs any file in one step.
+> Every program number (Q1 – Q350) is listed in order in the index below, and each file also shows its number in its header.
 
 ---
 
@@ -92,8 +92,8 @@ java ShowRoom
 | **Q1** | [Display Student Details using print() and println()](01-Introduction-to-OOP-and-Java/Q_1.java) |  |
 | **Q2** | [Marks Table using Tab and New-Line Escape Sequences](01-Introduction-to-OOP-and-Java/Q_2.java) |  |
 | **Q3** | [Quotation and File Path using Escape Sequences](01-Introduction-to-OOP-and-Java/Q_3.java) |  |
-| **Q4** | [Class Box: Creating an Object and Finding its Volume](01-Introduction-to-OOP-and-Java/Q_4.java) |  |
-| **Q5** | [Class Car: Two Objects, Same Behaviour, Different States](01-Introduction-to-OOP-and-Java/Q_5.java) |  |
+| **Q4** | [Class Box: Creating an Object and Finding its Volume](01-Introduction-to-OOP-and-Java/Box.java) |  |
+| **Q5** | [Class Car: Two Objects, Same Behaviour, Different States](01-Introduction-to-OOP-and-Java/Car.java) |  |
 
 <div align="right"><a href="#-chapter-overview">⬆ back to overview</a></div>
 
@@ -352,12 +352,12 @@ java ShowRoom
 
 | No. | Program | |
 |:---:|---|:---:|
-| **Q176** | [Class Rectangle with input(), area() and display()](09-Class-as-the-Basis-of-Computation/Q_176.java) |  |
-| **Q177** | [Class Student: Average and Grade](09-Class-as-the-Basis-of-Computation/Q_177.java) |  |
-| **Q178** | [Class BankAccount: Two Objects with Deposit and Withdraw](09-Class-as-the-Basis-of-Computation/Q_178.java) |  |
-| **Q179** | [Class Point: Distance from the Origin](09-Class-as-the-Basis-of-Computation/Q_179.java) |  |
-| **Q180** | [Class Temperature with Conversion Methods](09-Class-as-the-Basis-of-Computation/Q_180.java) |  |
-| **Q181** | [Class Book as a Composite Data Type: References and Objects](09-Class-as-the-Basis-of-Computation/Q_181.java) |  |
+| **Q176** | [Class Rectangle with input(), area() and display()](09-Class-as-the-Basis-of-Computation/Rectangle.java) |  |
+| **Q177** | [Class Student: Average and Grade](09-Class-as-the-Basis-of-Computation/Student.java) |  |
+| **Q178** | [Class BankAccount: Two Objects with Deposit and Withdraw](09-Class-as-the-Basis-of-Computation/BankAccount.java) |  |
+| **Q179** | [Class Point: Distance from the Origin](09-Class-as-the-Basis-of-Computation/Point.java) |  |
+| **Q180** | [Class Temperature with Conversion Methods](09-Class-as-the-Basis-of-Computation/Temperature.java) |  |
+| **Q181** | [Class Book as a Composite Data Type: References and Objects](09-Class-as-the-Basis-of-Computation/Book.java) |  |
 
 <div align="right"><a href="#-chapter-overview">⬆ back to overview</a></div>
 
@@ -392,8 +392,8 @@ java ShowRoom
 | **Q202** | [Call by Value: Swapping inside a Method](10-User-Defined-Methods/Q_202.java) |  |
 | **Q203** | [Actual and Formal Parameters with Return Values](10-User-Defined-Methods/Q_203.java) |  |
 | **Q204** | [Menu-Driven Number Checks using Methods](10-User-Defined-Methods/Q_204.java) |  |
-| **Q205** | [Class Number with Data Member and Member Methods](10-User-Defined-Methods/Q_205.java) |  |
-| **Q206** | [Class Series with Non-Static Methods](10-User-Defined-Methods/Q_206.java) |  |
+| **Q205** | [Class Number with Data Member and Member Methods](10-User-Defined-Methods/Number.java) |  |
+| **Q206** | [Class Series with Non-Static Methods](10-User-Defined-Methods/Series.java) |  |
 | **Q207** | [Date Helper Methods: isLeap(), daysInMonth(), isValid()](10-User-Defined-Methods/Q_207.java) | 🌟 *Extra* |
 | **Q208** | [Day Number of the Year](10-User-Defined-Methods/Q_208.java) | 🌟 *Extra* |
 | **Q209** | [Day of the Week for any Date](10-User-Defined-Methods/Q_209.java) | 🌟 *Extra* |
@@ -410,32 +410,32 @@ java ShowRoom
 
 | No. | Program | |
 |:---:|---|:---:|
-| **Q212** | [Non-Parameterised (Default) Constructor](11-Constructors/Q_212.java) |  |
-| **Q213** | [Parameterised Constructor](11-Constructors/Q_213.java) |  |
-| **Q214** | [Constructor Overloading: Rectangle with Three Constructors](11-Constructors/Q_214.java) |  |
-| **Q215** | [The this Keyword in a Constructor](11-Constructors/Q_215.java) |  |
-| **Q216** | [Constructor Overloading: Class Time](11-Constructors/Q_216.java) |  |
-| **Q217** | [Class ElectricBill](11-Constructors/Q_217.java) | 📝 ICSE 2017 |
-| **Q218** | [Class ShowRoom](11-Constructors/Q_218.java) | 📝 ICSE 2019 |
-| **Q219** | [Class RailwayTicket](11-Constructors/Q_219.java) | 📝 ICSE 2018 |
-| **Q220** | [Class BookFair](11-Constructors/Q_220.java) | 📝 ICSE 2016 |
-| **Q221** | [Class ParkingLot](11-Constructors/Q_221.java) | 📝 ICSE 2015 |
-| **Q222** | [Class movieMagic](11-Constructors/Q_222.java) | 📝 ICSE 2014 |
-| **Q223** | [Class FruitJuice](11-Constructors/Q_223.java) |  |
-| **Q224** | [Class Mobike](11-Constructors/Q_224.java) |  |
-| **Q225** | [Class CabService](11-Constructors/Q_225.java) |  |
-| **Q226** | [Class Employee: Annual Income Tax](11-Constructors/Q_226.java) |  |
-| **Q227** | [Class Student: Stream Allocation](11-Constructors/Q_227.java) |  |
-| **Q228** | [Class Library: Fine for Late Return](11-Constructors/Q_228.java) |  |
-| **Q229** | [Class Hotel: Room Bill](11-Constructors/Q_229.java) |  |
-| **Q230** | [Class Telephone: Bill from Meter Readings](11-Constructors/Q_230.java) |  |
-| **Q231** | [Class Courier: Charges per 500 g](11-Constructors/Q_231.java) |  |
-| **Q232** | [Class CloudStorage](11-Constructors/Q_232.java) |  |
-| **Q233** | [Class Eshop: Discount on Online Purchase](11-Constructors/Q_233.java) |  |
-| **Q234** | [Class BankDeposit: Maturity with Compound Interest](11-Constructors/Q_234.java) |  |
-| **Q235** | [Class BusConveyance](11-Constructors/Q_235.java) |  |
-| **Q236** | [Class CinemaTicket](11-Constructors/Q_236.java) |  |
-| **Q237** | [Class Quiz: A Small Quiz Game](11-Constructors/Q_237.java) | 🌟 *Extra* |
+| **Q212** | [Non-Parameterised (Default) Constructor](11-Constructors/Pupil.java) |  |
+| **Q213** | [Parameterised Constructor](11-Constructors/Staff.java) |  |
+| **Q214** | [Constructor Overloading: Rectangle with Three Constructors](11-Constructors/Rectangle.java) |  |
+| **Q215** | [The this Keyword in a Constructor](11-Constructors/Book.java) |  |
+| **Q216** | [Constructor Overloading: Class Time](11-Constructors/Time.java) |  |
+| **Q217** | [Class ElectricBill](11-Constructors/ElectricBill.java) | 📝 ICSE 2017 |
+| **Q218** | [Class ShowRoom](11-Constructors/ShowRoom.java) | 📝 ICSE 2019 |
+| **Q219** | [Class RailwayTicket](11-Constructors/RailwayTicket.java) | 📝 ICSE 2018 |
+| **Q220** | [Class BookFair](11-Constructors/BookFair.java) | 📝 ICSE 2016 |
+| **Q221** | [Class ParkingLot](11-Constructors/ParkingLot.java) | 📝 ICSE 2015 |
+| **Q222** | [Class movieMagic](11-Constructors/movieMagic.java) | 📝 ICSE 2014 |
+| **Q223** | [Class FruitJuice](11-Constructors/FruitJuice.java) |  |
+| **Q224** | [Class Mobike](11-Constructors/Mobike.java) |  |
+| **Q225** | [Class CabService](11-Constructors/CabService.java) |  |
+| **Q226** | [Class Employee: Annual Income Tax](11-Constructors/Employee.java) |  |
+| **Q227** | [Class Student: Stream Allocation](11-Constructors/Student.java) |  |
+| **Q228** | [Class Library: Fine for Late Return](11-Constructors/Library.java) |  |
+| **Q229** | [Class Hotel: Room Bill](11-Constructors/Hotel.java) |  |
+| **Q230** | [Class Telephone: Bill from Meter Readings](11-Constructors/Telephone.java) |  |
+| **Q231** | [Class Courier: Charges per 500 g](11-Constructors/Courier.java) |  |
+| **Q232** | [Class CloudStorage](11-Constructors/CloudStorage.java) |  |
+| **Q233** | [Class Eshop: Discount on Online Purchase](11-Constructors/Eshop.java) |  |
+| **Q234** | [Class BankDeposit: Maturity with Compound Interest](11-Constructors/BankDeposit.java) |  |
+| **Q235** | [Class BusConveyance](11-Constructors/BusConveyance.java) |  |
+| **Q236** | [Class CinemaTicket](11-Constructors/CinemaTicket.java) |  |
+| **Q237** | [Class Quiz: A Small Quiz Game](11-Constructors/Quiz.java) | 🌟 *Extra* |
 
 <div align="right"><a href="#-chapter-overview">⬆ back to overview</a></div>
 
@@ -470,11 +470,11 @@ java ShowRoom
 
 | No. | Program | |
 |:---:|---|:---:|
-| **Q250** | [Private Data with Public Getter and Setter Methods](13-Encapsulation/Q_250.java) |  |
-| **Q251** | [Access Specifiers: private, default, protected and public](13-Encapsulation/Q_251.java) |  |
+| **Q250** | [Private Data with Public Getter and Setter Methods](13-Encapsulation/Student.java) |  |
+| **Q251** | [Access Specifiers: private, default, protected and public](13-Encapsulation/Account.java) |  |
 | **Q252** | [Kinds of Variables: Class, Instance, Local and Argument](13-Encapsulation/Q_252.java) |  |
-| **Q253** | [Counting Objects with a Static (Class) Variable](13-Encapsulation/Q_253.java) |  |
-| **Q254** | [BankAccount with a Private, Validated Balance](13-Encapsulation/Q_254.java) |  |
+| **Q253** | [Counting Objects with a Static (Class) Variable](13-Encapsulation/Visitor.java) |  |
+| **Q254** | [BankAccount with a Private, Validated Balance](13-Encapsulation/BankAccount.java) |  |
 
 <div align="right"><a href="#-chapter-overview">⬆ back to overview</a></div>
 

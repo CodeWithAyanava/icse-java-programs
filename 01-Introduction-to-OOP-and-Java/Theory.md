@@ -391,7 +391,7 @@ public class Hello                 // class header — file must be saved as Hel
 | **Q1** | [Display Student Details using print() and println()](Q_1.java) |  |
 | **Q2** | [Marks Table using Tab and New-Line Escape Sequences](Q_2.java) |  |
 | **Q3** | [Quotation and File Path using Escape Sequences](Q_3.java) |  |
-| **Q4** | [Class Box: Creating an Object and Finding its Volume](Q_4.java) |  |
-| **Q5** | [Class Car: Two Objects, Same Behaviour, Different States](Q_5.java) |  |
+| **Q4** | [Class Box: Creating an Object and Finding its Volume](Box.java) |  |
+| **Q5** | [Class Car: Two Objects, Same Behaviour, Different States](Car.java) |  |
 
 <!-- /PROGRAMS -->

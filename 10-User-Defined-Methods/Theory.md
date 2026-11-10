@@ -482,8 +482,8 @@ class Calc
 | **Q202** | [Call by Value: Swapping inside a Method](Q_202.java) |  |
 | **Q203** | [Actual and Formal Parameters with Return Values](Q_203.java) |  |
 | **Q204** | [Menu-Driven Number Checks using Methods](Q_204.java) |  |
-| **Q205** | [Class Number with Data Member and Member Methods](Q_205.java) |  |
-| **Q206** | [Class Series with Non-Static Methods](Q_206.java) |  |
+| **Q205** | [Class Number with Data Member and Member Methods](Number.java) |  |
+| **Q206** | [Class Series with Non-Static Methods](Series.java) |  |
 | **Q207** | [Date Helper Methods: isLeap(), daysInMonth(), isValid()](Q_207.java) | 🌟 *Extra* |
 | **Q208** | [Day Number of the Year](Q_208.java) | 🌟 *Extra* |
 | **Q209** | [Day of the Week for any Date](Q_209.java) | 🌟 *Extra* |

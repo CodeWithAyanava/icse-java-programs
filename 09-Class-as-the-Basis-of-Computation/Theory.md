@@ -351,11 +351,11 @@ System.out.println(b.volume());      // a non-static method must be called throu
 
 | No. | Program | |
 |:---:|---|:---:|
-| **Q176** | [Class Rectangle with input(), area() and display()](Q_176.java) |  |
-| **Q177** | [Class Student: Average and Grade](Q_177.java) |  |
-| **Q178** | [Class BankAccount: Two Objects with Deposit and Withdraw](Q_178.java) |  |
-| **Q179** | [Class Point: Distance from the Origin](Q_179.java) |  |
-| **Q180** | [Class Temperature with Conversion Methods](Q_180.java) |  |
-| **Q181** | [Class Book as a Composite Data Type: References and Objects](Q_181.java) |  |
+| **Q176** | [Class Rectangle with input(), area() and display()](Rectangle.java) |  |
+| **Q177** | [Class Student: Average and Grade](Student.java) |  |
+| **Q178** | [Class BankAccount: Two Objects with Deposit and Withdraw](BankAccount.java) |  |
+| **Q179** | [Class Point: Distance from the Origin](Point.java) |  |
+| **Q180** | [Class Temperature with Conversion Methods](Temperature.java) |  |
+| **Q181** | [Class Book as a Composite Data Type: References and Objects](Book.java) |  |
 
 <!-- /PROGRAMS -->

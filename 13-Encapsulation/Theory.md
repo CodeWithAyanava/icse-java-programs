@@ -319,10 +319,10 @@ class Test
 
 | No. | Program | |
 |:---:|---|:---:|
-| **Q250** | [Private Data with Public Getter and Setter Methods](Q_250.java) |  |
-| **Q251** | [Access Specifiers: private, default, protected and public](Q_251.java) |  |
+| **Q250** | [Private Data with Public Getter and Setter Methods](Student.java) |  |
+| **Q251** | [Access Specifiers: private, default, protected and public](Account.java) |  |
 | **Q252** | [Kinds of Variables: Class, Instance, Local and Argument](Q_252.java) |  |
-| **Q253** | [Counting Objects with a Static (Class) Variable](Q_253.java) |  |
-| **Q254** | [BankAccount with a Private, Validated Balance](Q_254.java) |  |
+| **Q253** | [Counting Objects with a Static (Class) Variable](Visitor.java) |  |
+| **Q254** | [BankAccount with a Private, Validated Balance](BankAccount.java) |  |
 
 <!-- /PROGRAMS -->
