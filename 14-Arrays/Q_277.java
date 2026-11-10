@@ -10,7 +10,8 @@
  *   people in two parallel arrays. Then accept a name and search for
  *   it using the linear search technique (ignoring case and extra
  *   spaces at the ends). If found, display the name with the
- *   telephone number; otherwise display "Name not found".
+ *   telephone number; otherwise display "Name not found". If the
+ *   size entered is less than 1, display "Invalid size".
  * ====================================================================
  */
 
@@ -23,6 +24,11 @@ public class Q_277
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number of entries: ");
         int n = sc.nextInt();
+        if (n < 1)
+        {
+            System.out.println("Invalid size");
+            return;
+        }
         sc.nextLine();
         String name[] = new String[n];
         long tel[] = new long[n];

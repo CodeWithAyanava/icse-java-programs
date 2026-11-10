@@ -47,7 +47,7 @@ public class Q_298
                 total = total + marks[i][j];
             }
             System.out.println(total + "\t" + (total / 4.0));
-            if (total > high)
+            if (i == 0 || total > high)
                 high = total;
         }
         System.out.println("Highest total = " + high);

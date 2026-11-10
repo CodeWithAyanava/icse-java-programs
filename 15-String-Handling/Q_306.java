@@ -10,8 +10,9 @@
  *   with the initials of all the names except the last name
  *   (surname), which is written in full.
  *
- *   Example: Mohandas Karamchand Gandhi -> M.K. Gandhi Subhas
- *   Chandra Bose -> S.C. Bose Tagore -> Tagore
+ *   Example: Mohandas Karamchand Gandhi -> M.K. Gandhi
+ *            Subhas Chandra Bose        -> S.C. Bose
+ *            Tagore                     -> Tagore
  *
  *   Extra spaces in the input must be ignored, and the initials must
  *   be in uppercase.

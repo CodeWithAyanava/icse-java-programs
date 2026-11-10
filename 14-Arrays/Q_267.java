@@ -8,7 +8,8 @@
  *
  *   Write a program to accept n integers in an array and display the
  *   frequency (number of occurrences) of each distinct element, in
- *   the order of their first appearance.
+ *   the order of their first appearance. If the size entered is less
+ *   than 1, display "Invalid size".
  *
  *   Example: 4 7 4 9 7 4 -> 4 occurs 3 times, 7 occurs 2 times, 9
  *   occurs 1 time
@@ -24,6 +25,11 @@ public class Q_267
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number of elements: ");
         int n = sc.nextInt();
+        if (n < 1)
+        {
+            System.out.println("Invalid size");
+            return;
+        }
         int a[] = new int[n];
         System.out.println("Enter " + n + " integers:");
         for (int i = 0; i < n; i++)

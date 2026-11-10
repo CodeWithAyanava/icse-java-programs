@@ -8,7 +8,8 @@
  *
  *   Write a program to accept the names of n cities in a String
  *   array and arrange them in alphabetical order using the selection
- *   sort technique (ignoring case). Display the sorted list.
+ *   sort technique (ignoring case). Display the sorted list. If the
+ *   size entered is less than 1, display "Invalid size".
  * ====================================================================
  */
 
@@ -21,6 +22,11 @@ public class Q_308
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number of cities: ");
         int n = sc.nextInt();
+        if (n < 1)
+        {
+            System.out.println("Invalid size");
+            return;
+        }
         sc.nextLine();
         String c[] = new String[n];
         for (int i = 0; i < n; i++)

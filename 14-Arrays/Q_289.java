@@ -8,7 +8,8 @@
  *
  *   Write a program to accept a square matrix of order n and find
  *   the sum of the elements of the left (principal) diagonal and of
- *   the right diagonal.
+ *   the right diagonal. If the size entered is less than 1, display
+ *   "Invalid size".
  *
  *       Left diagonal  : a[i][i]
  *       Right diagonal : a[i][n - 1 - i]
@@ -24,6 +25,11 @@ public class Q_289
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the order of the square matrix: ");
         int n = sc.nextInt();
+        if (n < 1)
+        {
+            System.out.println("Invalid size");
+            return;
+        }
         int a[][] = new int[n][n];
         System.out.println("Enter the elements row-wise:");
         for (int i = 0; i < n; i++)

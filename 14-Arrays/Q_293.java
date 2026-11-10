@@ -10,7 +10,8 @@
  *   all i and j (it is equal to its own transpose). Write a program
  *   to accept a square matrix of order n and check whether it is
  *   symmetric. Display "Symmetric Matrix" or "Not a Symmetric
- *   Matrix".
+ *   Matrix". If the size entered is less than 1, display "Invalid
+ *   size".
  * ====================================================================
  */
 
@@ -23,6 +24,11 @@ public class Q_293
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the order of the square matrix: ");
         int n = sc.nextInt();
+        if (n < 1)
+        {
+            System.out.println("Invalid size");
+            return;
+        }
         int a[][] = new int[n][n];
         System.out.println("Enter the elements row-wise:");
         for (int i = 0; i < n; i++)

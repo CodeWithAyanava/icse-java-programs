@@ -7,7 +7,8 @@
  *   Question :
  *
  *   Write a program to accept n numbers in an array and count how
- *   many of them are positive, negative and zero.
+ *   many of them are positive, negative and zero. If the size
+ *   entered is less than 1, display "Invalid size".
  * ====================================================================
  */
 
@@ -20,6 +21,11 @@ public class Q_263
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number of elements: ");
         int n = sc.nextInt();
+        if (n < 1)
+        {
+            System.out.println("Invalid size");
+            return;
+        }
         double a[] = new double[n];
         System.out.println("Enter " + n + " numbers:");
         for (int i = 0; i < n; i++)

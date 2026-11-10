@@ -25,7 +25,8 @@
  *                        the bill
  *
  *   Write a main method to create an object and call the methods.
- *   For a wrong room type display "Invalid room type".
+ *   For a wrong room type display "Invalid room type", and for zero
+ *   or negative days display "Invalid number of days".
  * ====================================================================
  */
 
@@ -67,9 +68,13 @@ public class Hotel
             case 'U': case 'u': rate = 4000; break;
             default: rate = -1;
         }
-        if (rate < 0 || days < 1)
+        if (rate < 0)
         {
             bill = -1;
+        }
+        else if (days < 1)
+        {
+            bill = -2;
         }
         else
         {
@@ -83,9 +88,13 @@ public class Hotel
 
     void display()
     {
-        if (bill < 0)
+        if (bill == -1)
         {
             System.out.println("Invalid room type");
+        }
+        else if (bill == -2)
+        {
+            System.out.println("Invalid number of days");
         }
         else
         {

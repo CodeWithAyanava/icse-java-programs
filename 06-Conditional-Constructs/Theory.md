@@ -546,14 +546,14 @@ switch (a)
    ```
    prints (a) A (b) B (c) C (d) BC
 6. Which `if` condition correctly tests that `ch` is **not** a vowel (lowercase only)?
-   (a) `ch != 'a' || ch != 'e' || …` (b) `!(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')` (c) `ch != "aeiou"` (d) `!ch == 'a'`
+   <br>(a) `ch != 'a' || ch != 'e' || …` (b) `!(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')` (c) `ch != "aeiou"` (d) `!ch == 'a'`
 7. What happens when this runs? `int a = 4; switch (a) { case 4: System.out.print("X"); System.exit(0); default: System.out.print("Y"); } System.out.print("Z");`
-   (a) XYZ (b) XZ (c) X (d) XY
+   <br>(a) XYZ (b) XZ (c) X (d) XY
 8. *Assertion (A):* `if (a > b) ; else System.out.println(a);` compiles.
-   *Reason (R):* A lone semicolon is a valid empty statement.
-   (a) Both true; R explains A (b) Both true; R doesn't explain A (c) A true, R false (d) A false, R true
+   <br>*Reason (R):* A lone semicolon is a valid empty statement.
+   <br>(a) Both true; R explains A (b) Both true; R doesn't explain A (c) A true, R false (d) A false, R true
 9. Which slab condition is **redundant** in a correctly ordered ladder `if (u <= 100) … else if (u > 100 && u <= 300) … else …`?
-   (a) `u <= 100` (b) `u > 100` (c) `u <= 300` (d) none
+   <br>(a) `u <= 100` (b) `u > 100` (c) `u <= 300` (d) none
 10. `int m = 85; String g = m >= 90 ? "A" : m >= 80 ? "B" : "C";` gives (a) A (b) B (c) C (d) Error
 
 ### Part B — Short answer questions

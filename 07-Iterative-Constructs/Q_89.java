@@ -11,6 +11,9 @@
  *   a number that is the product of two consecutive integers.
  *
  *   Example: 12 = 3 x 4, 20 = 4 x 5, 42 = 6 x 7
+ *
+ *   Only positive numbers are checked; for zero or a negative number
+ *   display "Not a Pronic Number".
  * ====================================================================
  */
 

@@ -7,7 +7,8 @@
  *   Question :
  *
  *   Write a program to accept a square matrix of order n and
- *   display:
+ *   display: If the size entered is less than 1, display "Invalid
+ *   size".
  *
  *       (a) the elements on and above the principal diagonal (upper
  *           triangular part), with 0 in place of the other elements
@@ -25,6 +26,11 @@ public class Q_295
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the order of the square matrix: ");
         int n = sc.nextInt();
+        if (n < 1)
+        {
+            System.out.println("Invalid size");
+            return;
+        }
         int a[][] = new int[n][n];
         System.out.println("Enter the elements row-wise:");
         for (int i = 0; i < n; i++)

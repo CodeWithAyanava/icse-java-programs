@@ -8,7 +8,8 @@
  *
  *   Write a program to accept an m x n matrix and find its transpose
  *   (an n x m matrix in which the rows become columns). Display both
- *   matrices.
+ *   matrices. If the number of rows or columns entered is less than
+ *   1, display "Invalid size".
  * ====================================================================
  */
 
@@ -22,6 +23,11 @@ public class Q_291
         System.out.print("Enter rows and columns: ");
         int m = sc.nextInt();
         int n = sc.nextInt();
+        if (m < 1 || n < 1)
+        {
+            System.out.println("Invalid size");
+            return;
+        }
         int a[][] = new int[m][n];
         System.out.println("Enter the elements row-wise:");
         for (int i = 0; i < m; i++)

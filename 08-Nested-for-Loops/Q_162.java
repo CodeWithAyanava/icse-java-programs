@@ -10,7 +10,10 @@
  *   the first n multiples of every number from 1 to L, each number's
  *   multiples on a separate line, using nested for loops.
  *
- *   Example: L = 3, n = 4 1 : 1 2 3 4 2 : 2 4 6 8 3 : 3 6 9 12
+ *   Example: L = 3, n = 4
+ *       1 : 1 2 3 4
+ *       2 : 2 4 6 8
+ *       3 : 3 6 9 12
  * ====================================================================
  */
 

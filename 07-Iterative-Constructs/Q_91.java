@@ -12,8 +12,8 @@
  *   and a left part having the remaining digits, gives two parts
  *   whose sum is equal to n. The right part must not be zero.
  *
- *   Example: 45 -> 45^2 = 2025 -> 20 + 25 = 45 297 -> 297^2 = 88209
- *   -> 88 + 209 = 297
+ *   Example: 45  -> 45^2  = 2025  -> 20 + 25  = 45
+ *            297 -> 297^2 = 88209 -> 88 + 209 = 297
  * ====================================================================
  */
 

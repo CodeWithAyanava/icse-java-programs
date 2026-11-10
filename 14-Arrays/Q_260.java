@@ -8,7 +8,8 @@
  *
  *   Write a program to accept n integers in an array and arrange
  *   them in descending order using the selection sort technique.
- *   Display the sorted array.
+ *   Display the sorted array. If the size entered is less than 1,
+ *   display "Invalid size".
  * ====================================================================
  */
 
@@ -21,6 +22,11 @@ public class Q_260
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number of elements: ");
         int n = sc.nextInt();
+        if (n < 1)
+        {
+            System.out.println("Invalid size");
+            return;
+        }
         int a[] = new int[n];
         System.out.println("Enter " + n + " integers:");
         for (int i = 0; i < n; i++)

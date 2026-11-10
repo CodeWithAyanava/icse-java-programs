@@ -6,9 +6,9 @@
  * --------------------------------------------------------------------
  *   Question :
  *
- *   Write a program to store the strings s1 = "  Computer
- *   Applications  " and s2 = "ICSE" in variables and display the
- *   results of the following String methods:
+ *   Write a program to store the strings s1 =
+ *   "  Computer Applications  " and s2 = "ICSE" in variables and
+ *   display the results of the following String methods:
  *
  *       s1.length()            s1.trim()               s1.trim().length()
  *       s2.charAt(2)           s2.toLowerCase()        s2.concat(" 2027")

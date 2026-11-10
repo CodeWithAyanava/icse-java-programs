@@ -11,8 +11,8 @@
  *   word, ignoring case) with the new word and display the new
  *   sentence with single spaces between words.
  *
- *   Example: "I like tea and Tea likes me", tea -> coffee "I like
- *   coffee and coffee likes me"
+ *   Example: "I like tea and Tea likes me", tea -> coffee
+ *            gives "I like coffee and coffee likes me"
  * ====================================================================
  */
 

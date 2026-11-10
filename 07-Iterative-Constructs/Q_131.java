@@ -11,8 +11,9 @@
  *   whose sum of digits is equal to the sum of the digits of its
  *   prime factors (counted with repetition).
  *
- *   Example: 666 = 2 x 3 x 3 x 37 Sum of digits of 666 = 6 + 6 + 6 =
- *   18 Sum of digits of prime factors = 2 + 3 + 3 + (3 + 7) = 18
+ *   Example: 666 = 2 x 3 x 3 x 37
+ *            Sum of digits of 666 = 6 + 6 + 6 = 18
+ *            Sum of digits of prime factors = 2 + 3 + 3 + (3 + 7) = 18
  * ====================================================================
  */
 

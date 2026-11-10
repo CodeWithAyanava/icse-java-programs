@@ -267,10 +267,10 @@ class Test
    ```
    `new A().f(1);` prints (a) 6 10 (b) 15 15 (c) 6 6 (d) 15 10
 6. The scope of a parameter is
-   (a) the whole class (b) the whole program (c) the method in which it is declared (d) the block after the method
+   <br>(a) the whole class (b) the whole program (c) the method in which it is declared (d) the block after the method
 7. *Assertion (A):* A local variable declared inside a `for` loop cannot be used after the loop.
-   *Reason (R):* The scope of a local variable ends with the block in which it is declared.
-   (a) Both true; R explains A (b) Both true; R doesn't explain A (c) A true, R false (d) A false, R true
+   <br>*Reason (R):* The scope of a local variable ends with the block in which it is declared.
+   <br>(a) Both true; R explains A (b) Both true; R doesn't explain A (c) A true, R false (d) A false, R true
 
 ### Part B — Short answer questions
 

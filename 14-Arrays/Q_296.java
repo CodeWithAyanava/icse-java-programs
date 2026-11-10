@@ -8,7 +8,8 @@
  *
  *   Write a program to accept an m x n matrix of integers and find
  *   the count and the sum of its even elements and of its odd
- *   elements.
+ *   elements. If the number of rows or columns entered is less than
+ *   1, display "Invalid size".
  * ====================================================================
  */
 
@@ -22,6 +23,11 @@ public class Q_296
         System.out.print("Enter rows and columns: ");
         int m = sc.nextInt();
         int n = sc.nextInt();
+        if (m < 1 || n < 1)
+        {
+            System.out.println("Invalid size");
+            return;
+        }
         int a[][] = new int[m][n];
         System.out.println("Enter the elements row-wise:");
         for (int i = 0; i < m; i++)

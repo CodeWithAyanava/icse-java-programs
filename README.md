@@ -18,7 +18,7 @@
 This repository follows the **ICSE Class 10 Computer Applications (86)** syllabus chapter by chapter. Each chapter folder contains:
 
 - 📘 **`Theory.md`** — the complete theory in standard textbook language: definitions, comparison tables, flowcharts, predict-the-output questions with dry runs, error finding, library method tables and exam tips, ending with a set of **hard MCQs and short questions** (answers hidden in collapsible sections).
-- 💻 **`Q_n.java`** files — one program per file, numbered continuously across the whole repository, the most frequently asked ones first in each chapter.
+- 💻 **Program files** — one program per file, numbered continuously (Q1 to Q350) across the whole repository, the most frequently asked ones first in each chapter. A program is saved as `Q_n.java`, or as `ClassName.java` when the question names the class.
 
 > [!TIP]
 > Prefer reading offline? Everything — theory, questions and all programs — is in one printable PDF: **[ICSE-Java-Programs.pdf](ICSE-Java-Programs.pdf)**
@@ -566,7 +566,7 @@ java ShowRoom
 | **Q321** | [Remove the Vowels from a Sentence](15-String-Handling/Q_321.java) |  |
 | **Q322** | [Word Pattern: B, BL, BLU, BLUE, BLUEJ](15-String-Handling/Q_322.java) |  |
 | **Q323** | [Word Pattern: JAVA, AVA, VA, A](15-String-Handling/Q_323.java) |  |
-| **Q324** | [Overloading joystring()](15-String-Handling/Q_324.java) | 📝 ICSE 2015 |
+| **Q324** | [Overloading Joystring()](15-String-Handling/Q_324.java) | 📝 ICSE 2015 |
 | **Q325** | [Overloading count(): Vowels and a Given Character](15-String-Handling/Q_325.java) |  |
 | **Q326** | [Count the Words Beginning with a Vowel](15-String-Handling/Q_326.java) |  |
 | **Q327** | [Names Starting or Ending with Given Letters](15-String-Handling/Q_327.java) |  |

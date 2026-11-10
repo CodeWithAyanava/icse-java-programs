@@ -15,8 +15,9 @@
  *       void deposit(double amt)  : to add amt to the balance (only if
  *                                   amt is positive)
  *       void withdraw(double amt) : to subtract amt from the balance if
- *                      enough balance is available, otherwise display
- *                      "Insufficient balance"
+ *                      amt is positive and enough balance is available;
+ *                      display "Invalid amount" for a zero or negative
+ *                      amt and "Insufficient balance" otherwise
  *       void display() : to display the account details
  *
  *   In main(), create two account objects and show that each object
@@ -51,7 +52,9 @@ public class BankAccount
 
     void withdraw(double amt)
     {
-        if (amt <= balance)
+        if (amt <= 0)
+            System.out.println("Invalid amount");
+        else if (amt <= balance)
             balance = balance - amt;
         else
             System.out.println("Insufficient balance in account " + accNo);

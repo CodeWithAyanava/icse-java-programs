@@ -10,9 +10,9 @@
  *   chooses a secret number from 1 to 100 using Math.random(). The
  *   user gets at most 7 attempts. After each wrong guess, display
  *   "Too high!" or "Too low!". If the user guesses correctly,
- *   display "Correct! You guessed it in <k> attempts." and stop. If
- *   all attempts are used up, display "Out of attempts! The number
- *   was <secret>."
+ *   display "Correct! You guessed it in <k> attempts." (or "1
+ *   attempt.") and stop. If all attempts are used up, display "Out
+ *   of attempts! The number was <secret>."
  * ====================================================================
  */
 
@@ -47,7 +47,7 @@ public class Q_129
         }
 
         if (won)
-            System.out.println("Correct! You guessed it in " + attempt + " attempts.");
+            System.out.println("Correct! You guessed it in " + attempt + (attempt == 1 ? " attempt." : " attempts."));
         else
             System.out.println("Out of attempts! The number was " + secret + ".");
     }

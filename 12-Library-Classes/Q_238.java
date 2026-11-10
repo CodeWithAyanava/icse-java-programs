@@ -10,7 +10,9 @@
  *   uppercase letter, a lowercase letter, a digit, a whitespace
  *   character or a special character, using the methods of the
  *   Character wrapper class: isUpperCase(), isLowerCase(),
- *   isDigit(), isWhitespace() and isLetterOrDigit(). (Read a whole
+ *   isDigit(), isWhitespace(), isLetter() and isLetterOrDigit(). A
+ *   letter that has no uppercase or lowercase form (for example a
+ *   Bengali or Hindi letter) is reported as "Letter". (Read a whole
  *   line so that a blank space can also be entered; if nothing is
  *   entered, display "No character entered".)
  * ====================================================================
@@ -41,8 +43,12 @@ public class Q_238
                 System.out.println("Digit");
             else if (Character.isWhitespace(ch))
                 System.out.println("Whitespace character");
+            else if (Character.isLetter(ch))
+                System.out.println("Letter");
             else if (!Character.isLetterOrDigit(ch))
                 System.out.println("Special character");
+            else
+                System.out.println("Other character");
         }
     }
 }

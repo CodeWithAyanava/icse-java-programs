@@ -10,7 +10,8 @@
  *   a starting string and an ending string, and display the names
  *   that begin with the starting string (using startsWith()) and the
  *   names that end with the ending string (using endsWith()).
- *   Comparisons are case sensitive.
+ *   Comparisons are case sensitive. If the size entered is less than
+ *   1, display "Invalid size".
  *
  *   Example: Names: Anita, Arnav, Rina, Asha, Ronit; start "A", end
  *   "a" -> starting with A: Anita Arnav Asha; ending with a: Anita
@@ -27,6 +28,11 @@ public class Q_327
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number of names: ");
         int n = sc.nextInt();
+        if (n < 1)
+        {
+            System.out.println("Invalid size");
+            return;
+        }
         String names[] = new String[n];
         System.out.println("Enter the names:");
         for (int i = 0; i < n; i++)

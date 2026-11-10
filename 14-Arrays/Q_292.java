@@ -7,7 +7,9 @@
  *   Question :
  *
  *   Write a program to accept two matrices A and B of the same order
- *   m x n and display their sum (A + B) and difference (A - B).
+ *   m x n and display their sum (A + B) and difference (A - B). If
+ *   the number of rows or columns entered is less than 1, display
+ *   "Invalid size".
  * ====================================================================
  */
 
@@ -21,6 +23,11 @@ public class Q_292
         System.out.print("Enter rows and columns: ");
         int m = sc.nextInt();
         int n = sc.nextInt();
+        if (m < 1 || n < 1)
+        {
+            System.out.println("Invalid size");
+            return;
+        }
         int a[][] = new int[m][n];
         int b[][] = new int[m][n];
         System.out.println("Enter matrix A:");

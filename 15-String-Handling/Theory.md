@@ -104,8 +104,8 @@ s = s.toUpperCase();      // s now refers to a new object "JAVA"
 ## 4. `indexOf()` and `substring()` in detail
 
 ```
- index:  0 1 2 3 4 5 6 7 8 9 10
- s    =  B A N A N A   S P L I T
+ index:  0  1  2  3  4  5  6  7  8  9  10 11
+ s    =  B  A  N  A  N  A     S  P  L  I  T
 ```
 
 | Expression | Result | Reason |
@@ -438,7 +438,7 @@ boolean b = s.indexOf('a');                 // (6)
 | **Q321** | [Remove the Vowels from a Sentence](Q_321.java) |  |
 | **Q322** | [Word Pattern: B, BL, BLU, BLUE, BLUEJ](Q_322.java) |  |
 | **Q323** | [Word Pattern: JAVA, AVA, VA, A](Q_323.java) |  |
-| **Q324** | [Overloading joystring()](Q_324.java) | 📝 ICSE 2015 |
+| **Q324** | [Overloading Joystring()](Q_324.java) | 📝 ICSE 2015 |
 | **Q325** | [Overloading count(): Vowels and a Given Character](Q_325.java) |  |
 | **Q326** | [Count the Words Beginning with a Vowel](Q_326.java) |  |
 | **Q327** | [Names Starting or Ending with Given Letters](Q_327.java) |  |

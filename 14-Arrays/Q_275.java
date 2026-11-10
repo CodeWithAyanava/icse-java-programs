@@ -7,7 +7,8 @@
  *   Question :
  *
  *   Write a program to accept n integers in an array and display all
- *   the prime numbers present in it along with their count.
+ *   the prime numbers present in it along with their count. If the
+ *   size entered is less than 1, display "Invalid size".
  * ====================================================================
  */
 
@@ -20,6 +21,11 @@ public class Q_275
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number of elements: ");
         int n = sc.nextInt();
+        if (n < 1)
+        {
+            System.out.println("Invalid size");
+            return;
+        }
         int a[] = new int[n];
         System.out.println("Enter " + n + " integers:");
         for (int i = 0; i < n; i++)

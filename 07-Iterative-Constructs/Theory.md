@@ -569,20 +569,20 @@ while (i < 15);                  // do-while needs a semicolon
    ```
    `s` = (a) 15 (b) 7 (c) 10 (d) 12
 3. *Assertion (A):* `int x = 9; do { x++; } while (x < 5);` leaves `x` as 10.
-   *Reason (R):* A `do-while` loop executes its body at least once.
-   (a) Both true; R explains A (b) Both true; R doesn't explain A (c) A true, R false (d) A false, R true
+   <br>*Reason (R):* A `do-while` loop executes its body at least once.
+   <br>(a) Both true; R explains A (b) Both true; R doesn't explain A (c) A true, R false (d) A false, R true
 4. What is the output? `int n = 0; while (n < 5) n += 2; System.out.print(n);`
-   (a) 4 (b) 5 (c) 6 (d) 8
+   <br>(a) 4 (b) 5 (c) 6 (d) 8
 5. Which loop is **infinite**?
-   (a) `for (int i = 0; i < 5; i += 2);` (b) `for (int i = 1; i != 10; i += 2)` (c) `int i = 5; while (i > 0) i--;` (d) `int i = 1; do i *= 2; while (i < 100);`
+   <br>(a) `for (int i = 0; i < 5; i += 2);` (b) `for (int i = 1; i != 10; i += 2)` (c) `int i = 5; while (i > 0) i--;` (d) `int i = 1; do i *= 2; while (i < 100);`
 6. What does this print? `int a = 3; for (a += 2; a < 10; a += 3) System.out.print(a);`
-   (a) 58 (b) 3 6 9 (c) 5 8 (d) 47
+   <br>(a) 58 (b) 3 6 9 (c) 5 8 (d) 47
 7. `int c = 0; for (int i = 1; i <= 4; i++) for (int j = i; j <= 4; j++) c++;` — `c` = (a) 16 (b) 10 (c) 4 (d) 6
 8. The digit loop `while (n != 0) { d = n % 10; n = n / 10; }` is run with `n = -425`. Which is correct?
-   (a) Infinite loop (b) The digits obtained are −5, −2, −4 (c) Runtime error (d) No digit is extracted
+   <br>(a) Infinite loop (b) The digits obtained are −5, −2, −4 (c) Runtime error (d) No digit is extracted
 9. *Assertion (A):* In `for (int i = 1; i <= 5; i++) { … } System.out.println(i);` the last statement prints 6.
-   *Reason (R):* After the loop ends, `i` holds the value that made the condition false.
-   (a) Both true; R explains A (b) Both true; R doesn't explain A (c) A false, R true (d) Both false
+   <br>*Reason (R):* After the loop ends, `i` holds the value that made the condition false.
+   <br>(a) Both true; R explains A (b) Both true; R doesn't explain A (c) A false, R true (d) Both false
 10. Which pair of numbers are both Armstrong numbers? (a) 153, 370 (b) 145, 153 (c) 135, 371 (d) 407, 409
 
 ### Part B — Short answer questions

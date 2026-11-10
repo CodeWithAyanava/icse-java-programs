@@ -10,7 +10,8 @@
  *   (p x q). If n is equal to p, find their product C = A x B, an m
  *   x q matrix with C[i][j] = sum of A[i][k] x B[k][j] for k = 0 to
  *   n - 1, and display it. Otherwise display "Multiplication not
- *   possible".
+ *   possible". If the number of rows or columns entered is less than
+ *   1, display "Invalid size".
  * ====================================================================
  */
 
@@ -24,6 +25,11 @@ public class Q_299
         System.out.print("Enter rows and columns of A: ");
         int m = sc.nextInt();
         int n = sc.nextInt();
+        if (m < 1 || n < 1)
+        {
+            System.out.println("Invalid size");
+            return;
+        }
         int a[][] = new int[m][n];
         System.out.println("Enter matrix A:");
         for (int i = 0; i < m; i++)
@@ -32,6 +38,11 @@ public class Q_299
         System.out.print("Enter rows and columns of B: ");
         int p = sc.nextInt();
         int q = sc.nextInt();
+        if (p < 1 || q < 1)
+        {
+            System.out.println("Invalid size");
+            return;
+        }
         int b[][] = new int[p][q];
         System.out.println("Enter matrix B:");
         for (int i = 0; i < p; i++)

@@ -20,8 +20,9 @@
  *                 * *
  *                 * * *
  *
- *   Example: polygon(2, 'o') gives       polygon(2, 5) gives o o
- *   @ @ @ @ @ o o                         @ @ @ @ @
+ *   Example: polygon(2, 'o') gives       polygon(2, 5) gives
+ *            o o                         @ @ @ @ @
+ *            o o                         @ @ @ @ @
  * ====================================================================
  */
 

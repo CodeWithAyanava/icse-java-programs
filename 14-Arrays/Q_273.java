@@ -10,7 +10,8 @@
  *   and a position (from 1 to n + 1). Insert the element at that
  *   position by shifting the later elements one place to the right,
  *   and display the new array. Display "Invalid position" for a
- *   wrong position.
+ *   wrong position. If the size entered is less than 1, display
+ *   "Invalid size".
  * ====================================================================
  */
 
@@ -23,6 +24,11 @@ public class Q_273
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number of elements: ");
         int n = sc.nextInt();
+        if (n < 1)
+        {
+            System.out.println("Invalid size");
+            return;
+        }
         int a[] = new int[n + 1];
         System.out.println("Enter " + n + " integers:");
         for (int i = 0; i < n; i++)

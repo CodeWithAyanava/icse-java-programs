@@ -313,7 +313,7 @@ for (int i = 1; i <= 2; i++);
 <summary><b>Show corrected code</b></summary>
 
 ```java
-for (int i = 1; i <= 2; i++)            // stray semicolon removed (and i was out of scope in the block)
+for (int i = 1; i <= 2; i++)            // stray semicolon removed: with it the loop had an empty body and the block ran only once
 {
     for (int j = 1; j <= 3; j++)        // semicolons, not commas
         System.out.print("* ");         // '*' + ' ' adds the codes (42 + 32 = 74)

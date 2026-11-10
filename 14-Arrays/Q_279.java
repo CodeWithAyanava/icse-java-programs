@@ -11,7 +11,8 @@
  *   marks using the selection sort technique. Whenever two marks are
  *   interchanged, interchange the corresponding names too, so that
  *   every name stays with its marks. Display the merit list with
- *   ranks.
+ *   ranks. If the size entered is less than 1, display "Invalid
+ *   size".
  * ====================================================================
  */
 
@@ -24,6 +25,11 @@ public class Q_279
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number of students: ");
         int n = sc.nextInt();
+        if (n < 1)
+        {
+            System.out.println("Invalid size");
+            return;
+        }
         String name[] = new String[n];
         int marks[] = new int[n];
         for (int i = 0; i < n; i++)

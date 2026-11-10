@@ -9,7 +9,8 @@
  *   Write a program to accept n integers in an array and create a
  *   new array containing only the first occurrence of each element
  *   (removing the duplicates), keeping the original order. Display
- *   the new array and the number of duplicates removed.
+ *   the new array and the number of duplicates removed. If the size
+ *   entered is less than 1, display "Invalid size".
  * ====================================================================
  */
 
@@ -22,6 +23,11 @@ public class Q_268
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number of elements: ");
         int n = sc.nextInt();
+        if (n < 1)
+        {
+            System.out.println("Invalid size");
+            return;
+        }
         int a[] = new int[n];
         System.out.println("Enter " + n + " integers:");
         for (int i = 0; i < n; i++)

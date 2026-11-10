@@ -10,7 +10,8 @@
  *   (from 1 to n). Delete the element at that position by shifting
  *   the later elements one place to the left, and display the
  *   remaining n - 1 elements. Display "Invalid position" for a wrong
- *   position.
+ *   position. If the size entered is less than 1, display "Invalid
+ *   size".
  * ====================================================================
  */
 
@@ -23,6 +24,11 @@ public class Q_274
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number of elements: ");
         int n = sc.nextInt();
+        if (n < 1)
+        {
+            System.out.println("Invalid size");
+            return;
+        }
         int a[] = new int[n];
         System.out.println("Enter " + n + " integers:");
         for (int i = 0; i < n; i++)

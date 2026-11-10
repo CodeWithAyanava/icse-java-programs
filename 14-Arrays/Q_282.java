@@ -9,7 +9,8 @@
  *   Write a program to accept the daily sales of n days in an array
  *   and create another array in which each element is the running
  *   total of sales up to that day (cumulative sum). Display both
- *   arrays side by side.
+ *   arrays side by side. If the size entered is less than 1, display
+ *   "Invalid size".
  *
  *   Example: 100 250 75 -> 100 350 425
  * ====================================================================
@@ -24,6 +25,11 @@ public class Q_282
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number of days: ");
         int n = sc.nextInt();
+        if (n < 1)
+        {
+            System.out.println("Invalid size");
+            return;
+        }
         double s[] = new double[n];
         double c[] = new double[n];
         System.out.println("Enter the daily sales:");

@@ -2,24 +2,24 @@
  * ====================================================================
  *   Program  : Q_324
  *   Chapter  : 15 - String Handling
- *   Title    : Overloading joystring()
+ *   Title    : Overloading Joystring()
  * --------------------------------------------------------------------
  *   Question :
  *
  *   [ICSE 2015] Design a class (written here as class Q_324) to
- *   overload a method joystring() as follows:
+ *   overload a method Joystring() as follows:
  *
- *       (i)   void joystring(String s, char ch1, char ch2)
+ *       (i)   void Joystring(String s, char ch1, char ch2)
  *             to replace every occurrence of ch1 with ch2 in s and print
  *             the new string
  *             Example: s = "TECHNALAGY", ch1 = 'A', ch2 = 'O'
  *                      Output: TECHNOLOGY
- *       (ii)  void joystring(String s)
+ *       (ii)  void Joystring(String s)
  *             to print the position of the first space and the last
  *             space in s (or "No space" if there is none)
  *             Example: s = "Cloud computing means Internet based computing"
  *                      Output: First index: 5, Last index: 36
- *       (iii) void joystring(String s1, String s2)
+ *       (iii) void Joystring(String s1, String s2)
  *             to join the two strings with a space between them using
  *             concat() and print the result
  *             Example: s1 = "COMMON WEALTH", s2 = "GAMES"
@@ -31,12 +31,12 @@
 
 public class Q_324
 {
-    void joystring(String s, char ch1, char ch2)
+    void Joystring(String s, char ch1, char ch2)
     {
         System.out.println(s.replace(ch1, ch2));
     }
 
-    void joystring(String s)
+    void Joystring(String s)
     {
         int f = s.indexOf(' ');
         int l = s.lastIndexOf(' ');
@@ -46,7 +46,7 @@ public class Q_324
             System.out.println("First index: " + f + ", Last index: " + l);
     }
 
-    void joystring(String s1, String s2)
+    void Joystring(String s1, String s2)
     {
         System.out.println(s1.concat(" ").concat(s2));
     }
@@ -54,9 +54,9 @@ public class Q_324
     public static void main(String[] args)
     {
         Q_324 ob = new Q_324();
-        ob.joystring("TECHNALAGY", 'A', 'O');
-        ob.joystring("Cloud computing means Internet based computing");
-        ob.joystring("COMMON WEALTH", "GAMES");
+        ob.Joystring("TECHNALAGY", 'A', 'O');
+        ob.Joystring("Cloud computing means Internet based computing");
+        ob.Joystring("COMMON WEALTH", "GAMES");
     }
 }
 

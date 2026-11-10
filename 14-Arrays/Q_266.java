@@ -9,7 +9,8 @@
  *   Write a program to accept n integers in an array and find the
  *   second largest distinct element without sorting the array. If
  *   all the elements are equal (or n < 2), display "No second
- *   largest element".
+ *   largest element". If the size entered is less than 1, display
+ *   "Invalid size".
  *
  *   Example: 12, 45, 7, 45, 30 -> Second largest = 30
  * ====================================================================
@@ -24,6 +25,11 @@ public class Q_266
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number of elements: ");
         int n = sc.nextInt();
+        if (n < 1)
+        {
+            System.out.println("Invalid size");
+            return;
+        }
         int a[] = new int[n];
         System.out.println("Enter " + n + " integers:");
         for (int i = 0; i < n; i++)

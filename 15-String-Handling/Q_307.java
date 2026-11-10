@@ -9,7 +9,8 @@
  *   Write a program to accept the names of n students in a String
  *   array and arrange them in alphabetical order using the bubble
  *   sort technique (ignore the case of letters while comparing).
- *   Display the sorted list.
+ *   Display the sorted list. If the size entered is less than 1,
+ *   display "Invalid size".
  * ====================================================================
  */
 
@@ -22,6 +23,11 @@ public class Q_307
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number of names: ");
         int n = sc.nextInt();
+        if (n < 1)
+        {
+            System.out.println("Invalid size");
+            return;
+        }
         sc.nextLine();
         String names[] = new String[n];
         for (int i = 0; i < n; i++)

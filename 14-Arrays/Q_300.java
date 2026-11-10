@@ -10,9 +10,12 @@
  *   every row, every column and both diagonals is the same. Write a
  *   program to accept a square matrix of order n and check whether
  *   it is a magic square. Display "Magic Square" (with the magic
- *   sum) or "Not a Magic Square".
+ *   sum) or "Not a Magic Square". If the size entered is less than
+ *   1, display "Invalid size".
  *
- *   Example:  2 7 6 9 5 1 4 3 8   (every sum is 15)
+ *   Example:  2 7 6
+ *             9 5 1
+ *             4 3 8   (every sum is 15)
  * ====================================================================
  */
 
@@ -25,6 +28,11 @@ public class Q_300
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the order of the square matrix: ");
         int n = sc.nextInt();
+        if (n < 1)
+        {
+            System.out.println("Invalid size");
+            return;
+        }
         int a[][] = new int[n][n];
         System.out.println("Enter the elements row-wise:");
         for (int i = 0; i < n; i++)

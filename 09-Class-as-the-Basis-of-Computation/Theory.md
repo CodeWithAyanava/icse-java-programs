@@ -17,7 +17,7 @@
 3. [Members of a class](#3-members-of-a-class)
 4. [Creating objects — instances of a class](#4-creating-objects--instances-of-a-class)
 5. [Primitive vs composite data types](#5-primitive-vs-composite-data-types)
-6. [Reference variables: `=`, `==` and `null`](#6-reference-variables--and-null)
+6. [Reference variables: `=`, `==` and `null`](#6-reference-variables---and-null)
 7. [Writing a class — a complete example](#7-writing-a-class--a-complete-example)
 8. [Predict the output](#8-predict-the-output)
 9. [Find the errors](#9-find-the-errors)

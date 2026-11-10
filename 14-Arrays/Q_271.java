@@ -8,7 +8,8 @@
  *
  *   Write a program to accept n integers in an array and swap the
  *   first half of the array with the second half. If n is odd, the
- *   middle element stays in its place.
+ *   middle element stays in its place. If the size entered is less
+ *   than 1, display "Invalid size".
  *
  *   Example: 1 2 3 4 5 6 -> 4 5 6 1 2 3      1 2 3 4 5 -> 4 5 3 1 2
  * ====================================================================
@@ -23,6 +24,11 @@ public class Q_271
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number of elements: ");
         int n = sc.nextInt();
+        if (n < 1)
+        {
+            System.out.println("Invalid size");
+            return;
+        }
         int a[] = new int[n];
         System.out.println("Enter " + n + " integers:");
         for (int i = 0; i < n; i++)

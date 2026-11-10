@@ -10,7 +10,8 @@
  *   sort them in ascending order using bubble sort, display the
  *   sorted array, and then search for a number entered by the user
  *   using binary search. Display the position of the number in the
- *   sorted array, or "Search unsuccessful".
+ *   sorted array, or "Search unsuccessful". If the size entered is
+ *   less than 1, display "Invalid size".
  * ====================================================================
  */
 
@@ -23,6 +24,11 @@ public class Q_280
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number of elements: ");
         int n = sc.nextInt();
+        if (n < 1)
+        {
+            System.out.println("Invalid size");
+            return;
+        }
         int a[] = new int[n];
         System.out.println("Enter " + n + " integers:");
         for (int i = 0; i < n; i++)

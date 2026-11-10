@@ -9,7 +9,8 @@
  *   Write a program to accept n integers in an array and reverse the
  *   array in place (without using another array) by swapping the
  *   first and last elements, the second and second-last elements,
- *   and so on. Display the reversed array.
+ *   and so on. Display the reversed array. If the size entered is
+ *   less than 1, display "Invalid size".
  * ====================================================================
  */
 
@@ -22,6 +23,11 @@ public class Q_265
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number of elements: ");
         int n = sc.nextInt();
+        if (n < 1)
+        {
+            System.out.println("Invalid size");
+            return;
+        }
         int a[] = new int[n];
         System.out.println("Enter " + n + " integers:");
         for (int i = 0; i < n; i++)

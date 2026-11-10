@@ -12,6 +12,7 @@
  *       Instance variables:
  *       String name   : to store the name of the item purchased
  *       double price  : to store the price of the item
+ *       double net    : to store the net amount to be paid
  *
  *       Member methods:
  *       Eshop()          : default constructor
